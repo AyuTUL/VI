@@ -1,0 +1,14 @@
+C:\Users\Students\Desktop\simon\1-class-object-creation\obj\Debug\net8.0\1-class-object-creation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Students\Desktop\simon\1-class-object-creation\obj\Debug\net8.0\1-class-object-creation.AssemblyInfoInputs.cache
+C:\Users\Students\Desktop\simon\1-class-object-creation\obj\Debug\net8.0\1-class-object-creation.AssemblyInfo.cs
+C:\Users\Students\Desktop\simon\1-class-object-creation\obj\Debug\net8.0\1-class-object-creation.csproj.CoreCompileInputs.cache
+C:\Users\Students\Desktop\simon\1-class-object-creation\bin\Debug\net8.0\1-class-object-creation.exe
+C:\Users\Students\Desktop\simon\1-class-object-creation\bin\Debug\net8.0\1-class-object-creation.deps.json
+C:\Users\Students\Desktop\simon\1-class-object-creation\bin\Debug\net8.0\1-class-object-creation.runtimeconfig.json
+C:\Users\Students\Desktop\simon\1-class-object-creation\bin\Debug\net8.0\1-class-object-creation.dll
+C:\Users\Students\Desktop\simon\1-class-object-creation\bin\Debug\net8.0\1-class-object-creation.pdb
+C:\Users\Students\Desktop\simon\1-class-object-creation\obj\Debug\net8.0\1-class-object-creation.dll
+C:\Users\Students\Desktop\simon\1-class-object-creation\obj\Debug\net8.0\refint\1-class-object-creation.dll
+C:\Users\Students\Desktop\simon\1-class-object-creation\obj\Debug\net8.0\1-class-object-creation.pdb
+C:\Users\Students\Desktop\simon\1-class-object-creation\obj\Debug\net8.0\1-class-object-creation.genruntimeconfig.cache
+C:\Users\Students\Desktop\simon\1-class-object-creation\obj\Debug\net8.0\ref\1-class-object-creation.dll
