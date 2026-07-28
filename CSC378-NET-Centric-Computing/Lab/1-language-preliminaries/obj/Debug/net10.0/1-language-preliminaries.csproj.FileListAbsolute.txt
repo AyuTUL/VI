@@ -1,0 +1,14 @@
+C:\Users\ghale\source\repos\1-language-preliminaries\bin\Debug\net10.0\1-language-preliminaries.exe
+C:\Users\ghale\source\repos\1-language-preliminaries\bin\Debug\net10.0\1-language-preliminaries.deps.json
+C:\Users\ghale\source\repos\1-language-preliminaries\bin\Debug\net10.0\1-language-preliminaries.runtimeconfig.json
+C:\Users\ghale\source\repos\1-language-preliminaries\bin\Debug\net10.0\1-language-preliminaries.dll
+C:\Users\ghale\source\repos\1-language-preliminaries\bin\Debug\net10.0\1-language-preliminaries.pdb
+C:\Users\ghale\source\repos\1-language-preliminaries\obj\Debug\net10.0\1-language-preliminaries.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ghale\source\repos\1-language-preliminaries\obj\Debug\net10.0\1-language-preliminaries.AssemblyInfoInputs.cache
+C:\Users\ghale\source\repos\1-language-preliminaries\obj\Debug\net10.0\1-language-preliminaries.AssemblyInfo.cs
+C:\Users\ghale\source\repos\1-language-preliminaries\obj\Debug\net10.0\1-language-preliminaries.csproj.CoreCompileInputs.cache
+C:\Users\ghale\source\repos\1-language-preliminaries\obj\Debug\net10.0\1-language-preliminaries.dll
+C:\Users\ghale\source\repos\1-language-preliminaries\obj\Debug\net10.0\refint\1-language-preliminaries.dll
+C:\Users\ghale\source\repos\1-language-preliminaries\obj\Debug\net10.0\1-language-preliminaries.pdb
+C:\Users\ghale\source\repos\1-language-preliminaries\obj\Debug\net10.0\1-language-preliminaries.genruntimeconfig.cache
+C:\Users\ghale\source\repos\1-language-preliminaries\obj\Debug\net10.0\ref\1-language-preliminaries.dll
