@@ -3,18 +3,22 @@
 %}
 
 %%
+
 [a-zA-Z]+   { printf("WORD: %s\n", yytext); }
 [0-9]+      { printf("NUMBER: %s\n", yytext); }
 [ \t\n]     { /* ignore whitespace */ }
 .           { printf("OTHER: %s\n", yytext); }
+
 %%
 
-int yywrap() {
+int yywrap()
+{
     return 1;
 }
 
-int main() {
-    printf("Enter text (Ctrl+D to end):\n");
+int main()
+{
+    printf("Enter text (Ctrl+Z then Enter to end):\n");
     yylex();
     return 0;
 }

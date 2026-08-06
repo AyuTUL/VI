@@ -362,9 +362,9 @@ static char *yy_last_accepting_cpos;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "1-letters-numbers=and-others.l"
+#line 1 "1-letters-numbers-and-others.l"
 #define INITIAL 0
-#line 2 "1-letters-numbers=and-others.l"
+#line 2 "1-letters-numbers-and-others.l"
 #include <stdio.h>
 #line 370 "lex.yy.c"
 
@@ -517,9 +517,10 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
 
-#line 5 "1-letters-numbers=and-others.l"
+#line 5 "1-letters-numbers-and-others.l"
 
-#line 523 "lex.yy.c"
+
+#line 524 "lex.yy.c"
 
 	if ( yy_init )
 		{
@@ -604,30 +605,30 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 6 "1-letters-numbers=and-others.l"
+#line 7 "1-letters-numbers-and-others.l"
 { printf("WORD: %s\n", yytext); }
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 7 "1-letters-numbers=and-others.l"
+#line 8 "1-letters-numbers-and-others.l"
 { printf("NUMBER: %s\n", yytext); }
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 8 "1-letters-numbers=and-others.l"
+#line 9 "1-letters-numbers-and-others.l"
 { /* ignore whitespace */ }
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 9 "1-letters-numbers=and-others.l"
+#line 10 "1-letters-numbers-and-others.l"
 { printf("OTHER: %s\n", yytext); }
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 10 "1-letters-numbers=and-others.l"
+#line 12 "1-letters-numbers-and-others.l"
 ECHO;
 	YY_BREAK
-#line 631 "lex.yy.c"
+#line 632 "lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
@@ -1513,15 +1514,17 @@ int main()
 	return 0;
 	}
 #endif
-#line 10 "1-letters-numbers=and-others.l"
+#line 12 "1-letters-numbers-and-others.l"
 
 
-int yywrap() {
+int yywrap()
+{
     return 1;
 }
 
-int main() {
-    printf("Enter text (Ctrl+D to end):\n");
+int main()
+{
+    printf("Enter text (Ctrl+Z then Enter to end):\n");
     yylex();
     return 0;
 }
