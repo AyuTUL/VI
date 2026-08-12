@@ -1,0 +1,25 @@
+CTRL + 1 :
+Lex File Compile
+cmd
+/c lex $(FileName) && ren lex.yy.c $(FileNameNoExt).c
+$(FileDir)
+
+CTRL + 2 :
+Lex Build
+cc $(FileNameNoExt).c -o
+$(FileNameNoExt)
+$(FileDir)
+
+CTRL + 5 :
+Execute exe directly
+commandprompt.bat
+$(FileNameNoExt).exe
+$(FileDir)
+
+...\Flex Windows\Lex\bin\commandprompt.bat :
+prompt $p$g
+title %~nx1
+color F0
+cls
+%~f1
+pause
