@@ -1,0 +1,12 @@
+web scraping
+object detection
+image processing
+
+
+streamlit for ui
+documentation
+.gitignore
+langchain
+huggingface
+API keys
+LLM

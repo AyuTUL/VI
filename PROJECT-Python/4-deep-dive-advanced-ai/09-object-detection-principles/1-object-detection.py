@@ -35,14 +35,17 @@ import cv2
 model = YOLO("yolov8n.pt")
 
 # Open webcam, default / 1st webcam
+# cap = object used to read camera frames
 cap = cv2.VideoCapture(0)
 
 # Exit button settings
-exit_button_pos = (500, 20)
-exit_button_size = (120, 50)
+exit_button_pos = (500, 20)  # 500 pixels from left, 50 pixels from top
+exit_button_size = (120, 50)  # 120 button width, 50 button height
 
+# title of openCV window
 window_name = "Bottle Detection"
 
+# control whether main loop continues
 running = True
 
 
@@ -67,6 +70,9 @@ cv2.setMouseCallback(window_name, mouse_click)
 
 while running:
 
+    # ret : whether camera successfully gave a frame
+    # frame : actual image from camera
+
     ret, frame = cap.read()
 
     if not ret:
@@ -82,8 +88,8 @@ while running:
 
         for box in result.boxes:
 
-            cls_id = int(box.cls[0])
-            label = model.names[cls_id]
+            cls_id = int(box.cls[0])  # for eg : 0-> bottle, 56 -> chair
+            label = model.names[cls_id]  # YOLO gives numeric class ID
 
             # Detect only bottles
             if label == "bottle":
@@ -98,6 +104,8 @@ while running:
                 conf = float(box.conf[0])
 
                 # Draw rectangle
+                # Color schemes : Grayscale, RGB, BGR
+                # 2 : thickness
                 cv2.rectangle(
                     frame, (int(x1), int(y1)), (int(x2), int(y2)), (255, 255, 0), 2
                 )
