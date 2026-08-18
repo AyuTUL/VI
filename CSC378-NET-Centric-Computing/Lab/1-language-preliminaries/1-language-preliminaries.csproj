@@ -6,7 +6,7 @@
     <RootNamespace>_1_language_preliminaries</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>_05_AbstractClass</StartupObject>
+    <StartupObject>_09_FileIOAndExceptionHandling</StartupObject>
   </PropertyGroup>
 
 </Project>

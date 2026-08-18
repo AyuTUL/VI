@@ -10,26 +10,19 @@ class _09_FileIOAndExceptionHandling
 
         try
         {
-            // Write data to the input file
             using (StreamWriter writer = new StreamWriter(inputFile))
-            {
-                writer.WriteLine("Ram, Age : 20");
-            }
+                writer.WriteLine("Heung-Min Son, Jersey : 7");
 
             Console.WriteLine("Data written successfully.");
 
-            // Read data from the input file
             string data;
 
             using (StreamReader reader = new StreamReader(inputFile))
-            {
                 data = reader.ReadToEnd();
-            }
 
             Console.WriteLine("Data read from file:");
             Console.WriteLine(data);
 
-            // Write processed data to another file
             using (StreamWriter writer = new StreamWriter(outputFile))
             {
                 writer.WriteLine("Processed Data:");

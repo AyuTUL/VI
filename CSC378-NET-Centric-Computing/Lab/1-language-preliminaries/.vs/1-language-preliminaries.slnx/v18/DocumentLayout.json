@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\1-language-preliminaries\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{312934AF-6603-4A8A-9F42-295525CC1FB9}|1-language-preliminaries.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\1-language-preliminaries\\1-language-preliminaries.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{312934AF-6603-4A8A-9F42-295525CC1FB9}|1-language-preliminaries.csproj|solutionrelative:1-language-preliminaries.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{70C0A50A-17E1-2571-4E8F-A30F7517F76F}|1-language-preliminaries.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\1-language-preliminaries\\10-asynchronous-programming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70C0A50A-17E1-2571-4E8F-A30F7517F76F}|1-language-preliminaries.csproj|solutionrelative:10-asynchronous-programming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{312934AF-6603-4A8A-9F42-295525CC1FB9}|1-language-preliminaries.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\1-language-preliminaries\\1-language-preliminaries.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{312934AF-6603-4A8A-9F42-295525CC1FB9}|1-language-preliminaries.csproj|solutionrelative:1-language-preliminaries.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{70C0A50A-17E1-2571-4E8F-A30F7517F76F}|1-language-preliminaries.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\1-language-preliminaries\\09-file-io-and-exception-handling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70C0A50A-17E1-2571-4E8F-A30F7517F76F}|1-language-preliminaries.csproj|solutionrelative:09-file-io-and-exception-handling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{312934AF-6603-4A8A-9F42-295525CC1FB9}|1-language-preliminaries.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\1-language-preliminaries\\5-abstract-class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{312934AF-6603-4A8A-9F42-295525CC1FB9}|1-language-preliminaries.csproj|solutionrelative:5-abstract-class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70C0A50A-17E1-2571-4E8F-A30F7517F76F}|1-language-preliminaries.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\1-language-preliminaries\\1-language-preliminaries.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{70C0A50A-17E1-2571-4E8F-A30F7517F76F}|1-language-preliminaries.csproj|solutionrelative:1-language-preliminaries.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{312934AF-6603-4A8A-9F42-295525CC1FB9}|1-language-preliminaries.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\1-language-preliminaries\\4-generic-class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{312934AF-6603-4A8A-9F42-295525CC1FB9}|1-language-preliminaries.csproj|solutionrelative:4-generic-class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70C0A50A-17E1-2571-4E8F-A30F7517F76F}|1-language-preliminaries.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\1-language-preliminaries\\1-language-preliminaries.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{70C0A50A-17E1-2571-4E8F-A30F7517F76F}|1-language-preliminaries.csproj|solutionrelative:1-language-preliminaries.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{312934AF-6603-4A8A-9F42-295525CC1FB9}|1-language-preliminaries.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\1-language-preliminaries\\3-indexer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{312934AF-6603-4A8A-9F42-295525CC1FB9}|1-language-preliminaries.csproj|solutionrelative:3-indexer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70C0A50A-17E1-2571-4E8F-A30F7517F76F}|1-language-preliminaries.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\1-language-preliminaries\\08-language-integrated-queries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70C0A50A-17E1-2571-4E8F-A30F7517F76F}|1-language-preliminaries.csproj|solutionrelative:08-language-integrated-queries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{312934AF-6603-4A8A-9F42-295525CC1FB9}|1-language-preliminaries.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\1-language-preliminaries\\2-run-time-polymorphism.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{312934AF-6603-4A8A-9F42-295525CC1FB9}|1-language-preliminaries.csproj|solutionrelative:2-run-time-polymorphism.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70C0A50A-17E1-2571-4E8F-A30F7517F76F}|1-language-preliminaries.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\1-language-preliminaries\\07-delegate-and-events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70C0A50A-17E1-2571-4E8F-A30F7517F76F}|1-language-preliminaries.csproj|solutionrelative:07-delegate-and-events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{312934AF-6603-4A8A-9F42-295525CC1FB9}|1-language-preliminaries.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\1-language-preliminaries\\1-class-object-creation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{312934AF-6603-4A8A-9F42-295525CC1FB9}|1-language-preliminaries.csproj|solutionrelative:1-class-object-creation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70C0A50A-17E1-2571-4E8F-A30F7517F76F}|1-language-preliminaries.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\1-language-preliminaries\\06-polymorphism.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70C0A50A-17E1-2571-4E8F-A30F7517F76F}|1-language-preliminaries.csproj|solutionrelative:06-polymorphism.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "10-asynchronous-programming.cs",
+              "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\1-language-preliminaries\\10-asynchronous-programming.cs",
+              "RelativeDocumentMoniker": "10-asynchronous-programming.cs",
+              "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\1-language-preliminaries\\10-asynchronous-programming.cs",
+              "RelativeToolTip": "10-asynchronous-programming.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T16:35:18.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "1-language-preliminaries",
               "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\1-language-preliminaries\\1-language-preliminaries.csproj",
               "RelativeDocumentMoniker": "1-language-preliminaries.csproj",
@@ -50,84 +63,71 @@
               "RelativeToolTip": "1-language-preliminaries.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-08-18T03:40:19.952Z",
+              "WhenOpened": "2026-08-18T16:34:57.238Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "09-file-io-and-exception-handling.cs",
+              "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\1-language-preliminaries\\09-file-io-and-exception-handling.cs",
+              "RelativeDocumentMoniker": "09-file-io-and-exception-handling.cs",
+              "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\1-language-preliminaries\\09-file-io-and-exception-handling.cs",
+              "RelativeToolTip": "09-file-io-and-exception-handling.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T16:33:52.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "1-language-preliminaries",
               "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\1-language-preliminaries\\1-language-preliminaries.csproj",
               "RelativeDocumentMoniker": "1-language-preliminaries.csproj",
               "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\1-language-preliminaries\\1-language-preliminaries.csproj",
               "RelativeToolTip": "1-language-preliminaries.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-08-18T03:40:20.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "5-abstract-class.cs",
-              "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\1-language-preliminaries\\5-abstract-class.cs",
-              "RelativeDocumentMoniker": "5-abstract-class.cs",
-              "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\1-language-preliminaries\\5-abstract-class.cs",
-              "RelativeToolTip": "5-abstract-class.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAwwEMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T03:40:11.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "4-generic-class.cs",
-              "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\1-language-preliminaries\\4-generic-class.cs",
-              "RelativeDocumentMoniker": "4-generic-class.cs",
-              "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\1-language-preliminaries\\4-generic-class.cs",
-              "RelativeToolTip": "4-generic-class.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T03:39:46.7Z",
+              "WhenOpened": "2026-08-18T16:33:07.86Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "3-indexer.cs",
-              "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\1-language-preliminaries\\3-indexer.cs",
-              "RelativeDocumentMoniker": "3-indexer.cs",
-              "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\1-language-preliminaries\\3-indexer.cs",
-              "RelativeToolTip": "3-indexer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Title": "08-language-integrated-queries.cs",
+              "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\1-language-preliminaries\\08-language-integrated-queries.cs",
+              "RelativeDocumentMoniker": "08-language-integrated-queries.cs",
+              "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\1-language-preliminaries\\08-language-integrated-queries.cs",
+              "RelativeToolTip": "08-language-integrated-queries.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T03:39:34.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "2-run-time-polymorphism.cs",
-              "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\1-language-preliminaries\\2-run-time-polymorphism.cs",
-              "RelativeDocumentMoniker": "2-run-time-polymorphism.cs",
-              "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\1-language-preliminaries\\2-run-time-polymorphism.cs",
-              "RelativeToolTip": "2-run-time-polymorphism.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T03:39:05.802Z",
+              "WhenOpened": "2026-08-18T16:32:30.39Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "1-class-object-creation.cs",
-              "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\1-language-preliminaries\\1-class-object-creation.cs",
-              "RelativeDocumentMoniker": "1-class-object-creation.cs",
-              "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\1-language-preliminaries\\1-class-object-creation.cs",
-              "RelativeToolTip": "1-class-object-creation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAWAAAAAAAAAA==",
+              "Title": "06-polymorphism.cs",
+              "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\1-language-preliminaries\\06-polymorphism.cs",
+              "RelativeDocumentMoniker": "06-polymorphism.cs",
+              "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\1-language-preliminaries\\06-polymorphism.cs",
+              "RelativeToolTip": "06-polymorphism.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T03:38:26.805Z",
+              "WhenOpened": "2026-08-18T16:32:22.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "07-delegate-and-events.cs",
+              "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\1-language-preliminaries\\07-delegate-and-events.cs",
+              "RelativeDocumentMoniker": "07-delegate-and-events.cs",
+              "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\1-language-preliminaries\\07-delegate-and-events.cs",
+              "RelativeToolTip": "07-delegate-and-events.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T16:32:21.535Z",
               "EditorCaption": ""
             }
           ]
