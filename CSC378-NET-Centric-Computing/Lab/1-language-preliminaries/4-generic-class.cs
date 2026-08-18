@@ -38,7 +38,7 @@ class _04_GenericClass
         intStack.Push(7);
         intStack.Push(10);
         intStack.Push(20);
-        
+
         Console.WriteLine("Integer Stack :\nTop Element : {0}\nPopped Element : {1}\nTop Element after Pop : {2}", intStack.Peek(), intStack.Pop(), intStack.Peek());
 
         Stack<string> stringStack = new Stack<string>();
@@ -46,7 +46,7 @@ class _04_GenericClass
         stringStack.Push("Heung-Min Son");
         stringStack.Push("Harry Kane");
         stringStack.Push("Dele Alli");
-        
+
         Console.WriteLine("\nString Stack :\nTop Element : {0}\nPopped Element : {1}\nTop Element after Pop : {2}", stringStack.Peek(), stringStack.Pop(), stringStack.Peek());
     }
 }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ghale\\source\\repos\\1-language-preliminaries\\1-language-preliminaries.csproj": {}
+    "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\1-language-preliminaries\\1-language-preliminaries.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ghale\\source\\repos\\1-language-preliminaries\\1-language-preliminaries.csproj": {
+    "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\1-language-preliminaries\\1-language-preliminaries.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ghale\\source\\repos\\1-language-preliminaries\\1-language-preliminaries.csproj",
+        "projectUniqueName": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\1-language-preliminaries\\1-language-preliminaries.csproj",
         "projectName": "1-language-preliminaries",
-        "projectPath": "C:\\Users\\ghale\\source\\repos\\1-language-preliminaries\\1-language-preliminaries.csproj",
-        "packagesPath": "C:\\Users\\ghale\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ghale\\source\\repos\\1-language-preliminaries\\obj\\",
+        "projectPath": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\1-language-preliminaries\\1-language-preliminaries.csproj",
+        "packagesPath": "C:\\Users\\pro series\\.nuget\\packages\\",
+        "outputPath": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\1-language-preliminaries\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ghale\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pro series\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net10.0": {
@@ -67,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

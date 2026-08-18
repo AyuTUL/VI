@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("1-language-preliminaries")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76b33a184b1ff4cc60bfd2e1172527c18cd65319")]
 [assembly: System.Reflection.AssemblyProductAttribute("1-language-preliminaries")]
 [assembly: System.Reflection.AssemblyTitleAttribute("1-language-preliminaries")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
