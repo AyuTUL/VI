@@ -1,0 +1,8 @@
+D:\AyushTuladharCSITVI\NCC\yeta ko lab\3-model-view-controller\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\AyushTuladharCSITVI\NCC\yeta ko lab\3-model-view-controller\obj\Debug\net8.0\3-model-view-controller.GeneratedMSBuildEditorConfig.editorconfig
+D:\AyushTuladharCSITVI\NCC\yeta ko lab\3-model-view-controller\obj\Debug\net8.0\3-model-view-controller.AssemblyInfoInputs.cache
+D:\AyushTuladharCSITVI\NCC\yeta ko lab\3-model-view-controller\obj\Debug\net8.0\3-model-view-controller.AssemblyInfo.cs
+D:\AyushTuladharCSITVI\NCC\yeta ko lab\3-model-view-controller\obj\Debug\net8.0\3-model-view-controller.csproj.CoreCompileInputs.cache
+D:\AyushTuladharCSITVI\NCC\yeta ko lab\3-model-view-controller\obj\Debug\net8.0\3-model-view-controller.MvcApplicationPartsAssemblyInfo.cache
+D:\AyushTuladharCSITVI\NCC\yeta ko lab\3-model-view-controller\obj\Debug\net8.0\3-model-view-controller.RazorAssemblyInfo.cache
+D:\AyushTuladharCSITVI\NCC\yeta ko lab\3-model-view-controller\obj\Debug\net8.0\3-model-view-controller.RazorAssemblyInfo.cs
