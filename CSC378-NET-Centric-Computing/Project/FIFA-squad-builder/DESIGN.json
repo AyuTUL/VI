@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-05T00:00:00+05:45",
+  "title": "Design System: FIFA Squad Builder",
+  "extensions": {
+    "colorMeta": {
+      "bg-deep": {
+        "role": "neutral",
+        "displayName": "Warm Near-Black",
+        "canonical": "oklch(8% 0.01 84)",
+        "tonalRamp": ["oklch(6% 0.01 84)", "oklch(10% 0.01 84)", "oklch(14% 0.012 84)", "oklch(22% 0.014 84)", "oklch(34% 0.016 84)", "oklch(52% 0.014 84)", "oklch(74% 0.01 84)", "oklch(92% 0.006 84)"]
+      },
+      "gold": {
+        "role": "primary",
+        "displayName": "Match Gold",
+        "canonical": "oklch(74% 0.14 84)",
+        "tonalRamp": ["oklch(18% 0.10 84)", "oklch(28% 0.12 84)", "oklch(40% 0.14 84)", "oklch(55% 0.14 84)", "oklch(74% 0.14 84)", "oklch(84% 0.12 88)", "oklch(92% 0.08 90)", "oklch(97% 0.04 92)"]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Home headline only."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Forms, tables, panels, and squad controls."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Panel headers, position labels, compact metadata."
+      }
+    },
+    "shadows": [
+      {
+        "name": "navigation-shadow",
+        "value": "0 2px 22px rgba(0,0,0,0.34)",
+        "purpose": "Separate app chrome from the page."
+      },
+      {
+        "name": "pitch-shadow",
+        "value": "0 18px 40px rgba(0,0,0,0.48)",
+        "purpose": "Establish the pitch as the main work surface."
+      },
+      {
+        "name": "card-lift",
+        "value": "0 10px 18px rgba(0,0,0,0.48)",
+        "purpose": "Lift player cards and empty slots from the field."
+      }
+    ],
+    "motion": [
+      {
+        "name": "state-fast",
+        "value": "150ms ease",
+        "purpose": "Default hover and control feedback."
+      },
+      {
+        "name": "card-hover",
+        "value": "160ms cubic-bezier(.22, 1, .36, 1)",
+        "purpose": "Small player-card lift on hover."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "single-column",
+        "value": "900px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Gold action button for save, rename, and primary squad actions.",
+      "html": "<button class=\"ds-btn-primary\">Save</button>",
+      "css": ".ds-btn-primary { background: linear-gradient(180deg, oklch(89% 0.12 90), oklch(74% 0.14 84)); color: oklch(10% 0.012 84); border: 0; border-radius: 7px; padding: 0.5rem 0.9rem; font: 800 1rem/1.2 'Segoe UI', system-ui, sans-serif; transition: background 150ms ease; } .ds-btn-primary:hover { background: oklch(89% 0.12 90); } .ds-btn-primary:focus-visible { outline: 0; box-shadow: 0 0 0 0.1rem oklch(9% 0.01 84), 0 0 0 0.24rem oklch(80% 0.14 86 / 0.46); }"
+    },
+    {
+      "name": "Panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "Dark translucent surface for squad statistics, weak positions, and modals.",
+      "html": "<section class=\"ds-panel\"><h3>Squad Statistics</h3><p>85 squad rating</p></section>",
+      "css": ".ds-panel { background: oklch(10% 0.01 84 / .86); border: 1px solid oklch(78% 0.11 86 / .26); border-radius: 10px; padding: 1rem; color: oklch(94% 0.012 88); backdrop-filter: blur(6px); } .ds-panel h3 { margin: 0 0 .75rem; color: oklch(89% 0.12 90); font: 700 .85rem/1 'Segoe UI', system-ui, sans-serif; letter-spacing: .08em; text-transform: uppercase; } .ds-panel p { margin: 0; color: oklch(74% 0.035 88); font: 400 1rem/1.5 'Segoe UI', system-ui, sans-serif; }"
+    },
+    {
+      "name": "Squad Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Compact workflow marker used on the home page and metadata strips.",
+      "html": "<span class=\"ds-chip\">Formation first</span>",
+      "css": ".ds-chip { display: inline-flex; align-items: center; border-radius: 999px; padding: .38rem .62rem; background: oklch(18% 0.018 84 / .78); border: 1px solid oklch(82% 0.12 86 / .18); color: oklch(74% 0.035 88); font: 650 .9rem/1.2 'Segoe UI', system-ui, sans-serif; }"
+    },
+    {
+      "name": "Empty Squad Slot",
+      "kind": "custom",
+      "refersTo": "squad-pitch",
+      "description": "Dark card silhouette with a clear add affordance.",
+      "html": "<button class=\"ds-empty-slot\"><span>+</span></button>",
+      "css": ".ds-empty-slot { width: 118px; height: 148px; display: grid; place-items: center; background: linear-gradient(180deg, oklch(17% 0.012 84), oklch(10% 0.01 84)); border: 2px solid oklch(82% 0.14 86); color: oklch(60% 0.06 86); border-radius: 14px 14px 20px 20px; clip-path: polygon(7% 0,40% 0,46% 5%,54% 5%,60% 0,93% 0,100% 8%,96% 91%,50% 100%,4% 91%,0 8%); box-shadow: 0 0 14px oklch(74% 0.14 84 / .28), 0 12px 20px rgba(0,0,0,.5), inset 0 0 24px rgba(0,0,0,.32); } .ds-empty-slot span { display: grid; place-items: center; width: 46px; height: 46px; border: 3px solid oklch(60% 0.06 86 / .66); border-radius: 8px; font-size: 2.1rem; line-height: 1; } .ds-empty-slot:focus-visible { outline: 2px solid oklch(89% 0.12 90); outline-offset: 4px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Custom Squad Desk",
+    "overview": "FIFA Squad Builder is a product UI, not a marketing site. The interface should feel like a black-and-gold football workbench: the pitch is dominant, controls are close to the action, and the right-side analysis panel gives practical feedback without visual noise. The system rejects copied third-party builder branding and generic AI-looking decoration. It can borrow the category expectation of real card artwork on a formation pitch, but the app chrome must stay independent, compact, and personal.",
+    "keyCharacteristics": ["Pitch-led composition with restrained surrounding chrome.", "Real card artwork preferred over CSS imitation whenever available.", "Dense stats presented in calm grouped panels.", "Gold accents used for action, position state, and important football hierarchy."],
+    "rules": [
+      {
+        "name": "The Clean Pitch Rule",
+        "body": "The pitch must never carry decorative brand text, watermarks, or copied builder labels.",
+        "section": "colors"
+      },
+      {
+        "name": "The Gold Budget Rule",
+        "body": "Gold is for action, hierarchy, and football state; it is not background decoration.",
+        "section": "colors"
+      },
+      {
+        "name": "The Working Type Rule",
+        "body": "If text is part of a control, table, card, stat, or modal, it uses the system sans scale and zero negative letter spacing.",
+        "section": "typography"
+      },
+      {
+        "name": "The Resting Surface Rule",
+        "body": "Panels stay mostly flat; lift belongs to cards, active controls, and the pitch.",
+        "section": "elevation"
+      }
+    ],
+    "dos": ["Do keep the pitch free of decorative text and third-party labels.", "Do use actual locally cached card artwork when a player has `CardImageUrl`.", "Do keep squad controls near the squad title and formation selector.", "Do use dense stat panels when the numbers help decisions.", "Do preserve visible focus states on all clickable controls."],
+    "donts": ["Don't make it look like the default Bootstrap starter template.", "Don't copy FUTWIZ, FUTBIN, EA, or any other third-party builder branding into the pitch or app chrome.", "Don't use generic AI-looking decoration: oversized marketing cards, purple-blue gradients, floating blobs, vague hero copy, or feature descriptions that explain obvious UI.", "Don't let the pitch become cluttered with banners, slogans, watermarks, or decorative text.", "Don't replace standard controls with strange custom affordances just for flavor."]
+  }
+}

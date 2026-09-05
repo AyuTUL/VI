@@ -1,0 +1,102 @@
+@model FifaSquadBuilder.ViewModels.Admin.PlayerListViewModel
+@{
+    ViewData["Title"] = "Manage Players";
+}
+
+<h1>Manage Players</h1>
+
+@if (TempData["StatusMessage"] is string status)
+{
+    <div class="alert alert-info">@status</div>
+}
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">+ Add Player</a>
+    <a asp-area="Admin" asp-controller="Import" asp-action="Index">Run dataset import</a>
+</p>
+
+<form method="get" class="row g-2 mb-3">
+    <div class="col-auto">
+        <input type="text" name="NameContains" value="@Model.Query.NameContains" class="form-control" placeholder="Player name" />
+    </div>
+    <div class="col-auto">
+        <select name="PositionId" class="form-select" asp-items="Model.PositionOptions">
+            <option value="">Any position</option>
+        </select>
+    </div>
+    <div class="col-auto">
+        <select name="ClubId" class="form-select" asp-items="Model.ClubOptions">
+            <option value="">Any club</option>
+        </select>
+    </div>
+    <div class="col-auto">
+        <select name="LeagueId" class="form-select" asp-items="Model.LeagueOptions">
+            <option value="">Any league</option>
+        </select>
+    </div>
+    <div class="col-auto">
+        <select name="NationId" class="form-select" asp-items="Model.NationOptions">
+            <option value="">Any nation</option>
+        </select>
+    </div>
+    <div class="col-auto">
+        <input type="number" name="MinOverall" value="@Model.Query.MinOverall" class="form-control" placeholder="Min OVR" style="width:6rem" />
+    </div>
+    <div class="col-auto">
+        <input type="number" name="MaxOverall" value="@Model.Query.MaxOverall" class="form-control" placeholder="Max OVR" style="width:6rem" />
+    </div>
+    <div class="col-auto">
+        <select name="SortBy" class="form-select" asp-items="Html.GetEnumSelectList<FifaSquadBuilder.Services.Player.PlayerSortField>()">
+        </select>
+    </div>
+    <div class="col-auto form-check pt-2">
+        <input type="checkbox" name="SortDescending" value="true" checked="@Model.Query.SortDescending" class="form-check-input" />
+        <label class="form-check-label">Desc</label>
+    </div>
+    <div class="col-auto">
+        <button type="submit" class="btn btn-secondary">Filter</button>
+    </div>
+</form>
+
+<p>@Model.Results.TotalCount players found - page @Model.Results.Page of @Model.Results.TotalPages</p>
+
+<table class="table table-sm table-striped">
+    <thead>
+        <tr>
+            <th>Name</th><th>Pos</th><th>Age</th><th>OVR</th><th>POT</th>
+            <th>Club</th><th>League</th><th>Nation</th><th>Value</th><th>Wage</th><th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Model.Results.Items)
+        {
+            <tr>
+                <td>@p.Name</td>
+                <td>@p.PositionCode</td>
+                <td>@p.Age</td>
+                <td>@p.Overall</td>
+                <td>@p.Potential</td>
+                <td>@(p.ClubName ?? "Free agent")</td>
+                <td>@p.LeagueName</td>
+                <td>@p.NationName</td>
+                <td>&euro;@p.ValueEUR.ToString("N0")</td>
+                <td>&euro;@p.WageEUR.ToString("N0")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@p.Id">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@p.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<nav>
+    @if (Model.Results.Page > 1)
+    {
+        <a asp-action="Index" asp-all-route-data="@(new Dictionary<string,string>{{"Page", (Model.Results.Page-1).ToString()}})">&laquo; Previous</a>
+    }
+    @if (Model.Results.Page < Model.Results.TotalPages)
+    {
+        <a asp-action="Index" asp-all-route-data="@(new Dictionary<string,string>{{"Page", (Model.Results.Page+1).ToString()}})">Next &raquo;</a>
+    }
+</nav>

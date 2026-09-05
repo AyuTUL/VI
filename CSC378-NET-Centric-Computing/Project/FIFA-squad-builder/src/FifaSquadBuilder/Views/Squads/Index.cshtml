@@ -1,0 +1,35 @@
+@model List<FifaSquadBuilder.Services.Squad.SquadSummary>
+@{
+    ViewData["Title"] = "My Squads";
+}
+
+<h1>My Squads</h1>
+
+@if (TempData["StatusMessage"] is string status)
+{
+    <div class="alert alert-info">@status</div>
+}
+
+<p><a class="btn btn-primary" asp-action="Create">+ New Squad</a></p>
+
+@if (Model.Count == 0)
+{
+    <p>You haven't created any squads yet.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead><tr><th>Name</th><th>Formation</th><th>Last updated</th><th></th></tr></thead>
+        <tbody>
+            @foreach (var s in Model)
+            {
+                <tr>
+                    <td><a asp-action="Details" asp-route-id="@s.Id">@s.Name</a></td>
+                    <td>@s.FormationName</td>
+                    <td>@s.UpdatedAt.ToLocalTime().ToString("g")</td>
+                    <td><a asp-action="Delete" asp-route-id="@s.Id">Delete</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

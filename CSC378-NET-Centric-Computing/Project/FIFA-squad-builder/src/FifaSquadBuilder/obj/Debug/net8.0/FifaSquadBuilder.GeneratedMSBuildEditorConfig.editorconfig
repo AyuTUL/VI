@@ -1,0 +1,128 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EntryPointFilePath = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FifaSquadBuilder
+build_property.RootNamespace = FifaSquadBuilder
+build_property.ProjectDir = D:\Ayu\CSIT\VI\CSC378-NET-Centric-Computing\Project\src\FifaSquadBuilder\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Ayu\CSIT\VI\CSC378-NET-Centric-Computing\Project\src\FifaSquadBuilder
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/Ayu/CSIT/VI/CSC378-NET-Centric-Computing/Project/src/FifaSquadBuilder/Areas/Admin/Views/Formations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRm9ybWF0aW9uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ayu/CSIT/VI/CSC378-NET-Centric-Computing/Project/src/FifaSquadBuilder/Areas/Admin/Views/Formations/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRm9ybWF0aW9uc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ayu/CSIT/VI/CSC378-NET-Centric-Computing/Project/src/FifaSquadBuilder/Areas/Admin/Views/Formations/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRm9ybWF0aW9uc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ayu/CSIT/VI/CSC378-NET-Centric-Computing/Project/src/FifaSquadBuilder/Areas/Admin/Views/Formations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRm9ybWF0aW9uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ayu/CSIT/VI/CSC378-NET-Centric-Computing/Project/src/FifaSquadBuilder/Areas/Admin/Views/Import/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSW1wb3J0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ayu/CSIT/VI/CSC378-NET-Centric-Computing/Project/src/FifaSquadBuilder/Areas/Admin/Views/Players/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGxheWVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ayu/CSIT/VI/CSC378-NET-Centric-Computing/Project/src/FifaSquadBuilder/Areas/Admin/Views/Players/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGxheWVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ayu/CSIT/VI/CSC378-NET-Centric-Computing/Project/src/FifaSquadBuilder/Areas/Admin/Views/Players/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGxheWVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ayu/CSIT/VI/CSC378-NET-Centric-Computing/Project/src/FifaSquadBuilder/Areas/Admin/Views/Players/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGxheWVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ayu/CSIT/VI/CSC378-NET-Centric-Computing/Project/src/FifaSquadBuilder/Areas/Admin/Views/Players/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGxheWVyc1xfRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ayu/CSIT/VI/CSC378-NET-Centric-Computing/Project/src/FifaSquadBuilder/Areas/Admin/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ayu/CSIT/VI/CSC378-NET-Centric-Computing/Project/src/FifaSquadBuilder/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ayu/CSIT/VI/CSC378-NET-Centric-Computing/Project/src/FifaSquadBuilder/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ayu/CSIT/VI/CSC378-NET-Centric-Computing/Project/src/FifaSquadBuilder/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ayu/CSIT/VI/CSC378-NET-Centric-Computing/Project/src/FifaSquadBuilder/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ayu/CSIT/VI/CSC378-NET-Centric-Computing/Project/src/FifaSquadBuilder/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ayu/CSIT/VI/CSC378-NET-Centric-Computing/Project/src/FifaSquadBuilder/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ayu/CSIT/VI/CSC378-NET-Centric-Computing/Project/src/FifaSquadBuilder/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ayu/CSIT/VI/CSC378-NET-Centric-Computing/Project/src/FifaSquadBuilder/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ayu/CSIT/VI/CSC378-NET-Centric-Computing/Project/src/FifaSquadBuilder/Views/Squads/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3F1YWRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ayu/CSIT/VI/CSC378-NET-Centric-Computing/Project/src/FifaSquadBuilder/Views/Squads/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3F1YWRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ayu/CSIT/VI/CSC378-NET-Centric-Computing/Project/src/FifaSquadBuilder/Views/Squads/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3F1YWRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ayu/CSIT/VI/CSC378-NET-Centric-Computing/Project/src/FifaSquadBuilder/Views/Squads/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3F1YWRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ayu/CSIT/VI/CSC378-NET-Centric-Computing/Project/src/FifaSquadBuilder/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ayu/CSIT/VI/CSC378-NET-Centric-Computing/Project/src/FifaSquadBuilder/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ayu/CSIT/VI/CSC378-NET-Centric-Computing/Project/src/FifaSquadBuilder/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-7n5w31u26o

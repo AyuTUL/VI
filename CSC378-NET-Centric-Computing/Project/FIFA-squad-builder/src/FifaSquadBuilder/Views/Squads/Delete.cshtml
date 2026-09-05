@@ -1,0 +1,12 @@
+@model FifaSquadBuilder.Services.Squad.SquadEditorData
+@{
+    ViewData["Title"] = "Delete Squad";
+}
+
+<h1>Delete Squad</h1>
+<p>Are you sure you want to delete <strong>@Model.Name</strong> (@Model.FormationName)? This cannot be undone.</p>
+
+<form asp-action="Delete" asp-route-id="@Model.Id" method="post">
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-link">Cancel</a>
+</form>

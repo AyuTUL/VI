@@ -1,0 +1,195 @@
+# FIFA Squad Builder — Presentation Script
+
+## Slide 1 — Introduction
+
+“Good morning everyone.
+
+Today I’m going to present my NET Centric Computing project, **FIFA Squad Builder**.
+
+The project is a full-stack web application that allows users to create and manage football squads using real FIFA 23 player data.
+
+The main technologies I used are **ASP.NET Core MVC, C#, HTML, CSS, and MySQL**.
+
+I’ll explain the problem I was trying to solve, the technologies and architecture I used, the main features, and some of the challenges and future improvements.”
+
+---
+
+## Slide 2 — What is FIFA Squad Builder?
+
+“So, what exactly is FIFA Squad Builder?
+
+The idea is to create a web application inspired by the squad-building experience in FIFA Ultimate Team.
+
+The application uses a real FIFA 23 dataset containing approximately **18,500 players from 679 clubs**.
+
+Users can select real players, place them into different formations, and build their own squad.
+
+The system then calculates important squad information such as **overall rating, chemistry, age, player value, and wages**.
+
+The application is built using ASP.NET Core MVC, C#, Entity Framework Core, and MySQL.”
+
+---
+
+## Slide 3 — Problem Statement
+
+“The main problem I wanted to address is that FIFA Ultimate Team itself is a closed system.
+
+There isn't really a way to inspect the underlying system or use it as a learning environment for database and web application development.
+
+At the same time, real FIFA player datasets are available, but they are generally provided as flat CSV files.
+
+So there is a gap between having raw player data and having a proper working application.
+
+My goal was to take that raw data and turn it into a **secure, relational, multi-user web application** where users can actually interact with the data.”
+
+---
+
+## Slide 4 — Objectives
+
+“There were three main objectives for this project.
+
+First, I wanted to build a **real relational database** using the FIFA 23 dataset, which contains around 18,500 players.
+
+Second, I wanted the application to support **secure, role-based, multi-user access**.
+
+An important part here is that ownership needs to be enforced on the server side, rather than simply trusting the client.
+
+And third, I wanted to implement my own algorithms for things like **chemistry, squad rating, and identifying weak positions**.
+
+This meant the project wasn't just about displaying data — it also involved processing that data and generating useful results.”
+
+---
+
+## Slide 5 — Technology Stack
+
+“For the technology stack, I used **ASP.NET Core MVC on .NET 8 LTS with C#** for the main application.
+
+For database access, I used **Entity Framework Core 8** together with **MySQL**, using the Pomelo provider.
+
+For authentication and authorization, I used **ASP.NET Core Identity**.
+
+There are two main roles in the system: **User and Admin**.
+
+I also used **xUnit and EF Core InMemory** for testing.
+
+In total, I created **21 tests** to test different parts of the application.
+
+This combination gave me a complete full-stack environment, covering the frontend, backend, database, authentication, and testing.”
+
+---
+
+## Slide 6 — Main Features
+
+“This slide shows the main features of the application.
+
+The first major feature is **squad and formation building**.
+
+Users can create squads, select formations, and assign players to positions using an interactive pitch layout.
+
+The second major area is the **admin panel**.
+
+Administrators can manage players, formations, and user roles using CRUD operations.
+
+The system can also import the approximately 18,500 FIFA 23 players in an idempotent way, meaning repeated imports don't unnecessarily create duplicate records.
+
+Another important feature is **data integrity enforcement**.
+
+The database helps prevent things like duplicate players and conflicting position slots.
+
+The application also includes **authentication and access control**, using ASP.NET Identity with User and Admin roles.
+
+Finally, the application provides real-time analytics.
+
+As the squad changes, the system can track things such as chemistry, rating, age, potential, squad value, and wage budgets.
+
+There is also a positional optimization feature that identifies weak positions by comparing the current squad positions against the best available players.”
+
+---
+
+## Slide 7 — Modules
+
+“The application can be divided into several main modules.
+
+The first is the **Squad Builder**, which provides the formation-based pitch. The pitch positions are stored in the database using X and Y coordinates.
+
+Next is the **API module**, which handles communication between the frontend and backend.
+
+Then we have the **Admin Panel**, where administrators can manage players and formations, trigger dataset imports, and manage user roles.
+
+There is also the **Authentication module**, which handles user login and access control.
+
+Finally, we have the **Calculation module**.
+
+This is responsible for calculating things like chemistry, squad rating, and weak positions.
+
+Separating these responsibilities makes the application easier to maintain and develop.”
+
+---
+
+## Slide 8 — Use Case Diagram
+
+“This slide shows the use case diagram for the system.
+
+At a high level, there are two main types of users: regular users and administrators.
+
+A regular user interacts with the squad-building functionality and the calculations.
+
+An administrator has additional capabilities, such as managing players, formations, and user roles, as well as triggering the dataset import.
+
+The purpose of this design is to make sure that users only have access to the functionality they are supposed to use.
+
+So authentication determines who the user is, while authorization determines what that user is allowed to do.”
+
+---
+
+## Slide 9 — Future Implementation
+
+“Although the current application is functional, there are several improvements I would like to make in the future.
+
+The first is **drag-and-drop player placement**.
+
+Currently, players are placed using a click-to-search approach, so drag-and-drop would make the interface more intuitive.
+
+I would also like to add **social features**, allowing users to share or compare their squads with other users.
+
+Another improvement would be a **per-position chemistry heatmap**, which would make it easier to visually understand where chemistry is strong or weak.
+
+I would also add **squad versioning**, allowing users to save different versions or checkpoints of their squads.
+
+Finally, I would deploy the application publicly using **HTTPS**, making it accessible outside the development environment.”
+
+---
+
+## Slide 10 — Key Takeaways
+
+“There are several things I learned from this project.
+
+First, working with a real-world dataset is very different from working with clean example data.
+
+The FIFA dataset was messy in places, so I had to deal with actual **data validation and integrity issues** rather than simply making assumptions about the data.
+
+Second, using the **MVC architecture** helped separate different responsibilities within the application and made parallel development easier.
+
+Another important lesson was the importance of being honest about limitations.
+
+For example, reporting build or test execution constraints is just as important as reporting the features that work successfully.
+
+Finally, I focused on creating a **user-friendly interface** and improving database performance through things such as indexing.
+
+Overall, the project gave me experience across the full stack — from the database and backend to authentication, calculations, testing, and the user interface.”
+
+---
+
+## Slide 11 — Conclusion
+
+“So, to conclude, FIFA Squad Builder takes a real FIFA 23 dataset and turns it into an interactive, multi-user web application.
+
+The project demonstrates how raw data can be transformed into a structured relational database and then exposed through a secure web application.
+
+It also combines database management, authentication, algorithms, testing, and frontend development in one project.
+
+There are still several areas that could be improved, particularly the user experience and deployment, but the project provides a strong foundation for further development.
+
+Thank you for listening.
+
+I’m happy to answer any questions.”

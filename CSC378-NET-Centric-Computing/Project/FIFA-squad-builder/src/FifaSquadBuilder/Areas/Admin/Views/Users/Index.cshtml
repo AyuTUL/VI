@@ -1,0 +1,40 @@
+@model List<FifaSquadBuilder.ViewModels.Admin.AdminUserListItem>
+@{
+    ViewData["Title"] = "Manage Users";
+    string currentUserId = ViewBag.CurrentUserId;
+}
+
+<h1>Manage Users</h1>
+
+@if (TempData["StatusMessage"] is string status)
+{
+    <div class="alert alert-info">@status</div>
+}
+
+<table class="table table-striped">
+    <thead><tr><th>Email</th><th>Role</th><th></th></tr></thead>
+    <tbody>
+        @foreach (var u in Model)
+        {
+            <tr>
+                <td>@u.Email</td>
+                <td>@(u.IsAdmin ? "Admin" : "User")</td>
+                <td>
+                    @if (u.Id == currentUserId)
+                    {
+                        <span class="text-muted">(you)</span>
+                    }
+                    else
+                    {
+                        <form asp-action="ToggleAdmin" asp-route-id="@u.Id" method="post" style="display:inline">
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="btn btn-sm btn-secondary">
+                                @(u.IsAdmin ? "Remove Admin" : "Make Admin")
+                            </button>
+                        </form>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

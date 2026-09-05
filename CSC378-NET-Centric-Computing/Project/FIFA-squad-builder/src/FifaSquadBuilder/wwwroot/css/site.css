@@ -1,0 +1,182 @@
+html { font-size: 14px; }
+
+@font-face {
+  font-family: "FsbHeading";
+  src: local("Bahnschrift Condensed"), local("Bahnschrift");
+  font-display: swap;
+}
+
+@media (min-width: 768px) {
+  html { font-size: 16px; }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem oklch(9% 0.01 84), 0 0 0 0.24rem oklch(80% 0.14 86 / 0.46);
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 48px;
+}
+
+/* ===== Global black-and-gold squad theme ===== */
+:root {
+  --fsb-bg-deep: oklch(8% 0.01 84);
+  --fsb-bg-mid: oklch(13% 0.014 84);
+  --fsb-panel: oklch(11% 0.012 84 / 0.92);
+  --fsb-panel-soft: oklch(18% 0.018 84 / 0.78);
+  --fsb-border: oklch(78% 0.11 86 / 0.28);
+  --fsb-gold: oklch(74% 0.14 84);
+  --fsb-gold-light: oklch(89% 0.12 90);
+  --fsb-line: oklch(80% 0.13 86);
+  --fsb-text: oklch(94% 0.012 88);
+  --fsb-text-dim: oklch(74% 0.035 88);
+  --fsb-shell-max: 1480px;
+  --fsb-heading-font: "FsbHeading", "Bahnschrift", "Segoe UI Variable Display", "Segoe UI", system-ui, sans-serif;
+  --fsb-body-font: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+    background:
+    linear-gradient(180deg, var(--fsb-bg-mid), var(--fsb-bg-deep) 42rem) fixed;
+  color: var(--fsb-text);
+  font-family: var(--fsb-body-font);
+}
+
+.app-nav {
+  background: oklch(9% 0.01 84 / 0.96) !important;
+  border-bottom: 1px solid oklch(82% 0.12 86 / 0.18);
+  box-shadow: 0 2px 22px rgba(0,0,0,0.34);
+  backdrop-filter: blur(8px);
+}
+.navbar .container-fluid {
+  max-width: var(--fsb-shell-max);
+  margin: 0 auto;
+  padding-inline: 24px;
+}
+.navbar-brand {
+  color: var(--fsb-gold-light) !important;
+  font-weight: 800;
+  font-family: var(--fsb-heading-font);
+  font-stretch: condensed;
+  letter-spacing: 0;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+.navbar .nav-link, .navbar .btn-link.nav-link {
+  color: var(--fsb-text-dim) !important;
+  font-weight: 600;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+.navbar .nav-link:hover {
+  color: var(--fsb-text) !important;
+}
+
+main.container, .container {
+  color: var(--fsb-text);
+  max-width: min(var(--fsb-shell-max), calc(100vw - 48px));
+}
+
+h1, h2, h3 {
+  color: var(--fsb-gold-light);
+  font-family: var(--fsb-heading-font);
+  font-stretch: condensed;
+  letter-spacing: 0;
+}
+
+a {
+  color: var(--fsb-gold-light);
+}
+a:hover {
+  color: var(--fsb-gold);
+}
+
+.btn-primary {
+  background: linear-gradient(180deg, var(--fsb-gold-light), var(--fsb-gold));
+  border: none;
+  color: oklch(10% 0.012 84);
+  font-weight: 800;
+  border-radius: 7px;
+  min-height: 44px;
+  padding: 0.55rem 1rem;
+}
+.btn-primary:hover {
+  background: var(--fsb-gold-light);
+  color: oklch(10% 0.012 84);
+}
+
+.table {
+  color: var(--fsb-text);
+  --bs-table-bg: transparent;
+  --bs-table-striped-bg: rgba(255,255,255,0.04);
+  border-color: var(--fsb-border);
+}
+.table thead {
+  color: var(--fsb-gold-light);
+  border-bottom: 2px solid var(--fsb-border);
+}
+
+.form-control, .form-select {
+  background: oklch(88% 0.04 88 / 0.055);
+  border: 1px solid var(--fsb-border);
+  color: var(--fsb-text);
+  border-radius: 7px;
+}
+.form-control:focus, .form-select:focus {
+  background: oklch(88% 0.04 88 / 0.085);
+  color: var(--fsb-text);
+  border-color: var(--fsb-line);
+}
+.form-label {
+  color: var(--fsb-text-dim);
+}
+
+.alert-info {
+  background: rgba(212, 175, 55, 0.12);
+  border: 1px solid var(--fsb-border);
+  color: var(--fsb-gold-light);
+}
+
+.text-danger {
+  color: #ff8a8a !important;
+}
+
+footer.border-top {
+  background: transparent;
+  border-top: 1px solid oklch(100% 0 0 / 0.08) !important;
+  color: var(--fsb-text-dim);
+  font-size: 0.85rem;
+}
+
+/* Home */
+.fsb-home {
+  max-width: 760px;
+  padding: 5rem 0 3rem;
+}
+.fsb-home-kicker {
+  color: var(--fsb-gold);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  margin-bottom: 0.6rem;
+}
+.fsb-home h1 {
+  font-size: 3rem;
+  line-height: 1.05;
+  font-weight: 800;
+  margin-bottom: 0.85rem;
+}
+.fsb-home-copy {
+  color: var(--fsb-text-dim);
+  font-size: 1.05rem;
+  max-width: 58ch;
+  margin-bottom: 1.35rem;
+}

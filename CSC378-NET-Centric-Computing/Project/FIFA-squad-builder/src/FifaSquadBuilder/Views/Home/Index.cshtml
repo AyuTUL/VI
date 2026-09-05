@@ -1,0 +1,21 @@
+@{
+    ViewData["Title"] = "FIFA Squad Builder";
+}
+
+<div class="fsb-home">
+    <div class="fsb-home-kicker">Local squad builder</div>
+    <h1>FIFA Squad Builder</h1>
+    <p class="fsb-home-copy">
+        Pick a formation, place your players, and tune the XI from one pitch.
+    </p>
+
+    @if (User.Identity?.IsAuthenticated == true)
+    {
+        <a class="btn btn-primary btn-lg" asp-controller="Squads" asp-action="Index">Open Squads</a>
+    }
+    else
+    {
+        <a class="btn btn-primary btn-lg" asp-controller="Account" asp-action="Register">Create Squad</a>
+        <a class="btn btn-link btn-lg" asp-controller="Account" asp-action="Login">Log in</a>
+    }
+</div>

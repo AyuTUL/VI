@@ -1,0 +1,298 @@
+@model FifaSquadBuilder.ViewModels.Squad.SquadDetailsViewModel
+@using System.Globalization
+@{
+    ViewData["Title"] = Model.Editor.Name;
+}
+
+@functions {
+    private static string PlayerPhotoUrl(int sourceId)
+    {
+        var normalized = sourceId.ToString("D6");
+        return $"https://cdn.sofifa.net/players/{normalized[..^3]}/{normalized[^3..]}/23_60.png";
+    }
+
+    private static string StatText(int? stat) => stat.HasValue ? stat.Value.ToString() : "--";
+
+    private static string SlotPercent(decimal value) =>
+        value.ToString("0.###", CultureInfo.InvariantCulture);
+
+    private static decimal SlotLeft(int x) => Math.Clamp((decimal)x, 10m, 90m);
+
+    private static decimal SlotTop(int y)
+    {
+        decimal mapped = y switch
+        {
+            <= 8 => 83m,
+            <= 25 => 74m - ((y - 18m) * 0.45m),
+            <= 45 => 58m - ((y - 38m) * 0.8m),
+            <= 60 => 45m - ((y - 50m) * 0.55m),
+            <= 75 => 38m - ((y - 68m) * 0.75m),
+            _ => 17m - ((y - 85m) * 0.5m)
+        };
+
+        return Math.Clamp(mapped, 15m, 83m);
+    }
+
+    private static string PlayerInitials(string? name)
+    {
+        if (string.IsNullOrWhiteSpace(name)) return "?";
+
+        var parts = name.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+        if (parts.Length == 1) return parts[0][0].ToString().ToUpperInvariant();
+
+        return string.Concat(parts.Take(2).Select(p => p[0])).ToUpperInvariant();
+    }
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/squad-builder.css" asp-append-version="true" />
+}
+
+<div class="sb-page">
+    <div id="sb-data" data-squad-id="@Model.Editor.Id"></div>
+    <div id="sb-antiforgery" style="display:none">@Html.AntiForgeryToken()</div>
+
+    <div id="sb-error-banner" class="sb-error-banner"></div>
+
+    @if (TempData["StatusMessage"] is string status)
+    {
+        <div class="alert alert-info">@status</div>
+    }
+
+    <div class="sb-header">
+        <div class="sb-title-stack">
+            <h1>@Model.Editor.Name</h1>
+            <form asp-action="Rename" asp-route-id="@Model.Editor.Id" method="post" class="sb-inline-form mt-1">
+                @Html.AntiForgeryToken()
+                <input type="text" name="name" value="@Model.Editor.Name" maxlength="100" />
+                <button type="submit">Rename</button>
+            </form>
+        </div>
+        <div class="sb-toolbar">
+            <form asp-action="ChangeFormation" asp-route-id="@Model.Editor.Id" method="post" class="sb-inline-form">
+                @Html.AntiForgeryToken()
+                <label>Formation:</label>
+                <select id="sb-formation-select" name="formationId" asp-items="Model.FormationOptions">
+                </select>
+                <button type="submit">Switch</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="sb-layout">
+        <div class="sb-field-column">
+            <div class="sb-pitch-wrap">
+                <div class="sb-pitch-markings"></div>
+                <div class="sb-goal-box-top"></div>
+                <div class="sb-goal-box-bottom"></div>
+
+                @foreach (var slot in Model.Editor.Slots)
+                {
+                    var left = SlotLeft(slot.X);
+                    var top = SlotTop(slot.Y);
+                    var chemClass = "";
+                    int? chemistryPoints = null;
+                    if (slot.SquadPlayerId.HasValue && Model.Statistics.ChemistryBySquadPlayerId.TryGetValue(slot.SquadPlayerId.Value, out var pts))
+                    {
+                        chemClass = $"chem-{pts}";
+                        chemistryPoints = pts;
+                    }
+                    <div class="sb-slot" style="--slot-x:@SlotPercent(left)%; --slot-y:@SlotPercent(top)%;"
+                         data-formation-position-id="@slot.FormationPositionId"
+                         data-position-id="@slot.PositionId"
+                         data-position-code="@slot.PositionCode">
+                        @if (slot.PlayerId.HasValue)
+                        {
+                            <div class="sb-slot-card sb-player-card @(!string.IsNullOrWhiteSpace(slot.CardImageUrl) ? "has-card-art" : "") @chemClass">
+                                <button type="button" class="sb-remove-btn" data-squad-player-id="@slot.SquadPlayerId" title="Remove">&times;</button>
+                                @if (!string.IsNullOrWhiteSpace(slot.CardImageUrl))
+                                {
+                                    <img class="sb-card-art" src="@slot.CardImageUrl" alt="" loading="lazy" onerror="this.closest('.sb-player-card')?.classList.remove('has-card-art'); this.remove();" />
+                                }
+                                <div class="sb-card-rating">
+                                    <span class="sb-card-ovr">@slot.PlayerOverall</span>
+                                    <span class="sb-card-pos">@slot.PositionCode</span>
+                                </div>
+                                <div class="sb-card-portrait" aria-hidden="true">
+                                    <span class="sb-card-initials">@PlayerInitials(slot.PlayerName)</span>
+                                    @if (slot.PlayerSourceId.HasValue)
+                                    {
+                                        <img src="@PlayerPhotoUrl(slot.PlayerSourceId.Value)" alt="" loading="lazy" onerror="this.remove()" />
+                                    }
+                                </div>
+                                <div class="sb-card-name" title="@slot.PlayerName">@slot.PlayerName</div>
+                                <div class="sb-card-footer">
+                                    <span>@(chemistryPoints.HasValue ? $"{chemistryPoints}/3 CHM" : "STARTER")</span>
+                                </div>
+                                <div class="sb-card-stats" aria-label="Player attributes">
+                                    <span><strong>@StatText(slot.Pace)</strong> PAC</span>
+                                    <span><strong>@StatText(slot.Shooting)</strong> SHO</span>
+                                    <span><strong>@StatText(slot.Passing)</strong> PAS</span>
+                                    <span><strong>@StatText(slot.Dribbling)</strong> DRI</span>
+                                    <span><strong>@StatText(slot.Defending)</strong> DEF</span>
+                                    <span><strong>@StatText(slot.Physicality)</strong> PHY</span>
+                                </div>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="sb-slot-card empty">
+                                <div class="sb-empty-plus">+</div>
+                                <div class="sb-slot-pos">@slot.PositionCode</div>
+                            </div>
+                        }
+                    </div>
+                }
+            </div>
+
+            <div class="sb-bench">
+                @foreach (var b in Model.Editor.Bench)
+                {
+                    <div class="sb-bench-slot" data-squad-player-id="@b.SquadPlayerId">
+                        <div class="sb-slot-card sb-player-card sb-bench-card @(!string.IsNullOrWhiteSpace(b.CardImageUrl) ? "has-card-art" : "")">
+                            <button type="button" class="sb-remove-btn" data-squad-player-id="@b.SquadPlayerId" title="Remove">&times;</button>
+                            @if (!string.IsNullOrWhiteSpace(b.CardImageUrl))
+                            {
+                                <img class="sb-card-art" src="@b.CardImageUrl" alt="" loading="lazy" onerror="this.closest('.sb-player-card')?.classList.remove('has-card-art'); this.remove();" />
+                            }
+                            <div class="sb-card-rating">
+                                <span class="sb-card-ovr">@b.Overall</span>
+                                <span class="sb-card-pos">@b.PositionCode</span>
+                            </div>
+                            <div class="sb-card-portrait" aria-hidden="true">
+                                <span class="sb-card-initials">@PlayerInitials(b.PlayerName)</span>
+                                <img src="@PlayerPhotoUrl(b.PlayerSourceId)" alt="" loading="lazy" onerror="this.remove()" />
+                            </div>
+                            <div class="sb-card-name" title="@b.PlayerName">@b.PlayerName</div>
+                            <div class="sb-card-footer">
+                                <span>BENCH</span>
+                            </div>
+                            <div class="sb-card-stats" aria-label="Player attributes">
+                                <span><strong>@StatText(b.Pace)</strong> PAC</span>
+                                <span><strong>@StatText(b.Shooting)</strong> SHO</span>
+                                <span><strong>@StatText(b.Passing)</strong> PAS</span>
+                                <span><strong>@StatText(b.Dribbling)</strong> DRI</span>
+                                <span><strong>@StatText(b.Defending)</strong> DEF</span>
+                                <span><strong>@StatText(b.Physicality)</strong> PHY</span>
+                            </div>
+                        </div>
+                    </div>
+                }
+                @if (Model.Editor.Bench.Count < 7)
+                {
+                    <div class="sb-bench-slot sb-bench-add">
+                        <div class="sb-slot-card empty">
+                            <div class="sb-empty-plus">+</div>
+                            <div class="sb-slot-pos">Bench</div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <aside class="sb-side-column">
+            <div class="sb-panel">
+                <h5>Squad Statistics</h5>
+                <div class="sb-stat-grid">
+                    <div class="sb-stat">
+                        <div class="sb-stat-label">Starting XI Rating</div>
+                        <div class="sb-stat-value">@Model.Statistics.StartingXIRating</div>
+                    </div>
+                    <div class="sb-stat">
+                        <div class="sb-stat-label">Squad Rating</div>
+                        <div class="sb-stat-value">@Model.Statistics.SquadRating</div>
+                    </div>
+                    <div class="sb-stat">
+                        <div class="sb-stat-label">Chemistry</div>
+                        <div class="sb-stat-value">@Model.Statistics.Chemistry / 100</div>
+                    </div>
+                    <div class="sb-stat">
+                        <div class="sb-stat-label">Avg Age</div>
+                        <div class="sb-stat-value">@Model.Statistics.AverageAge</div>
+                    </div>
+                    <div class="sb-stat">
+                        <div class="sb-stat-label">Avg Potential</div>
+                        <div class="sb-stat-value">@Model.Statistics.AveragePotential</div>
+                    </div>
+                    <div class="sb-stat">
+                        <div class="sb-stat-label">Squad Value</div>
+                        <div class="sb-stat-value">&euro;@Model.Statistics.SquadValueEUR.ToString("N0")</div>
+                    </div>
+                    <div class="sb-stat sb-stat-wide">
+                        <div class="sb-stat-label">Wages</div>
+                        <div class="sb-stat-value @(Model.Statistics.OverBudget ? "over-budget" : "good")">
+                            &euro;@Model.Statistics.TotalWageEUR.ToString("N0") / &euro;@Model.Statistics.WageBudgetEUR.ToString("N0")
+                            @if (Model.Statistics.OverBudget)
+                            {
+                                <span> &#9888; over budget</span>
+                            }
+                        </div>
+                    </div>
+                </div>
+                <form asp-action="SetBudget" asp-route-id="@Model.Editor.Id" method="post" class="sb-inline-form sb-budget-form mt-2">
+                    @Html.AntiForgeryToken()
+                    <label>Budget:</label>
+                    <input type="number" name="budget" value="@Model.Statistics.WageBudgetEUR" min="0" step="1000" />
+                    <button type="submit">Save</button>
+                </form>
+            </div>
+
+            <div class="sb-panel">
+                <h5>Weak Positions</h5>
+                @if (Model.WeakPositions.Count == 0)
+                {
+                    <p class="text-muted">No significant upgrades found for your current starting XI.</p>
+                }
+                else
+                {
+                    <ul class="sb-weak-list">
+                        @foreach (var w in Model.WeakPositions)
+                        {
+                            <li>
+                                <span>@w.PositionCode &nbsp; @w.CurrentPlayerName (@w.CurrentOverall) &rarr; @w.BestAvailableName (@w.BestAvailableOverall)</span>
+                                <span class="sb-weak-diff">+@w.Difference</span>
+                            </li>
+                        }
+                    </ul>
+                }
+            </div>
+        </aside>
+    </div>
+</div>
+
+<!-- Player picker modal -->
+<div id="sb-modal-backdrop" class="sb-modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="sb-modal-title">
+    <div class="sb-modal">
+        <div class="sb-modal-header">
+            <h4 id="sb-modal-title">Select player</h4>
+            <button type="button" id="sb-modal-close" class="sb-modal-close">&times;</button>
+        </div>
+        <form id="sb-modal-filters-form">
+            <div class="sb-modal-filters">
+                <input type="text" name="NameContains" placeholder="Search name..." />
+                <select name="PositionId">
+                    <option value="">Any position</option>
+                    @foreach (var pos in Model.PositionOptions)
+                    {
+                        <option value="@pos.Value">@pos.Text</option>
+                    }
+                </select>
+                <input class="sb-filter-number" type="number" name="MinOverall" placeholder="Min OVR" />
+                <select name="SortBy">
+                    <option value="Overall">Overall</option>
+                    <option value="Potential">Potential</option>
+                    <option value="Age">Age</option>
+                    <option value="ValueEUR">Value</option>
+                    <option value="WageEUR">Wage</option>
+                    <option value="Name">Name</option>
+                </select>
+                <button type="submit">Search</button>
+            </div>
+        </form>
+        <div id="sb-modal-results"></div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/squad-editor.js" asp-append-version="true"></script>
+}

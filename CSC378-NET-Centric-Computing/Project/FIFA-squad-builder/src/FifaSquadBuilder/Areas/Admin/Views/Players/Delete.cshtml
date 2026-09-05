@@ -1,0 +1,22 @@
+@model FifaSquadBuilder.Models.Player
+@{
+    ViewData["Title"] = "Delete Player";
+    int squadUsageCount = ViewBag.SquadUsageCount;
+}
+
+<h1>Delete Player</h1>
+
+<p>Are you sure you want to delete <strong>@Model.Name</strong> (@Model.Position.Code, @Model.Overall OVR)?</p>
+
+@if (squadUsageCount > 0)
+{
+    <div class="alert alert-warning">
+        This player is currently used in @squadUsageCount saved squad(s). Deletion will be blocked
+        until they're removed from those squads - the database enforces this, it isn't just a UI warning.
+    </div>
+}
+
+<form asp-action="Delete" asp-route-id="@Model.Id" method="post">
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-link">Cancel</a>
+</form>

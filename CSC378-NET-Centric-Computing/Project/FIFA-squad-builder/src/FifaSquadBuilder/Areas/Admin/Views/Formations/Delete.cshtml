@@ -1,0 +1,22 @@
+@model FifaSquadBuilder.Models.Formation
+@{
+    ViewData["Title"] = "Delete Formation";
+    int squadUsageCount = ViewBag.SquadUsageCount;
+}
+
+<h1>Delete Formation</h1>
+
+<p>Are you sure you want to delete <strong>@Model.Name</strong>?</p>
+
+@if (squadUsageCount > 0)
+{
+    <div class="alert alert-warning">
+        This formation is used by @squadUsageCount saved squad(s). Deletion will be blocked until
+        those squads are reassigned to a different formation - enforced by the database, not just this warning.
+    </div>
+}
+
+<form asp-action="Delete" asp-route-id="@Model.Id" method="post">
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-link">Cancel</a>
+</form>

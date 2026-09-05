@@ -1,0 +1,31 @@
+a.navbar-brand[b-7n5w31u26o] {
+  white-space: normal;
+  word-break: normal;
+}
+
+.nav-pills .nav-link.active[b-7n5w31u26o],
+.nav-pills .show > .nav-link[b-7n5w31u26o] {
+  color: oklch(18% 0.028 150);
+  background-color: oklch(88% 0.1 92);
+  border-color: transparent;
+}
+
+.border-top[b-7n5w31u26o] {
+  border-top: 1px solid oklch(100% 0 0 / 0.08);
+}
+
+.border-bottom[b-7n5w31u26o] {
+  border-bottom: 1px solid oklch(100% 0 0 / 0.08);
+}
+
+.box-shadow[b-7n5w31u26o] {
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, .18);
+}
+
+.footer[b-7n5w31u26o] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 48px;
+}

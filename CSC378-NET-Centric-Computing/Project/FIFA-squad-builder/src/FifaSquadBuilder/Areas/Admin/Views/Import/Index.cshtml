@@ -1,0 +1,29 @@
+@{
+    ViewData["Title"] = "Player Data Import";
+}
+
+<h1>Player Data Import</h1>
+
+<p>
+    Imports/updates Nations, Leagues, Clubs and Players from the FIFA23 dataset CSVs
+    configured under <code>DatasetPaths</code> in appsettings.json. Safe to run more
+    than once - existing rows are matched and updated rather than duplicated.
+</p>
+
+@if (TempData["ImportSummary"] is string summary)
+{
+    <div><strong>@summary</strong></div>
+}
+
+@if (TempData["ImportErrors"] is string errors && !string.IsNullOrWhiteSpace(errors))
+{
+    <details>
+        <summary>Warnings/errors (first 50)</summary>
+        <pre>@errors</pre>
+    </details>
+}
+
+<form asp-action="Run" method="post">
+    @Html.AntiForgeryToken()
+    <button type="submit">Run Import</button>
+</form>

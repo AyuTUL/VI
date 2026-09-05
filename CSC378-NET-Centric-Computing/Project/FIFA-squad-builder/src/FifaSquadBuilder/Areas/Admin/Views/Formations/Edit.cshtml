@@ -1,0 +1,94 @@
+@model FifaSquadBuilder.ViewModels.Admin.FormationEditViewModel
+@{
+    ViewData["Title"] = $"Edit Formation - {Model.Formation.Name}";
+}
+
+<h1>Edit Formation: @Model.Formation.Name</h1>
+
+@if (TempData["StatusMessage"] is string status)
+{
+    <div class="alert alert-info">@status</div>
+}
+
+<h4>Rename</h4>
+<form asp-action="Rename" asp-route-id="@Model.Formation.Id" method="post" class="row g-2 mb-4">
+    @Html.AntiForgeryToken()
+    <div class="col-auto">
+        <input type="text" name="name" value="@Model.Formation.Name" maxlength="20" class="form-control" />
+    </div>
+    <div class="col-auto">
+        <button type="submit" class="btn btn-secondary">Rename</button>
+    </div>
+</form>
+
+<h4>Pitch positions (@Model.Positions.Count / 11)</h4>
+<p class="text-muted">
+    X: 0=left touchline, 100=right touchline. Y: 0=own goal end (GK), 100=striker end.
+</p>
+
+@foreach (var p in Model.Positions)
+{
+    <form id="editPos_@p.Id" asp-action="EditPosition" method="post"></form>
+    <form id="removePos_@p.Id" asp-action="RemovePosition" asp-route-id="@p.Id" asp-route-formationId="@Model.Formation.Id" method="post"></form>
+}
+
+<table class="table table-sm">
+    <thead><tr><th>Order</th><th>Position</th><th>X</th><th>Y</th><th></th><th></th></tr></thead>
+    <tbody>
+        @foreach (var p in Model.Positions)
+        {
+            var editFormId = $"editPos_{p.Id}";
+            var removeFormId = $"removePos_{p.Id}";
+            <tr>
+                <td>
+                    <input form="@editFormId" type="hidden" name="Id" value="@p.Id" />
+                    <input form="@editFormId" type="hidden" name="FormationId" value="@Model.Formation.Id" />
+                    <input form="@editFormId" type="number" name="OrderIndex" value="@p.OrderIndex" min="0" max="10" class="form-control form-control-sm" style="width:5rem" />
+                </td>
+                <td>
+                    <select form="@editFormId" name="PositionId" class="form-select form-select-sm" asp-items="Model.PositionOptions" style="width:10rem"></select>
+                </td>
+                <td><input form="@editFormId" type="number" name="X" value="@p.X" min="0" max="100" class="form-control form-control-sm" style="width:5rem" /></td>
+                <td><input form="@editFormId" type="number" name="Y" value="@p.Y" min="0" max="100" class="form-control form-control-sm" style="width:5rem" /></td>
+                <td><button form="@editFormId" type="submit" class="btn btn-sm btn-secondary">Save</button></td>
+                <td><button form="@removeFormId" type="submit" class="btn btn-sm btn-danger">Remove</button></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (Model.Positions.Count < 11)
+{
+    <h5>Add position</h5>
+    <form asp-action="AddPosition" method="post" class="row g-2">
+        @Html.AntiForgeryToken()
+        <input type="hidden" name="FormationId" value="@Model.Formation.Id" />
+        <div class="col-auto">
+            <label class="form-label">Order</label>
+            <input type="number" name="OrderIndex" value="@Model.NewPosition.OrderIndex" min="0" max="10" class="form-control" style="width:5rem" />
+        </div>
+        <div class="col-auto">
+            <label class="form-label">Position</label>
+            <select name="PositionId" class="form-select" asp-items="Model.PositionOptions" style="width:12rem">
+                <option value="">-- select --</option>
+            </select>
+        </div>
+        <div class="col-auto">
+            <label class="form-label">X</label>
+            <input type="number" name="X" value="50" min="0" max="100" class="form-control" style="width:5rem" />
+        </div>
+        <div class="col-auto">
+            <label class="form-label">Y</label>
+            <input type="number" name="Y" value="50" min="0" max="100" class="form-control" style="width:5rem" />
+        </div>
+        <div class="col-auto align-self-end">
+            <button type="submit" class="btn btn-primary">Add</button>
+        </div>
+    </form>
+}
+else
+{
+    <p>All 11 slots are defined.</p>
+}
+
+<p class="mt-4"><a asp-action="Index">&laquo; Back to formations</a></p>

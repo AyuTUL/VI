@@ -1,0 +1,105 @@
+@model FifaSquadBuilder.ViewModels.Admin.PlayerFormViewModel
+
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<input type="hidden" asp-for="Id" />
+
+<div class="mb-3">
+    <label asp-for="CardImageUrl" class="form-label"></label>
+    <input asp-for="CardImageUrl" class="form-control" placeholder="https://... or /player-cards/name.png" />
+    <div class="form-text">Optional. Use a complete card image URL, or a local file under wwwroot/player-cards.</div>
+    <span asp-validation-for="CardImageUrl" class="text-danger"></span>
+</div>
+
+<div class="mb-3">
+    <label asp-for="Name" class="form-label"></label>
+    <input asp-for="Name" class="form-control" />
+    <span asp-validation-for="Name" class="text-danger"></span>
+</div>
+
+<div class="mb-3">
+    <label asp-for="Age" class="form-label"></label>
+    <input asp-for="Age" class="form-control" />
+    <span asp-validation-for="Age" class="text-danger"></span>
+</div>
+
+<div class="mb-3">
+    <label asp-for="PositionId" class="form-label">Position</label>
+    <select asp-for="PositionId" asp-items="Model.PositionOptions" class="form-select">
+        <option value="">-- select --</option>
+    </select>
+    <span asp-validation-for="PositionId" class="text-danger"></span>
+</div>
+
+<div class="mb-3">
+    <label asp-for="NationId" class="form-label">Nation</label>
+    <select asp-for="NationId" asp-items="Model.NationOptions" class="form-select">
+        <option value="">-- select --</option>
+    </select>
+    <span asp-validation-for="NationId" class="text-danger"></span>
+</div>
+
+<div class="mb-3">
+    <label asp-for="ClubId" class="form-label">Club</label>
+    <select asp-for="ClubId" asp-items="Model.ClubOptions" class="form-select"></select>
+    <span asp-validation-for="ClubId" class="text-danger"></span>
+</div>
+
+<div class="mb-3">
+    <label asp-for="Overall" class="form-label"></label>
+    <input asp-for="Overall" class="form-control" />
+    <span asp-validation-for="Overall" class="text-danger"></span>
+</div>
+
+<div class="mb-3">
+    <label asp-for="Potential" class="form-label"></label>
+    <input asp-for="Potential" class="form-control" />
+    <span asp-validation-for="Potential" class="text-danger"></span>
+</div>
+
+<div class="row">
+    <div class="col-md-4 mb-3">
+        <label asp-for="Pace" class="form-label">PAC</label>
+        <input asp-for="Pace" class="form-control" />
+        <span asp-validation-for="Pace" class="text-danger"></span>
+    </div>
+    <div class="col-md-4 mb-3">
+        <label asp-for="Shooting" class="form-label">SHO</label>
+        <input asp-for="Shooting" class="form-control" />
+        <span asp-validation-for="Shooting" class="text-danger"></span>
+    </div>
+    <div class="col-md-4 mb-3">
+        <label asp-for="Passing" class="form-label">PAS</label>
+        <input asp-for="Passing" class="form-control" />
+        <span asp-validation-for="Passing" class="text-danger"></span>
+    </div>
+    <div class="col-md-4 mb-3">
+        <label asp-for="Dribbling" class="form-label">DRI</label>
+        <input asp-for="Dribbling" class="form-control" />
+        <span asp-validation-for="Dribbling" class="text-danger"></span>
+    </div>
+    <div class="col-md-4 mb-3">
+        <label asp-for="Defending" class="form-label">DEF</label>
+        <input asp-for="Defending" class="form-control" />
+        <span asp-validation-for="Defending" class="text-danger"></span>
+    </div>
+    <div class="col-md-4 mb-3">
+        <label asp-for="Physicality" class="form-label">PHY</label>
+        <input asp-for="Physicality" class="form-control" />
+        <span asp-validation-for="Physicality" class="text-danger"></span>
+    </div>
+</div>
+
+<div class="mb-3">
+    <label asp-for="ValueEUR" class="form-label"></label>
+    <input asp-for="ValueEUR" class="form-control" />
+    <span asp-validation-for="ValueEUR" class="text-danger"></span>
+</div>
+
+<div class="mb-3">
+    <label asp-for="WageEUR" class="form-label"></label>
+    <input asp-for="WageEUR" class="form-control" />
+    <span asp-validation-for="WageEUR" class="text-danger"></span>
+</div>
+
+<button type="submit" class="btn btn-primary">Save</button>
+<a asp-action="Index" class="btn btn-link">Cancel</a>

@@ -1,0 +1,151 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="QjY4qPVeg371DLNrlIFU">
+    <mxGraphModel dx="1841" dy="1004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" plantUmlData="{&#xa;  &quot;data&quot;: &quot;@startuml\nleft to right direction\nskinparam packageStyle rectangle\n\nactor User\nactor Admin\n\nrectangle \&quot;Squad Management System\&quot; {\n  &#39; User Use Cases\n  usecase \&quot;Register Account\&quot; as UC_Register\n  usecase \&quot;Login / Logout\&quot; as UC_Auth\n  usecase \&quot;Create Squad\&quot; as UC_CreateSquad\n  usecase \&quot;Search &amp; Filter Players\&quot; as UC_SearchPlayers\n  usecase \&quot;Assign Player to Slot/Bench\&quot; as UC_AssignPlayer\n  usecase \&quot;Change Formation\&quot; as UC_ChangeFormation\n  usecase \&quot;View Squad Statistics &amp; Weak Positions\&quot; as UC_ViewStats\n  usecase \&quot;Delete Squad\&quot; as UC_DeleteSquad\n\n  &#39; Admin Use Cases\n  usecase \&quot;Manage Players (CRUD)\&quot; as UC_ManagePlayers\n  usecase \&quot;Manage Formations &amp; Pitch Slots\&quot; as UC_ManageFormations\n  usecase \&quot;Import Player Dataset\&quot; as UC_ImportDataset\n  usecase \&quot;Manage User Roles\&quot; as UC_ManageRoles\n}\n\n&#39; User Associations\nUser --&gt; UC_Register\nUser --&gt; UC_Auth\nUser --&gt; UC_CreateSquad\nUser --&gt; UC_SearchPlayers\nUser --&gt; UC_AssignPlayer\nUser --&gt; UC_ChangeFormation\nUser --&gt; UC_ViewStats\nUser --&gt; UC_DeleteSquad\n\n&#39; Admin Associations (Admin inherits or shares auth/registration if needed, or handles system management)\nAdmin --&gt; UC_Auth\nAdmin --&gt; UC_ManagePlayers\nAdmin --&gt; UC_ManageFormations\nAdmin --&gt; UC_ImportDataset\nAdmin --&gt; UC_ManageRoles\n\n@enduml&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="PwWJeeuwzYg_rDsubcjC-53">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="FIFA Squad Builder" plantUmlId="rect_0" plantUmlBaseStyle="swimlane;collapsible=0;startSize=26;fillColor=none;strokeColor=#181818;fontColor=#000000;fontSize=13;fontStyle=1;whiteSpace=wrap;" plantUmlBaseValue="Squad Management System" id="PwWJeeuwzYg_rDsubcjC-54">
+          <mxCell parent="PwWJeeuwzYg_rDsubcjC-53" style="swimlane;collapsible=0;startSize=26;fillColor=none;strokeColor=#181818;fontColor=#000000;fontSize=13;fontStyle=1;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="914" width="354" x="160" y="510" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Register Account" plantUmlId="uc_1" plantUmlBaseStyle="ellipse;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=12;" plantUmlBaseValue="Register Account" id="PwWJeeuwzYg_rDsubcjC-55">
+          <mxCell parent="PwWJeeuwzYg_rDsubcjC-54" style="ellipse;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=12;" vertex="1">
+            <mxGeometry height="34" width="167" x="93.5" y="46" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Create Squad" plantUmlId="uc_2" plantUmlBaseStyle="ellipse;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=12;" plantUmlBaseValue="Create Squad" id="PwWJeeuwzYg_rDsubcjC-56">
+          <mxCell parent="PwWJeeuwzYg_rDsubcjC-54" style="ellipse;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=12;" vertex="1">
+            <mxGeometry height="34" width="143" x="105.5" y="120" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Search &amp; Filter Players" plantUmlId="uc_3" plantUmlBaseStyle="ellipse;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=12;" plantUmlBaseValue="Search &amp; Filter Players" id="PwWJeeuwzYg_rDsubcjC-57">
+          <mxCell parent="PwWJeeuwzYg_rDsubcjC-54" style="ellipse;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=12;" vertex="1">
+            <mxGeometry height="34" width="203" x="75.5" y="194" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Assign Player to Slot/Bench" plantUmlId="uc_4" plantUmlBaseStyle="ellipse;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=12;" plantUmlBaseValue="Assign Player to Slot/Bench" id="PwWJeeuwzYg_rDsubcjC-58">
+          <mxCell parent="PwWJeeuwzYg_rDsubcjC-54" style="ellipse;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=12;" vertex="1">
+            <mxGeometry height="34" width="238" x="58" y="268" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Change Formation" plantUmlId="uc_5" plantUmlBaseStyle="ellipse;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=12;" plantUmlBaseValue="Change Formation" id="PwWJeeuwzYg_rDsubcjC-59">
+          <mxCell parent="PwWJeeuwzYg_rDsubcjC-54" style="ellipse;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=12;" vertex="1">
+            <mxGeometry height="34" width="174" x="90" y="342" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="View Squad Statistics &amp; Weak Positions" plantUmlId="uc_6" plantUmlBaseStyle="ellipse;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=12;" plantUmlBaseValue="View Squad Statistics &amp; Weak Positions" id="PwWJeeuwzYg_rDsubcjC-60">
+          <mxCell parent="PwWJeeuwzYg_rDsubcjC-54" style="ellipse;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=12;" vertex="1">
+            <mxGeometry height="34" width="314" x="20" y="416" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Delete Squad" plantUmlId="uc_7" plantUmlBaseStyle="ellipse;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=12;" plantUmlBaseValue="Delete Squad" id="PwWJeeuwzYg_rDsubcjC-61">
+          <mxCell parent="PwWJeeuwzYg_rDsubcjC-54" style="ellipse;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=12;" vertex="1">
+            <mxGeometry height="34" width="143" x="105.5" y="490" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Login / Logout" plantUmlId="uc_8" plantUmlBaseStyle="ellipse;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=12;" plantUmlBaseValue="Login / Logout" id="PwWJeeuwzYg_rDsubcjC-62">
+          <mxCell parent="PwWJeeuwzYg_rDsubcjC-54" style="ellipse;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=12;" vertex="1">
+            <mxGeometry height="34" width="155" x="99.5" y="564" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Manage Players (CRUD)" plantUmlId="uc_9" plantUmlBaseStyle="ellipse;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=12;" plantUmlBaseValue="Manage Players (CRUD)" id="PwWJeeuwzYg_rDsubcjC-63">
+          <mxCell parent="PwWJeeuwzYg_rDsubcjC-54" style="ellipse;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=12;" vertex="1">
+            <mxGeometry height="34" width="206" x="74" y="638" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Manage Formations &amp; Pitch Slots" plantUmlId="uc_10" plantUmlBaseStyle="ellipse;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=12;" plantUmlBaseValue="Manage Formations &amp; Pitch Slots" id="PwWJeeuwzYg_rDsubcjC-64">
+          <mxCell parent="PwWJeeuwzYg_rDsubcjC-54" style="ellipse;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=12;" vertex="1">
+            <mxGeometry height="34" width="270" x="42" y="712" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Import Player Dataset" plantUmlId="uc_11" plantUmlBaseStyle="ellipse;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=12;" plantUmlBaseValue="Import Player Dataset" id="PwWJeeuwzYg_rDsubcjC-65">
+          <mxCell parent="PwWJeeuwzYg_rDsubcjC-54" style="ellipse;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=12;" vertex="1">
+            <mxGeometry height="34" width="195" x="79.5" y="786" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Manage User Roles" plantUmlId="uc_12" plantUmlBaseStyle="ellipse;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=12;" plantUmlBaseValue="Manage User Roles" id="PwWJeeuwzYg_rDsubcjC-66">
+          <mxCell parent="PwWJeeuwzYg_rDsubcjC-54" style="ellipse;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=12;" vertex="1">
+            <mxGeometry height="34" width="182" x="86" y="860" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="User" plantUmlId="actorlbl_14" plantUmlBaseStyle="text;html=1;align=center;verticalAlign=top;fontColor=#000000;fontSize=12;" plantUmlBaseValue="User" id="PwWJeeuwzYg_rDsubcjC-68">
+          <mxCell parent="PwWJeeuwzYg_rDsubcjC-53" style="text;html=1;align=center;verticalAlign=top;fontColor=#000000;fontSize=12;" vertex="1">
+            <mxGeometry height="16" width="40" x="317" y="572" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="PwWJeeuwzYg_rDsubcjC-91" edge="1" parent="1" source="PwWJeeuwzYg_rDsubcjC-85" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PwWJeeuwzYg_rDsubcjC-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PwWJeeuwzYg_rDsubcjC-92" edge="1" parent="1" source="PwWJeeuwzYg_rDsubcjC-85" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PwWJeeuwzYg_rDsubcjC-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PwWJeeuwzYg_rDsubcjC-93" edge="1" parent="1" source="PwWJeeuwzYg_rDsubcjC-85" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PwWJeeuwzYg_rDsubcjC-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PwWJeeuwzYg_rDsubcjC-94" edge="1" parent="1" source="PwWJeeuwzYg_rDsubcjC-85" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PwWJeeuwzYg_rDsubcjC-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PwWJeeuwzYg_rDsubcjC-95" edge="1" parent="1" source="PwWJeeuwzYg_rDsubcjC-85" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PwWJeeuwzYg_rDsubcjC-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PwWJeeuwzYg_rDsubcjC-97" edge="1" parent="1" source="PwWJeeuwzYg_rDsubcjC-85" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PwWJeeuwzYg_rDsubcjC-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PwWJeeuwzYg_rDsubcjC-98" edge="1" parent="1" source="PwWJeeuwzYg_rDsubcjC-85" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PwWJeeuwzYg_rDsubcjC-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PwWJeeuwzYg_rDsubcjC-99" edge="1" parent="1" source="PwWJeeuwzYg_rDsubcjC-85" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PwWJeeuwzYg_rDsubcjC-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PwWJeeuwzYg_rDsubcjC-100" edge="1" parent="1" source="PwWJeeuwzYg_rDsubcjC-85" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PwWJeeuwzYg_rDsubcjC-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PwWJeeuwzYg_rDsubcjC-101" edge="1" parent="1" source="PwWJeeuwzYg_rDsubcjC-85" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PwWJeeuwzYg_rDsubcjC-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PwWJeeuwzYg_rDsubcjC-102" edge="1" parent="1" source="PwWJeeuwzYg_rDsubcjC-85" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PwWJeeuwzYg_rDsubcjC-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PwWJeeuwzYg_rDsubcjC-103" edge="1" parent="1" source="PwWJeeuwzYg_rDsubcjC-85" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PwWJeeuwzYg_rDsubcjC-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PwWJeeuwzYg_rDsubcjC-85" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" value="Admin" vertex="1">
+          <mxGeometry height="80" width="40" x="40" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="PwWJeeuwzYg_rDsubcjC-105" edge="1" parent="1" source="PwWJeeuwzYg_rDsubcjC-86" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="PwWJeeuwzYg_rDsubcjC-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PwWJeeuwzYg_rDsubcjC-106" edge="1" parent="1" source="PwWJeeuwzYg_rDsubcjC-86" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="PwWJeeuwzYg_rDsubcjC-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PwWJeeuwzYg_rDsubcjC-107" edge="1" parent="1" source="PwWJeeuwzYg_rDsubcjC-86" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="PwWJeeuwzYg_rDsubcjC-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PwWJeeuwzYg_rDsubcjC-108" edge="1" parent="1" source="PwWJeeuwzYg_rDsubcjC-86" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="PwWJeeuwzYg_rDsubcjC-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PwWJeeuwzYg_rDsubcjC-109" edge="1" parent="1" source="PwWJeeuwzYg_rDsubcjC-86" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="PwWJeeuwzYg_rDsubcjC-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PwWJeeuwzYg_rDsubcjC-110" edge="1" parent="1" source="PwWJeeuwzYg_rDsubcjC-86" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="PwWJeeuwzYg_rDsubcjC-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PwWJeeuwzYg_rDsubcjC-111" edge="1" parent="1" source="PwWJeeuwzYg_rDsubcjC-86" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="PwWJeeuwzYg_rDsubcjC-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PwWJeeuwzYg_rDsubcjC-112" edge="1" parent="1" source="PwWJeeuwzYg_rDsubcjC-86" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="PwWJeeuwzYg_rDsubcjC-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PwWJeeuwzYg_rDsubcjC-86" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" value="User" vertex="1">
+          <mxGeometry height="80" width="40" x="600" y="920" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,14 @@
+@model FifaSquadBuilder.ViewModels.Admin.PlayerFormViewModel
+@{
+    ViewData["Title"] = "Add Player";
+}
+
+<h1>Add Player</h1>
+
+<form asp-action="Create" method="post">
+    @await Html.PartialAsync("_Form", Model)
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
