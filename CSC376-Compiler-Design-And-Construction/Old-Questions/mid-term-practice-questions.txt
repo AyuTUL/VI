@@ -1,0 +1,43 @@
+s1. phases of compiler: FIG
+analysis: intermediate representation is created from sorue program, called front end of compiler
+
+-lexical analysis:
+	input is source program and output is tokens
+	read charactesr one by one fet to right and forms tokens
+	token is logically cohesive sequence of charactesr like keywords,oeprators,identifies
+	lexeme is gfropu of charactesr forming a token
+	LA enters lexewme into symbol table
+
+-syntax analysis:
+	input is token stream from LA and output is syntax tree
+	interior nodes are operators and exterior are operands
+	checks that expression made by token is syntactically correct according to syntax rules of source language
+
+-semantic analysis:
+	input is parse tree from SA to identify operators and operands
+	checks for semnatic erors and gather type infroaation accorsding to source language specification for next phase
+
+-intermediate code generation:
+	input from SA converted into simple machine independent intermediate code like 3 address code
+
+synthesis: equivalent target program is created from intermediate representation from analkysis, called back end of compiler
+
+-code optimization:
+	input is intermiedate code and output is optimized intermediate code taht is faster using less memory
+	reduces redundant code without affecting result of program
+	calculation of constanst in expressions, collapse repeated exeprsesiosn in temporary strings, loop unrolling
+
+-code generation:
+	input from CO and produces target code as output
+	intermediate instruction are translated into sequeunce of machine instructions perfomring same tasks
+	allocation of register and memory, generation of correct erefences, data types, missing code
+
+symbol table management:
+	store info about identifiers
+	data structure contaitng record for each idetntife with fields for attributes of identifier like type, scope, memory location
+	sotre/ retireve data from recrd fast
+
+erro handling:
+	invoked when error is encountered during compilation os source program
+	generates suitable error report message regarding error encountered
+	separation of tokens, construction of syntax tree, result affected by optimzation, missing code
