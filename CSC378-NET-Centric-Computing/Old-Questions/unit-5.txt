@@ -1,0 +1,28 @@
+1. ado.net FIG
+-ActiveX Data Objects .NET)
+-core component of .NET framework class library that provides data access services
+-allows .NET app to connect to RDBMS to wexecute SQL commands and retrieve structured data
+
+components of ADO.NET:
+-connection class:
+	establishes communication between app and database
+	SqlConnection
+	server, database, trusted_connection, TrustServerCertificate
+
+-command class:
+	executes SQL statements against database
+	SqlCommand
+
+-data reader class:
+	reads records one by one from database
+	requires constant connection
+	SqlDataReader
+
+-data adapter class:
+	transfers data between database and dataset
+	can work disconnected
+	SqlDataAdapter
+
+-dataset class: 
+	store disconnected data
+	DataSet

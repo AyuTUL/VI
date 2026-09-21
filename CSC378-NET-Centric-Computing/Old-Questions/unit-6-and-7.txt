@@ -1,0 +1,164 @@
+1. tempdata:
+-store data temporarily between 2 requests when redirecting from one action to another
+-eg:after saving student record : save -> redirect to index -> show -> student saved successfully
+
+2. SPA:
+-modern web app architecture that loads single main HTML document in browser and dynamically updates
+content without requiring full page r3efresh whenever user interacts with app
+-re render inl necessary visual components instead of fetching compelte gTML document from server on
+every link click by communicating with Web APIs asyncly via HTTP/AJAX requests to exchange JSON data
+
+server side strategies: preserving data on web server across stateless HTTP request cycles
+-Session State:
+	stores user data on server associating with unqiue session ID stored in client side cookie
+	mainitiang authenticated user identity, active shopping cart items, persistnet user config settin
+	
+-TempData:
+	retain short lived server data across 2 consective HTTP requests
+	-transfer notification message, single use validation warnings across controller action redirects
+
+-HttpContext:
+	encapsulates all HTTP specific info about individual request and response pipeline
+	access request headers, user identities, security claims, request scoped items during execution
+
+-Caching:
+	stores high demand, frequently accessed data directly in RAM or in external distributed cache
+	reduce database workload and speed up execution for static and slow changing data
+
+3.
+-HTTP is inherently stateless protocol, meaning web server treats every incoming HTTP request as
+entirely independent transaction without buit in memory of preceind requests
+
+server side strategies: preserving data on web server across stateless HTTP request cycles
+-Session State:
+	stores user data on server associating with unqiue session ID stored in client side cookie
+	mainitiang authenticated user identity, active shopping cart items, persistnet user config settin
+	
+-TempData:
+	retain short lived server data across 2 consective HTTP requests
+	-transfer notification message, single use validation warnings across controller action redirects
+
+-HttpContext:
+	encapsulates all HTTP specific info about individual request and response pipeline
+	access request headers, user identities, security claims, request scoped items during execution
+
+-Caching:
+	stores high demand, frequently accessed data directly in RAM or in external distributed cache
+	reduce database workload and speed up execution for static and slow changing data
+
+client side strategies: preserve data in web browser without server side memory allocation
+-Cookies:
+	small text files stored directly inside user's browser directory
+	expilict expiration dates or expires when browser closes
+	storing auth tokens, remember me credentials, site theme preferences
+
+-Query Strings:
+	info appended directly to end of destination page URL followed by ? as key-value pairs
+	https://example.com/Student?id=105&course=CSIT
+	highly transparent, bookmarable but less secure
+	serach engine query terms, page numbers, passing record IDs between pages
+
+-Hidden Fields:
+	invisible HTML input elemnts inside <form> element
+	<input type="hidden" id="studentId" value="101" />
+	data is not visible on UI but gets posted to server in HTTP request body on form submit
+	retain database record ID, anti forgery request tokens
+
+jQuery form validation:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library Management - Student Entry</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .error { color: red; font-size: 13px; display: block; }
+        .form-group { margin-bottom: 12px; }
+    </style>
+</head>
+<body>
+    <h2>Library Book Issue Form</h2>
+    <form id="libraryForm">
+        <div class="form-group">
+            <label>Student Name:</label>
+            <input type="text" id="studentName" />
+            <span id="nameErr" class="error"></span>
+        </div>
+        <div class="form-group">
+            <label>Email Address:</label>
+            <input type="text" id="email" />
+            <span id="emailErr" class="error"></span>
+        </div>
+        <div class="form-group">
+            <label>Book Name:</label>
+            <input type="text" id="bookName" />
+            <span id="bookErr" class="error"></span>
+        </div>
+        <div class="form-group">
+            <label>Phone Number:</label>
+            <input type="text" id="phone" />
+            <span id="phoneErr" class="error"></span>
+        </div>
+        <button type="submit">Issue Book</button>
+    </form>
+
+    <script>
+        $(document).ready(function () {
+            $('#libraryForm').submit(function (e) {
+                e.preventDefault(); // Block default form submission
+                
+                // Clear existing error messages
+                $('.error').text('');
+                let isValid = true;
+
+                // Read input values
+                let name = $('#studentName').val().trim();
+                let email = $('#email').val().trim();
+                let book = $('#bookName').val().trim();
+                let phone = $('#phone').val().trim();
+
+                // 1. Validate Student Name
+                if (name === '') {
+                    $('#nameErr').text('Student Name is required.');
+                    isValid = false;
+                }
+
+                // 2. Validate Email
+                let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (email === '') {
+                    $('#emailErr').text('Email is required.');
+                    isValid = false;
+                } else if (!emailRegex.test(email)) {
+                    $('#emailErr').text('Enter a valid email address.');
+                    isValid = false;
+                }
+
+                // 3. Validate Book Name
+                if (book === '') {
+                    $('#bookErr').text('Book Name is required.');
+                    isValid = false;
+                }
+
+                // 4. Validate Phone Number (Exactly 10 digits)
+                let phoneRegex = /^[14-22]{10}$/;
+                if (phone === '') {
+                    $('#phoneErr').text('Phone Number is required.');
+                    isValid = false;
+                } else if (!phoneRegex.test(phone)) {
+                    $('#phoneErr').text('Phone number must contain exactly 10 numeric digits.');
+                    isValid = false;
+                }
+
+                // Submit if valid
+                if (isValid) {
+                    alert('Form validated successfully! Book Issued.');
+                    // Example submission: this.submit();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
+4. state management
+-technique of preserving and retriving state data like user credentials, active sessions, preferences
+across multiple HTTP requests over stateless web protocol
