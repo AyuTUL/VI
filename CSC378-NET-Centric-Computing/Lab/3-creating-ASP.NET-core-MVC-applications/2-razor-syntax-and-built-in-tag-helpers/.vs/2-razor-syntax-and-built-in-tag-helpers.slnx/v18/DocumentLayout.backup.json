@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\3-creating-ASP.NET-core-MVC-applications\\2-razor-syntax-and-built-in-tag-helpers\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB4BC08E-4009-4A92-9E39-57AAB60B98D7}|2-razor-syntax-and-built-in-tag-helpers.csproj|e:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\3-creating-asp.net-core-mvc-applications\\2-razor-syntax-and-built-in-tag-helpers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB4BC08E-4009-4A92-9E39-57AAB60B98D7}|2-razor-syntax-and-built-in-tag-helpers.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB4BC08E-4009-4A92-9E39-57AAB60B98D7}|2-razor-syntax-and-built-in-tag-helpers.csproj|e:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\3-creating-asp.net-core-mvc-applications\\2-razor-syntax-and-built-in-tag-helpers\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB4BC08E-4009-4A92-9E39-57AAB60B98D7}|2-razor-syntax-and-built-in-tag-helpers.csproj|solutionrelative:controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB4BC08E-4009-4A92-9E39-57AAB60B98D7}|2-razor-syntax-and-built-in-tag-helpers.csproj|e:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\3-creating-asp.net-core-mvc-applications\\2-razor-syntax-and-built-in-tag-helpers\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB4BC08E-4009-4A92-9E39-57AAB60B98D7}|2-razor-syntax-and-built-in-tag-helpers.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB4BC08E-4009-4A92-9E39-57AAB60B98D7}|2-razor-syntax-and-built-in-tag-helpers.csproj|e:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\3-creating-asp.net-core-mvc-applications\\2-razor-syntax-and-built-in-tag-helpers\\views\\registration\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB4BC08E-4009-4A92-9E39-57AAB60B98D7}|2-razor-syntax-and-built-in-tag-helpers.csproj|solutionrelative:views\\registration\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB4BC08E-4009-4A92-9E39-57AAB60B98D7}|2-razor-syntax-and-built-in-tag-helpers.csproj|e:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\3-creating-asp.net-core-mvc-applications\\2-razor-syntax-and-built-in-tag-helpers\\models\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB4BC08E-4009-4A92-9E39-57AAB60B98D7}|2-razor-syntax-and-built-in-tag-helpers.csproj|solutionrelative:models\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegistrationController.cs",
+              "DocumentMoniker": "E:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\3-creating-ASP.NET-core-MVC-applications\\2-razor-syntax-and-built-in-tag-helpers\\Controllers\\RegistrationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RegistrationController.cs",
+              "ToolTip": "E:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\3-creating-ASP.NET-core-MVC-applications\\2-razor-syntax-and-built-in-tag-helpers\\Controllers\\RegistrationController.cs",
+              "RelativeToolTip": "Controllers\\RegistrationController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAhwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T16:58:35.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\3-creating-ASP.NET-core-MVC-applications\\2-razor-syntax-and-built-in-tag-helpers\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\3-creating-ASP.NET-core-MVC-applications\\2-razor-syntax-and-built-in-tag-helpers\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T17:00:24.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\3-creating-ASP.NET-core-MVC-applications\\2-razor-syntax-and-built-in-tag-helpers\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\3-creating-ASP.NET-core-MVC-applications\\2-razor-syntax-and-built-in-tag-helpers\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T16:59:48.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\3-creating-ASP.NET-core-MVC-applications\\2-razor-syntax-and-built-in-tag-helpers\\Views\\Registration\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Registration\\Index.cshtml",
+              "ToolTip": "E:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\3-creating-ASP.NET-core-MVC-applications\\2-razor-syntax-and-built-in-tag-helpers\\Views\\Registration\\Index.cshtml",
+              "RelativeToolTip": "Views\\Registration\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwBEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-07T16:59:27.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Registration.cs",
+              "DocumentMoniker": "E:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\3-creating-ASP.NET-core-MVC-applications\\2-razor-syntax-and-built-in-tag-helpers\\Models\\Registration.cs",
+              "RelativeDocumentMoniker": "Models\\Registration.cs",
+              "ToolTip": "E:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\3-creating-ASP.NET-core-MVC-applications\\2-razor-syntax-and-built-in-tag-helpers\\Models\\Registration.cs",
+              "RelativeToolTip": "Models\\Registration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T16:58:54.098Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+﻿@model _3_client_and_server_side_model_validation.Models.Employee
+
+<h2>Employee Registration</h2>
+
+<form asp-action="Index" method="post">
+
+    <div>
+        <label asp-for="Name">Name : </label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+    </div>
+
+    <br />
+
+    <div>
+        <label asp-for="Email">Email : </label>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email"></span>
+    </div>
+
+    <br />
+
+    <div>
+        <label asp-for="Age">Age : </label>
+        <input asp-for="Age" />
+        <span asp-validation-for="Age"></span>
+    </div>
+
+    <br />
+
+    <div>
+        <label asp-for="Salary">Salary : </label>
+        <input asp-for="Salary" />
+        <span asp-validation-for="Salary"></span>
+    </div>
+
+    <br />
+
+    <button type="submit">Register</button>
+
+</form>
+
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial" />
+}
