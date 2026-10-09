@@ -1,0 +1,9 @@
+E:\Ayu\CSIT\VI\CSC378-NET-Centric-Computing\Lab\4-working-with-database\1-entity-framework-core\obj\Debug\net10.0\rpswa.dswa.cache.json
+E:\Ayu\CSIT\VI\CSC378-NET-Centric-Computing\Lab\4-working-with-database\1-entity-framework-core\obj\Debug\net10.0\1-entity-framework-core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Ayu\CSIT\VI\CSC378-NET-Centric-Computing\Lab\4-working-with-database\1-entity-framework-core\obj\Debug\net10.0\1-entity-framework-core.AssemblyInfoInputs.cache
+E:\Ayu\CSIT\VI\CSC378-NET-Centric-Computing\Lab\4-working-with-database\1-entity-framework-core\obj\Debug\net10.0\1-entity-framework-core.AssemblyInfo.cs
+E:\Ayu\CSIT\VI\CSC378-NET-Centric-Computing\Lab\4-working-with-database\1-entity-framework-core\obj\Debug\net10.0\1-entity-framework-core.csproj.CoreCompileInputs.cache
+E:\Ayu\CSIT\VI\CSC378-NET-Centric-Computing\Lab\4-working-with-database\1-entity-framework-core\obj\Debug\net10.0\1-entity-framework-core.MvcApplicationPartsAssemblyInfo.cache
+E:\Ayu\CSIT\VI\CSC378-NET-Centric-Computing\Lab\4-working-with-database\1-entity-framework-core\obj\Debug\net10.0\1-entity-framework-core.RazorAssemblyInfo.cache
+E:\Ayu\CSIT\VI\CSC378-NET-Centric-Computing\Lab\4-working-with-database\1-entity-framework-core\obj\Debug\net10.0\1-entity-framework-core.RazorAssemblyInfo.cs
+E:\Ayu\CSIT\VI\CSC378-NET-Centric-Computing\Lab\4-working-with-database\1-entity-framework-core\obj\Debug\net10.0\1-entity-framework-core.sourcelink.json
