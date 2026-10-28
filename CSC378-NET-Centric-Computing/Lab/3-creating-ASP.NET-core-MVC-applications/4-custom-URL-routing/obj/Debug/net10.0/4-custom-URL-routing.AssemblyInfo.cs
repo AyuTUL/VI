@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("4-custom-URL-routing")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c48d9e911d7d303f08a79c9bf387534e08e6cdbc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c28456ef8fb5e70693b2443ecd62171fbfb760f")]
 [assembly: System.Reflection.AssemblyProductAttribute("4-custom-URL-routing")]
 [assembly: System.Reflection.AssemblyTitleAttribute("4-custom-URL-routing")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

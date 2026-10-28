@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("2-razor-syntax-and-built-in-tag-helpers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9878763619902c511918f136301846852aea066c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c28456ef8fb5e70693b2443ecd62171fbfb760f")]
 [assembly: System.Reflection.AssemblyProductAttribute("2-razor-syntax-and-built-in-tag-helpers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("2-razor-syntax-and-built-in-tag-helpers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

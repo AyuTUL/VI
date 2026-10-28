@@ -1,5 +1,6 @@
 
 using _1_entity_framework_core.Data;
+using _1_entity_framework_core.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,13 +17,57 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 var app = builder.Build();
 
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    db.Database.EnsureCreated();
+}
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthorization();
 
+app.MapGet("/books", async (ApplicationDbContext db) =>
+    await db.Books.ToListAsync());
+
+app.MapGet("/books/{id:int}", async (int id, ApplicationDbContext db) =>
+{
+    var book = await db.Books.FindAsync(id);
+    return book is null ? Results.NotFound() : Results.Ok(book);
+});
+
+app.MapPost("/books", async (Book book, ApplicationDbContext db) =>
+{
+    db.Books.Add(book);
+    await db.SaveChangesAsync();
+    return Results.Created($"/books/{book.Id}", book);
+});
+
+app.MapPut("/books/{id:int}", async (int id, Book input, ApplicationDbContext db) =>
+{
+    var book = await db.Books.FindAsync(id);
+    if (book is null) return Results.NotFound();
+
+    book.Title = input.Title;
+    book.Author = input.Author;
+
+    await db.SaveChangesAsync();
+    return Results.NoContent();
+});
+
+app.MapDelete("/books/{id:int}", async (int id, ApplicationDbContext db) =>
+{
+    var book = await db.Books.FindAsync(id);
+    if (book is null) return Results.NotFound();
+
+    db.Books.Remove(book);
+    await db.SaveChangesAsync();
+    return Results.NoContent();
+});
+
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Books}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();

@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "E:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\3-creating-ASP.NET-core-MVC-applications\\1-product-list\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42BFA67F-27EA-4767-B330-16EEDD9B3FE9}|1-product-list.csproj|e:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\3-creating-asp.net-core-mvc-applications\\1-product-list\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42BFA67F-27EA-4767-B330-16EEDD9B3FE9}|1-product-list.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{43B1E52C-215A-C4C9-5D7C-67AAB371441F}|1-product-list.csproj|e:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\3-creating-asp.net-core-mvc-applications\\1-product-list\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43B1E52C-215A-C4C9-5D7C-67AAB371441F}|1-product-list.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42BFA67F-27EA-4767-B330-16EEDD9B3FE9}|1-product-list.csproj|e:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\3-creating-asp.net-core-mvc-applications\\1-product-list\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42BFA67F-27EA-4767-B330-16EEDD9B3FE9}|1-product-list.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{43B1E52C-215A-C4C9-5D7C-67AAB371441F}|1-product-list.csproj|e:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\3-creating-asp.net-core-mvc-applications\\1-product-list\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43B1E52C-215A-C4C9-5D7C-67AAB371441F}|1-product-list.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42BFA67F-27EA-4767-B330-16EEDD9B3FE9}|1-product-list.csproj|e:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\3-creating-asp.net-core-mvc-applications\\1-product-list\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42BFA67F-27EA-4767-B330-16EEDD9B3FE9}|1-product-list.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{43B1E52C-215A-C4C9-5D7C-67AAB371441F}|1-product-list.csproj|e:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\3-creating-asp.net-core-mvc-applications\\1-product-list\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43B1E52C-215A-C4C9-5D7C-67AAB371441F}|1-product-list.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42BFA67F-27EA-4767-B330-16EEDD9B3FE9}|1-product-list.csproj|e:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\3-creating-asp.net-core-mvc-applications\\1-product-list\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{42BFA67F-27EA-4767-B330-16EEDD9B3FE9}|1-product-list.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{43B1E52C-215A-C4C9-5D7C-67AAB371441F}|1-product-list.csproj|e:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\3-creating-asp.net-core-mvc-applications\\1-product-list\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43B1E52C-215A-C4C9-5D7C-67AAB371441F}|1-product-list.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
               "ToolTip": "E:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\3-creating-ASP.NET-core-MVC-applications\\1-product-list\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-07T16:57:24.675Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T16:57:06.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-07T16:57:06.337Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T16:57:02.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-07T16:57:02.676Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "Views\\Product\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-07T16:56:47.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-07T16:56:47.258Z"
             }
           ]
         }

@@ -11,6 +11,17 @@ namespace _2_razor_syntax_and_built_in_tag_helpers.Controllers
             return View();
         }
 
+        [HttpPost]
+        public IActionResult Register(Registration model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View("Index", model);
+            }
+
+            return View("Index", model);
+        }
+
         public IActionResult Privacy()
         {
             return View();
