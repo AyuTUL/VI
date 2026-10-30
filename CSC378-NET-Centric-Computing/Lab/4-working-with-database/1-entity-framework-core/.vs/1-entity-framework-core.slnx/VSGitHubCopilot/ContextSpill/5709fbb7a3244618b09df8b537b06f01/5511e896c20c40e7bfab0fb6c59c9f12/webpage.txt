@@ -1,0 +1,609 @@
+﻿Extracted web page content in markdown format:
+[Start contents for https://github.com/ayghri/i-have-adhd]
+Skip to content 
+
+## Navigation Menu
+
+[Sign in](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fayghri%2Fi-have-adhd)
+
+- 
+
+Products
+
+    - 
+
+Platform
+        - [![Image](https://github.githubassets.com/assets/platform-4ce65ae0bf273ce2.png)
+![Image](https://github.githubassets.com/assets/platform-dark-ac89fbf373737ed3.png)
+GitHubRepository hosting, code review, and collaboration](https://github.com/platform)
+        - [![Image](https://github.githubassets.com/assets/copilot-e2b89335a66dba00.png)
+![Image](https://github.githubassets.com/assets/copilot-dark-2b28403b6080e898.png)
+CopilotAI coding agent for tasks, projects and automated work](https://github.com/features/copilot)
+    - 
+
+Build & Ship
+        - [ActionsCI/CD and automation](https://github.com/features/actions)
+        - [Code QualityQuality analysis, fixes, and enforcement](https://github.com/features/code-quality)
+        - [CodespacesCloud development environments](https://github.com/features/codespaces)
+    - 
+
+Secure
+        - [Code SecurityVulnerability detection and remediation](https://github.com/security/advanced-security/code-security)
+        - [Secret ProtectionSecret scanning and leak prevention](https://github.com/security/advanced-security/secret-protection)
+[All Features](https://github.com/features)
+- 
+
+Developers
+
+    - 
+
+Learn
+        - [Documentation](https://docs.github.com/en)
+        - [Training](https://learn.github.com/skills)
+        - [Certifications](https://learn.github.com/credentials)
+    - 
+
+Build
+        - [Build with Copilot](https://github.com/features/ai)
+        - [Customize Copilot](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-copilot-overview)
+        - [Integrations](https://github.com/marketplace)
+    - 
+
+Explore
+        - [Trending repos](https://github.com/trending)
+        - [GitHub Sponsors](https://github.com/open-source/sponsors)
+        - [Events](https://github.com/resources/events)
+    - 
+
+Changelog
+        - [![Image](https://github.githubassets.com/assets/changelog-fd687bff072883b0.png)
+![Image](https://github.githubassets.com/assets/changelog-dark-b1c25ae971bd641b.png)
+ChangelogYour source for the latest features, improvements, and fixes across
+GitHub products, all in one place.](https://github.blog/changelog/)
+- 
+
+Businesses
+
+    - 
+
+By Stage
+        - [Enterprises](https://github.com/enterprise)
+        - [Team](https://github.com/team)
+        - [Startups](https://github.com/enterprise/startups)
+        - [Nonprofits](https://github.com/solutions/industry/nonprofits)
+    - 
+
+By Industry
+        - [Healthcare](https://github.com/solutions/industry/healthcare)
+        - [Financial services](https://github.com/solutions/industry/financial-services)
+        - [Manufacturing](https://github.com/solutions/industry/manufacturing)
+        - [Government](https://github.com/solutions/industry/government)
+        - [See all industries](https://github.com/solutions/industry)
+    - 
+
+Evaluate GitHub
+        - [Why GitHub](https://github.com/why-github)
+        - [Customer Stories](https://github.com/customer-stories)
+        - [Business insights](https://github.com/solutions/executive-insights)
+        - [Trust Center](https://github.com/trust-center)
+    - 
+
+Add-ons
+        - [GitHub Advanced SecurityEnterprise-grade code security](https://github.com/security/advanced-security)
+        - [Copilot for businessEnterprise-grade AI features](https://github.com/features/copilot/copilot-business)
+        - [Premium SupportEnterprise-grade 24/7 support](https://github.com/enterprise/premium-support)
+- 
+
+Resources
+
+    - 
+
+Learn & Connect
+        - [Documentation](https://docs.github.com/en)
+        - [Resource center](https://github.com/resources)
+        - [Blog](https://github.blog/)
+        - [Events & webinars](https://github.com/resources/events)
+        - [Community Forum](https://github.com/orgs/community/discussions)
+        - [Customer Stories](https://github.com/customer-stories)
+        - [Integrations](https://github.com/marketplace)
+    - 
+
+Support
+        - [Customer support](https://help.github.com/)
+        - [Training](https://learn.github.com/skills)
+        - [GitHub Status](https://www.githubstatus.com/)
+    - 
+
+Company
+        - [About](https://github.com/about)
+        - [Partners](https://github.com/partners)
+        - [Changelog](https://github.blog/changelog/)
+    - 
+
+GitHub Universe
+        - [![Image](https://github.githubassets.com/assets/universe-a98cd54821b27569.png)
+![Image](https://github.githubassets.com/assets/universe-a98cd54821b27569.png)
+GitHub UniverseThe event for developers, by developers — talks, workshops, and
+what’s next for GitHub.](https://githubuniverse.com/)
+- [Pricing](https://github.com/pricing)
+
+Search/
+
+[Sign in](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fayghri%2Fi-have-adhd)[
+Sign up](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=ayghri%2Fi-have-adhd)
+
+Appearance settings
+
+You signed in with another tab or window. Reload to refresh your session. You
+signed out in another tab or window. Reload to refresh your session. You
+switched accounts on another tab or window. Reload to refresh your session. 
+Dismiss alert 
+
+1. [ayghri](https://github.com/ayghri)
+1. i-have-adhd
+
+## Repository navigation
+
+- 
+- Code
+- [Issues33 (33)](https://github.com/ayghri/i-have-adhd/issues)
+- [Pull requests49 (49)](https://github.com/ayghri/i-have-adhd/pulls)
+- [Actions](https://github.com/ayghri/i-have-adhd/actions)
+- [Projects](https://github.com/ayghri/i-have-adhd/projects)
+- [Security and quality](https://github.com/ayghri/i-have-adhd/security)
+- [Insights](https://github.com/ayghri/i-have-adhd/pulse)
+
+More items
+
+![ayghri](https://avatars.githubusercontent.com/u/32200675?s=60&v=4)
+i-have-adhdPublic
+
+- [Notifications](https://github.com/login?return_to=%2Fayghri%2Fi-have-adhd)
+You must be signed in to change notification settings
+- [Fork3.5k (3.5k)](https://github.com/login?return_to=%2Fayghri%2Fi-have-adhd)
+- [Star59.4k (59.4k)](https://github.com/login?return_to=%2Fayghri%2Fi-have-adhd)
+You must be signed in to star a repository
+
+## About
+
+A skill to stop your coding agent from burying the answer. ADHD-friendly output.
+
+### Topics
+
+[adhd](https://github.com/topics/adhd)[claude-](https://github.com/topics/claude-)[
+claude-code-plugin](https://github.com/topics/claude-code-plugin)[claude-skills](https://github.com/topics/claude-skills)[
+developer-tools](https://github.com/topics/developer-tools)[productivity](https://github.com/topics/productivity)
+
+### Resources
+
+Readme
+
+MIT license
+
+### Contributing
+
+Contributing
+
+[Activity](https://github.com/ayghri/i-have-adhd/activity)
+
+### Stars
+
+59.4k stars
+
+### Watchers
+
+165 watching
+
+### Forks
+
+[3.5k forks](https://github.com/ayghri/i-have-adhd/forks)
+
+[Report repository](https://github.com/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fayghri%2Fi-have-adhd&report=ayghri+%28user%29)
+
+main
+
+[Branches](https://github.com/ayghri/i-have-adhd/branches)[Tags](https://github.com/ayghri/i-have-adhd/tags)
+
+Go to fileCode
+
+Open more actions menu
+
+## Latest commit
+
+## History
+
+[263 Commits](https://github.com/ayghri/i-have-adhd/commits/main/)
+
+263 Commits
+
+## Folders and files
+
+| Name | Name | 
+
+Last commit message | 
+
+Last commit date | 
+| --- | --- | --- | --- | 
+| 
+
+[.agents/plugins](https://github.com/ayghri/i-have-adhd/tree/main/.agents/plugins) | 
+
+[.agents/plugins](https://github.com/ayghri/i-have-adhd/tree/main/.agents/plugins) | 
+
+ | 
+
+ | 
+| 
+
+[.claude-plugin](https://github.com/ayghri/i-have-adhd/tree/main/.claude-plugin) | 
+
+[.claude-plugin](https://github.com/ayghri/i-have-adhd/tree/main/.claude-plugin) | 
+
+ | 
+
+ | 
+| 
+
+[.codex-plugin](https://github.com/ayghri/i-have-adhd/tree/main/.codex-plugin) | 
+
+[.codex-plugin](https://github.com/ayghri/i-have-adhd/tree/main/.codex-plugin) | 
+
+ | 
+
+ | 
+| 
+
+[.cursor/skills/i-have-adhd](https://github.com/ayghri/i-have-adhd/tree/main/.cursor/skills/i-have-adhd) | 
+
+[.cursor/skills/i-have-adhd](https://github.com/ayghri/i-have-adhd/tree/main/.cursor/skills/i-have-adhd) | 
+
+ | 
+
+ | 
+| 
+
+[.github](https://github.com/ayghri/i-have-adhd/tree/main/.github) | 
+
+[.github](https://github.com/ayghri/i-have-adhd/tree/main/.github) | 
+
+ | 
+
+ | 
+| 
+
+[.opencode](https://github.com/ayghri/i-have-adhd/tree/main/.opencode) | 
+
+[.opencode](https://github.com/ayghri/i-have-adhd/tree/main/.opencode) | 
+
+ | 
+
+ | 
+| 
+
+[evals](https://github.com/ayghri/i-have-adhd/tree/main/evals) | 
+
+[evals](https://github.com/ayghri/i-have-adhd/tree/main/evals) | 
+
+ | 
+
+ | 
+| 
+
+[extensions](https://github.com/ayghri/i-have-adhd/tree/main/extensions) | 
+
+[extensions](https://github.com/ayghri/i-have-adhd/tree/main/extensions) | 
+
+ | 
+
+ | 
+| 
+
+[hooks](https://github.com/ayghri/i-have-adhd/tree/main/hooks) | 
+
+[hooks](https://github.com/ayghri/i-have-adhd/tree/main/hooks) | 
+
+ | 
+
+ | 
+| 
+
+[scripts](https://github.com/ayghri/i-have-adhd/tree/main/scripts) | 
+
+[scripts](https://github.com/ayghri/i-have-adhd/tree/main/scripts) | 
+
+ | 
+
+ | 
+| 
+
+[skills/i-have-adhd](https://github.com/ayghri/i-have-adhd/tree/main/skills/i-have-adhd) | 
+
+[skills/i-have-adhd](https://github.com/ayghri/i-have-adhd/tree/main/skills/i-have-adhd) | 
+
+ | 
+
+ | 
+| 
+
+[tests](https://github.com/ayghri/i-have-adhd/tree/main/tests) | 
+
+[tests](https://github.com/ayghri/i-have-adhd/tree/main/tests) | 
+
+ | 
+
+ | 
+| 
+
+[.gitignore](https://github.com/ayghri/i-have-adhd/blob/main/.gitignore) | 
+
+[.gitignore](https://github.com/ayghri/i-have-adhd/blob/main/.gitignore) | 
+
+ | 
+
+ | 
+| 
+
+[AGENTS.md](https://github.com/ayghri/i-have-adhd/blob/main/AGENTS.md) | 
+
+[AGENTS.md](https://github.com/ayghri/i-have-adhd/blob/main/AGENTS.md) | 
+
+ | 
+
+ | 
+| 
+
+[CONTRIBUTING.md](https://github.com/ayghri/i-have-adhd/blob/main/CONTRIBUTING.md) | 
+
+[CONTRIBUTING.md](https://github.com/ayghri/i-have-adhd/blob/main/CONTRIBUTING.md) | 
+
+ | 
+
+ | 
+| 
+
+[GEMINI.md](https://github.com/ayghri/i-have-adhd/blob/main/GEMINI.md) | 
+
+[GEMINI.md](https://github.com/ayghri/i-have-adhd/blob/main/GEMINI.md) | 
+
+ | 
+
+ | 
+| 
+
+[INSTALL.md](https://github.com/ayghri/i-have-adhd/blob/main/INSTALL.md) | 
+
+[INSTALL.md](https://github.com/ayghri/i-have-adhd/blob/main/INSTALL.md) | 
+
+ | 
+
+ | 
+| 
+
+[LICENSE](https://github.com/ayghri/i-have-adhd/blob/main/LICENSE) | 
+
+[LICENSE](https://github.com/ayghri/i-have-adhd/blob/main/LICENSE) | 
+
+ | 
+
+ | 
+| 
+
+[README.md](https://github.com/ayghri/i-have-adhd/blob/main/README.md) | 
+
+[README.md](https://github.com/ayghri/i-have-adhd/blob/main/README.md) | 
+
+ | 
+
+ | 
+| 
+
+[gemini-extension.json](https://github.com/ayghri/i-have-adhd/blob/main/gemini-extension.json) | 
+
+[gemini-extension.json](https://github.com/ayghri/i-have-adhd/blob/main/gemini-extension.json) | 
+
+ | 
+
+ | 
+| 
+
+[kimi.plugin.json](https://github.com/ayghri/i-have-adhd/blob/main/kimi.plugin.json) | 
+
+[kimi.plugin.json](https://github.com/ayghri/i-have-adhd/blob/main/kimi.plugin.json) | 
+
+ | 
+
+ | 
+| 
+
+[logo.png](https://github.com/ayghri/i-have-adhd/blob/main/logo.png) | 
+
+[logo.png](https://github.com/ayghri/i-have-adhd/blob/main/logo.png) | 
+
+ | 
+
+ | 
+| 
+
+[package.json](https://github.com/ayghri/i-have-adhd/blob/main/package.json) | 
+
+[package.json](https://github.com/ayghri/i-have-adhd/blob/main/package.json) | 
+
+ | 
+
+ | 
+| 
+
+[plugin.json](https://github.com/ayghri/i-have-adhd/blob/main/plugin.json) | 
+
+[plugin.json](https://github.com/ayghri/i-have-adhd/blob/main/plugin.json) | 
+
+ | 
+
+ | 
+| 
+
+[qwen-extension.json](https://github.com/ayghri/i-have-adhd/blob/main/qwen-extension.json) | 
+
+[qwen-extension.json](https://github.com/ayghri/i-have-adhd/blob/main/qwen-extension.json) | 
+
+ | 
+
+ | 
+| 
+
+View all files | 
+
+## Repository files navigation
+
+- 
+- README
+- Contributing
+- MIT license
+
+More items
+
+[![i-have-adhd](/ayghri/i-have-adhd/raw/main/logo.png)
+](https://github.com/ayghri/i-have-adhd/blob/main/logo.png) 
+
+ADHD-friendly outputs. No ADHD diagnosis needed! 
+
+[![License](https://camo.githubusercontent.com/c52dae836dd56b750f0287b501f758eebf035a01fe7f7365260cafdf5bbcc66f/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f6179676872692f692d686176652d616468643f7374796c653d666c6174)
+](https://github.com/ayghri/i-have-adhd/blob/main/LICENSE) 
+
+🇬🇧 · [🇨🇳](https://github.com/ayghri/i-have-adhd/blob/main/.github/readme/README.zh-CN.md) 
+· [🇪🇸](https://github.com/ayghri/i-have-adhd/blob/main/.github/readme/README.es.md) 
+· [🇧🇷](https://github.com/ayghri/i-have-adhd/blob/main/.github/readme/README.pt-BR.md) 
+· [🇯🇵](https://github.com/ayghri/i-have-adhd/blob/main/.github/readme/README.ja.md) 
+· [🇻🇳](https://github.com/ayghri/i-have-adhd/blob/main/.github/readme/README.vi.md) 
+· [🇰🇷](https://github.com/ayghri/i-have-adhd/blob/main/.github/readme/README.ko.md) 
+· [🇮🇷](https://github.com/ayghri/i-have-adhd/blob/main/.github/readme/README.fa.md) 
+· [🇹🇭](https://github.com/ayghri/i-have-adhd/blob/main/.github/readme/README.th.md) 
+· [🇸🇦](https://github.com/ayghri/i-have-adhd/blob/main/.github/readme/README.ar.md) 
+· [🇫🇷](https://github.com/ayghri/i-have-adhd/blob/main/.github/readme/README.fr.md) 
+
+## Install
+
+Copy/paste into your CLI prompt:
+
+```
+Install the i-have-adhd skill/plugin from https://github.com/ayghri/i-have-adhd, refer to the repo's AGENTS.md for instructions.
+```
+
+Or 🔗 [check the installation instructions](https://github.com/ayghri/i-have-adhd/blob/main/INSTALL.md)
+.
+
+## What it does
+
+A skill for your coding assistant that stops it from burying the answer. Action
+first. Steps numbered. No "Hope this helps!"
+
+[Kacper Rutkiewicz | AI Made Simple](https://youtu.be/NEl8kPWZP_Y) has made a
+good breakdown of an earlier version of the skill.
+
+## What changes
+
+
+## The rules
+
+10 rules. Full text in [SKILL.md](https://github.com/ayghri/i-have-adhd/blob/main/skills/i-have-adhd/SKILL.md)
+.
+
+1. Lead with the next action.
+1. Number multi-step tasks.
+1. End with one concrete next step.
+1. Suppress tangents.
+1. Restate state every turn.
+1. Specific time estimates (minutes, not "a bit").
+1. Make wins visible.
+1. Matter-of-fact errors.
+1. Cap lists to 5 items.
+1. No preamble. No recap. No closers.
+
+## Tune it
+
+Fork, edit `skills/i-have-adhd/SKILL.md`, then swap your copy in:
+
+```
+claude plugin uninstall i-have-adhd            # drop the upstream copy first:
+claude plugin marketplace remove i-have-adhd   # fork and upstream share both names
+claude plugin marketplace add <your-username>/i-have-adhd
+claude plugin install i-have-adhd@i-have-adhd```
+
+Restart your coding assistant, then re-invoke `/i-have-adhd`.
+
+## Credits
+
+Loosely based on The Adult ADHD Tool Kit by J. Russell Ramsay and Anthony L.
+Rostain. Adapted for how an LLM should respond, not how a human should organize
+their day.
+
+## License
+
+[MIT](https://github.com/ayghri/i-have-adhd/blob/main/LICENSE).
+
+Star ⭐ if it saved you one scroll past one "Great question!"
+
+## About
+
+A skill to stop your coding agent from burying the answer. ADHD-friendly output.
+
+### Topics
+
+[adhd](https://github.com/topics/adhd)[claude-](https://github.com/topics/claude-)[
+claude-code-plugin](https://github.com/topics/claude-code-plugin)[claude-skills](https://github.com/topics/claude-skills)[
+developer-tools](https://github.com/topics/developer-tools)[productivity](https://github.com/topics/productivity)
+
+### Resources
+
+Readme
+
+MIT license
+
+### Contributing
+
+Contributing
+
+[Activity](https://github.com/ayghri/i-have-adhd/activity)
+
+### Stars
+
+59.4k stars
+
+### Watchers
+
+165 watching
+
+### Forks
+
+[3.5k forks](https://github.com/ayghri/i-have-adhd/forks)
+
+[Report repository](https://github.com/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fayghri%2Fi-have-adhd&report=ayghri+%28user%29)
+
+## Releases
+
+## Packages
+
+## Contributors
+
+## Languages
+
+## Footer
+
+© 2026 GitHub, Inc. 
+
+### Footer navigation
+
+- [Terms](https://docs.github.com/site-policy/github-terms/github-terms-of-service) 
+- [Privacy](https://docs.github.com/site-policy/privacy-policies/github-privacy-statement) 
+- [Security](https://github.com/security) 
+- [Status](https://www.githubstatus.com/) 
+- [Community](https://github.community/) 
+- [Docs](https://docs.github.com/) 
+- [Contact](https://support.github.com/?tags=dotcom-footer) 
+- Manage cookies 
+- Do not share my personal information 
+
+You can’t perform that action at this time. 
+
+
+[End contents for https://github.com/ayghri/i-have-adhd]

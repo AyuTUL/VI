@@ -1,0 +1,898 @@
+﻿Extracted web page content in markdown format:
+[Start contents for https://github.com/DietrichGebert/ponytail]
+Skip to content 
+
+## Navigation Menu
+
+[Sign in](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FDietrichGebert%2Fponytail)
+
+- 
+
+Products
+
+    - 
+
+Platform
+        - [![Image](https://github.githubassets.com/assets/platform-4ce65ae0bf273ce2.png)
+![Image](https://github.githubassets.com/assets/platform-dark-ac89fbf373737ed3.png)
+GitHubRepository hosting, code review, and collaboration](https://github.com/platform)
+        - [![Image](https://github.githubassets.com/assets/copilot-e2b89335a66dba00.png)
+![Image](https://github.githubassets.com/assets/copilot-dark-2b28403b6080e898.png)
+CopilotAI coding agent for tasks, projects and automated work](https://github.com/features/copilot)
+    - 
+
+Build & Ship
+        - [ActionsCI/CD and automation](https://github.com/features/actions)
+        - [Code QualityQuality analysis, fixes, and enforcement](https://github.com/features/code-quality)
+        - [CodespacesCloud development environments](https://github.com/features/codespaces)
+    - 
+
+Secure
+        - [Code SecurityVulnerability detection and remediation](https://github.com/security/advanced-security/code-security)
+        - [Secret ProtectionSecret scanning and leak prevention](https://github.com/security/advanced-security/secret-protection)
+[All Features](https://github.com/features)
+- 
+
+Developers
+
+    - 
+
+Learn
+        - [Documentation](https://docs.github.com/en)
+        - [Training](https://learn.github.com/skills)
+        - [Certifications](https://learn.github.com/credentials)
+    - 
+
+Build
+        - [Build with Copilot](https://github.com/features/ai)
+        - [Customize Copilot](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-copilot-overview)
+        - [Integrations](https://github.com/marketplace)
+    - 
+
+Explore
+        - [Trending repos](https://github.com/trending)
+        - [GitHub Sponsors](https://github.com/open-source/sponsors)
+        - [Events](https://github.com/resources/events)
+    - 
+
+Changelog
+        - [![Image](https://github.githubassets.com/assets/changelog-fd687bff072883b0.png)
+![Image](https://github.githubassets.com/assets/changelog-dark-b1c25ae971bd641b.png)
+ChangelogYour source for the latest features, improvements, and fixes across
+GitHub products, all in one place.](https://github.blog/changelog/)
+- 
+
+Businesses
+
+    - 
+
+By Stage
+        - [Enterprises](https://github.com/enterprise)
+        - [Team](https://github.com/team)
+        - [Startups](https://github.com/enterprise/startups)
+        - [Nonprofits](https://github.com/solutions/industry/nonprofits)
+    - 
+
+By Industry
+        - [Healthcare](https://github.com/solutions/industry/healthcare)
+        - [Financial services](https://github.com/solutions/industry/financial-services)
+        - [Manufacturing](https://github.com/solutions/industry/manufacturing)
+        - [Government](https://github.com/solutions/industry/government)
+        - [See all industries](https://github.com/solutions/industry)
+    - 
+
+Evaluate GitHub
+        - [Why GitHub](https://github.com/why-github)
+        - [Customer Stories](https://github.com/customer-stories)
+        - [Business insights](https://github.com/solutions/executive-insights)
+        - [Trust Center](https://github.com/trust-center)
+    - 
+
+Add-ons
+        - [GitHub Advanced SecurityEnterprise-grade code security](https://github.com/security/advanced-security)
+        - [Copilot for businessEnterprise-grade AI features](https://github.com/features/copilot/copilot-business)
+        - [Premium SupportEnterprise-grade 24/7 support](https://github.com/enterprise/premium-support)
+- 
+
+Resources
+
+    - 
+
+Learn & Connect
+        - [Documentation](https://docs.github.com/en)
+        - [Resource center](https://github.com/resources)
+        - [Blog](https://github.blog/)
+        - [Events & webinars](https://github.com/resources/events)
+        - [Community Forum](https://github.com/orgs/community/discussions)
+        - [Customer Stories](https://github.com/customer-stories)
+        - [Integrations](https://github.com/marketplace)
+    - 
+
+Support
+        - [Customer support](https://help.github.com/)
+        - [Training](https://learn.github.com/skills)
+        - [GitHub Status](https://www.githubstatus.com/)
+    - 
+
+Company
+        - [About](https://github.com/about)
+        - [Partners](https://github.com/partners)
+        - [Changelog](https://github.blog/changelog/)
+    - 
+
+GitHub Universe
+        - [![Image](https://github.githubassets.com/assets/universe-a98cd54821b27569.png)
+![Image](https://github.githubassets.com/assets/universe-a98cd54821b27569.png)
+GitHub UniverseThe event for developers, by developers — talks, workshops, and
+what’s next for GitHub.](https://githubuniverse.com/)
+- [Pricing](https://github.com/pricing)
+
+Search/
+
+[Sign in](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FDietrichGebert%2Fponytail)[
+Sign up](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=DietrichGebert%2Fponytail)
+
+Appearance settings
+
+You signed in with another tab or window. Reload to refresh your session. You
+signed out in another tab or window. Reload to refresh your session. You
+switched accounts on another tab or window. Reload to refresh your session. 
+Dismiss alert 
+
+1. [DietrichGebert](https://github.com/DietrichGebert)
+1. ponytail
+
+## Repository navigation
+
+- 
+- Code
+- [Issues61 (61)](https://github.com/DietrichGebert/ponytail/issues)
+- [Pull requests78 (78)](https://github.com/DietrichGebert/ponytail/pulls)
+- [Actions](https://github.com/DietrichGebert/ponytail/actions)
+- [Projects](https://github.com/DietrichGebert/ponytail/projects)
+- [Security and quality](https://github.com/DietrichGebert/ponytail/security)
+- [Insights](https://github.com/DietrichGebert/ponytail/pulse)
+
+More items
+
+![DietrichGebert](https://avatars.githubusercontent.com/u/137048761?s=60&v=4)
+ponytailPublic
+
+- Sponsor
+- [Notifications](https://github.com/login?return_to=%2FDietrichGebert%2Fponytail)
+You must be signed in to change notification settings
+- [Fork9.9k (9.9k)](https://github.com/login?return_to=%2FDietrichGebert%2Fponytail)
+- [Star181k (181k)](https://github.com/login?return_to=%2FDietrichGebert%2Fponytail)
+You must be signed in to star a repository
+
+## About
+
+Makes your AI agent think like the laziest senior dev in the room. The best code
+is the code you never wrote.
+
+[ponytail.dev](https://ponytail.dev/)
+
+### Topics
+
+[agent-skills](https://github.com/topics/agent-skills)[ai-agents](https://github.com/topics/ai-agents)[
+claude](https://github.com/topics/claude)[claude-code](https://github.com/topics/claude-code)[
+claude-code-plugin](https://github.com/topics/claude-code-plugin)[cursor-rules](https://github.com/topics/cursor-rules)[
+developer-tools](https://github.com/topics/developer-tools)[llm](https://github.com/topics/llm)[
+prompt-engineering](https://github.com/topics/prompt-engineering)[yagni](https://github.com/topics/yagni)
+
+### Resources
+
+Readme
+
+MIT license
+
+### Contributing
+
+Contributing
+
+[Activity](https://github.com/DietrichGebert/ponytail/activity)
+
+### Stars
+
+180.5k stars
+
+### Watchers
+
+417 watching
+
+### Forks
+
+[9.9k forks](https://github.com/DietrichGebert/ponytail/forks)
+
+[Report repository](https://github.com/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2FDietrichGebert%2Fponytail&report=DietrichGebert+%28user%29)
+
+main
+
+[Branches](https://github.com/DietrichGebert/ponytail/branches)[Tags](https://github.com/DietrichGebert/ponytail/tags)
+
+Go to fileCode
+
+Open more actions menu
+
+## Latest commit
+
+## History
+
+[369 Commits](https://github.com/DietrichGebert/ponytail/commits/main/)
+
+369 Commits
+
+## Folders and files
+
+| Name | Name | 
+
+Last commit message | 
+
+Last commit date | 
+| --- | --- | --- | --- | 
+| 
+
+[.agents](https://github.com/DietrichGebert/ponytail/tree/main/.agents) | 
+
+[.agents](https://github.com/DietrichGebert/ponytail/tree/main/.agents) | 
+
+ | 
+
+ | 
+| 
+
+[.claude-plugin](https://github.com/DietrichGebert/ponytail/tree/main/.claude-plugin) | 
+
+[.claude-plugin](https://github.com/DietrichGebert/ponytail/tree/main/.claude-plugin) | 
+
+ | 
+
+ | 
+| 
+
+[.clinerules](https://github.com/DietrichGebert/ponytail/tree/main/.clinerules) | 
+
+[.clinerules](https://github.com/DietrichGebert/ponytail/tree/main/.clinerules) | 
+
+ | 
+
+ | 
+| 
+
+[.codex-plugin](https://github.com/DietrichGebert/ponytail/tree/main/.codex-plugin) | 
+
+[.codex-plugin](https://github.com/DietrichGebert/ponytail/tree/main/.codex-plugin) | 
+
+ | 
+
+ | 
+| 
+
+[.cursor/rules](https://github.com/DietrichGebert/ponytail/tree/main/.cursor/rules) | 
+
+[.cursor/rules](https://github.com/DietrichGebert/ponytail/tree/main/.cursor/rules) | 
+
+ | 
+
+ | 
+| 
+
+[.devin-plugin](https://github.com/DietrichGebert/ponytail/tree/main/.devin-plugin) | 
+
+[.devin-plugin](https://github.com/DietrichGebert/ponytail/tree/main/.devin-plugin) | 
+
+ | 
+
+ | 
+| 
+
+[.github](https://github.com/DietrichGebert/ponytail/tree/main/.github) | 
+
+[.github](https://github.com/DietrichGebert/ponytail/tree/main/.github) | 
+
+ | 
+
+ | 
+| 
+
+[.grok-plugin](https://github.com/DietrichGebert/ponytail/tree/main/.grok-plugin) | 
+
+[.grok-plugin](https://github.com/DietrichGebert/ponytail/tree/main/.grok-plugin) | 
+
+ | 
+
+ | 
+| 
+
+[.kimi-plugin](https://github.com/DietrichGebert/ponytail/tree/main/.kimi-plugin) | 
+
+[.kimi-plugin](https://github.com/DietrichGebert/ponytail/tree/main/.kimi-plugin) | 
+
+ | 
+
+ | 
+| 
+
+[.kiro/steering](https://github.com/DietrichGebert/ponytail/tree/main/.kiro/steering) | 
+
+[.kiro/steering](https://github.com/DietrichGebert/ponytail/tree/main/.kiro/steering) | 
+
+ | 
+
+ | 
+| 
+
+[.openclaw/skills](https://github.com/DietrichGebert/ponytail/tree/main/.openclaw/skills) | 
+
+[.openclaw/skills](https://github.com/DietrichGebert/ponytail/tree/main/.openclaw/skills) | 
+
+ | 
+
+ | 
+| 
+
+[.opencode](https://github.com/DietrichGebert/ponytail/tree/main/.opencode) | 
+
+[.opencode](https://github.com/DietrichGebert/ponytail/tree/main/.opencode) | 
+
+ | 
+
+ | 
+| 
+
+[.qoder-plugin](https://github.com/DietrichGebert/ponytail/tree/main/.qoder-plugin) | 
+
+[.qoder-plugin](https://github.com/DietrichGebert/ponytail/tree/main/.qoder-plugin) | 
+
+ | 
+
+ | 
+| 
+
+[.qoder/rules](https://github.com/DietrichGebert/ponytail/tree/main/.qoder/rules) | 
+
+[.qoder/rules](https://github.com/DietrichGebert/ponytail/tree/main/.qoder/rules) | 
+
+ | 
+
+ | 
+| 
+
+[.windsurf/rules](https://github.com/DietrichGebert/ponytail/tree/main/.windsurf/rules) | 
+
+[.windsurf/rules](https://github.com/DietrichGebert/ponytail/tree/main/.windsurf/rules) | 
+
+ | 
+
+ | 
+| 
+
+[assets](https://github.com/DietrichGebert/ponytail/tree/main/assets) | 
+
+[assets](https://github.com/DietrichGebert/ponytail/tree/main/assets) | 
+
+ | 
+
+ | 
+| 
+
+[benchmarks](https://github.com/DietrichGebert/ponytail/tree/main/benchmarks) | 
+
+[benchmarks](https://github.com/DietrichGebert/ponytail/tree/main/benchmarks) | 
+
+ | 
+
+ | 
+| 
+
+[commands](https://github.com/DietrichGebert/ponytail/tree/main/commands) | 
+
+[commands](https://github.com/DietrichGebert/ponytail/tree/main/commands) | 
+
+ | 
+
+ | 
+| 
+
+[docs](https://github.com/DietrichGebert/ponytail/tree/main/docs) | 
+
+[docs](https://github.com/DietrichGebert/ponytail/tree/main/docs) | 
+
+ | 
+
+ | 
+| 
+
+[examples](https://github.com/DietrichGebert/ponytail/tree/main/examples) | 
+
+[examples](https://github.com/DietrichGebert/ponytail/tree/main/examples) | 
+
+ | 
+
+ | 
+| 
+
+[hooks](https://github.com/DietrichGebert/ponytail/tree/main/hooks) | 
+
+[hooks](https://github.com/DietrichGebert/ponytail/tree/main/hooks) | 
+
+ | 
+
+ | 
+| 
+
+[i18n](https://github.com/DietrichGebert/ponytail/tree/main/i18n) | 
+
+[i18n](https://github.com/DietrichGebert/ponytail/tree/main/i18n) | 
+
+ | 
+
+ | 
+| 
+
+[pi-extension](https://github.com/DietrichGebert/ponytail/tree/main/pi-extension) | 
+
+[pi-extension](https://github.com/DietrichGebert/ponytail/tree/main/pi-extension) | 
+
+ | 
+
+ | 
+| 
+
+[scripts](https://github.com/DietrichGebert/ponytail/tree/main/scripts) | 
+
+[scripts](https://github.com/DietrichGebert/ponytail/tree/main/scripts) | 
+
+ | 
+
+ | 
+| 
+
+[skills](https://github.com/DietrichGebert/ponytail/tree/main/skills) | 
+
+[skills](https://github.com/DietrichGebert/ponytail/tree/main/skills) | 
+
+ | 
+
+ | 
+| 
+
+[tests](https://github.com/DietrichGebert/ponytail/tree/main/tests) | 
+
+[tests](https://github.com/DietrichGebert/ponytail/tree/main/tests) | 
+
+ | 
+
+ | 
+| 
+
+[.gitignore](https://github.com/DietrichGebert/ponytail/blob/main/.gitignore) | 
+
+[.gitignore](https://github.com/DietrichGebert/ponytail/blob/main/.gitignore) | 
+
+ | 
+
+ | 
+| 
+
+[AGENTS.md](https://github.com/DietrichGebert/ponytail/blob/main/AGENTS.md) | 
+
+[AGENTS.md](https://github.com/DietrichGebert/ponytail/blob/main/AGENTS.md) | 
+
+ | 
+
+ | 
+| 
+
+[INSTALL.md](https://github.com/DietrichGebert/ponytail/blob/main/INSTALL.md) | 
+
+[INSTALL.md](https://github.com/DietrichGebert/ponytail/blob/main/INSTALL.md) | 
+
+ | 
+
+ | 
+| 
+
+[LICENSE](https://github.com/DietrichGebert/ponytail/blob/main/LICENSE) | 
+
+[LICENSE](https://github.com/DietrichGebert/ponytail/blob/main/LICENSE) | 
+
+ | 
+
+ | 
+| 
+
+[README.md](https://github.com/DietrichGebert/ponytail/blob/main/README.md) | 
+
+[README.md](https://github.com/DietrichGebert/ponytail/blob/main/README.md) | 
+
+ | 
+
+ | 
+| 
+
+[__init__.py](https://github.com/DietrichGebert/ponytail/blob/main/__init__.py) | 
+
+[__init__.py](https://github.com/DietrichGebert/ponytail/blob/main/__init__.py) | 
+
+ | 
+
+ | 
+| 
+
+[after-install.md](https://github.com/DietrichGebert/ponytail/blob/main/after-install.md) | 
+
+[after-install.md](https://github.com/DietrichGebert/ponytail/blob/main/after-install.md) | 
+
+ | 
+
+ | 
+| 
+
+[gemini-extension.json](https://github.com/DietrichGebert/ponytail/blob/main/gemini-extension.json) | 
+
+[gemini-extension.json](https://github.com/DietrichGebert/ponytail/blob/main/gemini-extension.json) | 
+
+ | 
+
+ | 
+| 
+
+[opencode.json](https://github.com/DietrichGebert/ponytail/blob/main/opencode.json) | 
+
+[opencode.json](https://github.com/DietrichGebert/ponytail/blob/main/opencode.json) | 
+
+ | 
+
+ | 
+| 
+
+[package.json](https://github.com/DietrichGebert/ponytail/blob/main/package.json) | 
+
+[package.json](https://github.com/DietrichGebert/ponytail/blob/main/package.json) | 
+
+ | 
+
+ | 
+| 
+
+[plugin.json](https://github.com/DietrichGebert/ponytail/blob/main/plugin.json) | 
+
+[plugin.json](https://github.com/DietrichGebert/ponytail/blob/main/plugin.json) | 
+
+ | 
+
+ | 
+| 
+
+[plugin.yaml](https://github.com/DietrichGebert/ponytail/blob/main/plugin.yaml) | 
+
+[plugin.yaml](https://github.com/DietrichGebert/ponytail/blob/main/plugin.yaml) | 
+
+ | 
+
+ | 
+| 
+
+View all files | 
+
+## Repository files navigation
+
+- 
+- README
+- Contributing
+- MIT license
+
+More items
+
+![Ponytail, the lazy senior dev](/DietrichGebert/ponytail/raw/main/assets/logo.png)
+
+
+# Ponytail
+
+He says nothing. He writes one line. It works. 
+
+[![DietrichGebert%2Fponytail | Trendshift](https://camo.githubusercontent.com/c9eff6dda97e97dcabec3309c894825997d202f1e261c8df48734b8368375553/68747470733a2f2f7472656e6473686966742e696f2f6170692f62616467652f7265706f7369746f726965732f3530363638)
+](https://trendshift.io/repositories/50668?utm_source=repository-badge&utm_medium=badge&utm_campaign=badge-repository-50668) 
+
+[![Stars](https://camo.githubusercontent.com/ea796ed748a0a0b6fc2b970f6aa27235d54222fa63586fa1479846b3705ebb7b/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f44696574726963684765626572742f706f6e797461696c3f7374796c653d666c61742d73717561726526636f6c6f723d313131313131266c6162656c3d7374617273)
+](https://camo.githubusercontent.com/ea796ed748a0a0b6fc2b970f6aa27235d54222fa63586fa1479846b3705ebb7b/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f44696574726963684765626572742f706f6e797461696c3f7374796c653d666c61742d73717561726526636f6c6f723d313131313131266c6162656c3d7374617273) [![Release](https://camo.githubusercontent.com/179f60ea892273fcdc4df91350993188a7b90c5a477acf253cc2f8b874374bef/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f44696574726963684765626572742f706f6e797461696c3f7374796c653d666c61742d73717561726526636f6c6f723d313131313131266c6162656c3d72656c65617365)
+](https://camo.githubusercontent.com/179f60ea892273fcdc4df91350993188a7b90c5a477acf253cc2f8b874374bef/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f44696574726963684765626572742f706f6e797461696c3f7374796c653d666c61742d73717561726526636f6c6f723d313131313131266c6162656c3d72656c65617365) [![npm](https://camo.githubusercontent.com/123e21670959eb1e2baf5435aa1e21bd0b58daf3990c138d203c34e3cc0d93b2/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f4064696574726963686765626572742f706f6e797461696c3f7374796c653d666c61742d73717561726526636f6c6f723d313131313131266c6162656c3d6e706d)
+](https://camo.githubusercontent.com/123e21670959eb1e2baf5435aa1e21bd0b58daf3990c138d203c34e3cc0d93b2/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f4064696574726963686765626572742f706f6e797461696c3f7374796c653d666c61742d73717561726526636f6c6f723d313131313131266c6162656c3d6e706d) [![Works with 20 agents](https://camo.githubusercontent.com/4f460ef60d80b87c8a85c2842a15806bc889c2d7a91d4d0d5ba54a1aa9a885e8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f776f726b73253230776974682d32302532306167656e74732d3131313131313f7374796c653d666c61742d737175617265)
+](https://camo.githubusercontent.com/4f460ef60d80b87c8a85c2842a15806bc889c2d7a91d4d0d5ba54a1aa9a885e8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f776f726b73253230776974682d32302532306167656e74732d3131313131313f7374796c653d666c61742d737175617265) [![MIT license](https://camo.githubusercontent.com/fab52deaa8f586bbf42b40bf4da87cad07f77959155f6b8d36b2c75901e4b654/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d3131313131313f7374796c653d666c61742d737175617265)
+](https://camo.githubusercontent.com/fab52deaa8f586bbf42b40bf4da87cad07f77959155f6b8d36b2c75901e4b654/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d3131313131313f7374796c653d666c61742d737175617265) 
+
+[![Using Ponytail at work? Tell us your story](/DietrichGebert/ponytail/raw/main/assets/stories-banner.png)
+](https://ponytail.dev/stories) 
+
+[![DietrichGebert/ponytail | Trendshift](https://camo.githubusercontent.com/95872e148da3fe4be240fe9cdf5ca59586be1889e41662ca52b099f65a80a734/68747470733a2f2f7472656e6473686966742e696f2f6170692f62616467652f7472656e6473686966742f7265706f7369746f726965732f35303636382f6461696c79)
+](https://trendshift.io/repositories/50668) [![DietrichGebert/ponytail | Trendshift](https://camo.githubusercontent.com/2dfb9578ee1babe53ce215d9401e56e471ba431c3d1bd96b2754d536cf8eed22/68747470733a2f2f7472656e6473686966742e696f2f6170692f62616467652f7472656e6473686966742f7265706f7369746f726965732f35303636382f7765656b6c79)
+](https://trendshift.io/repositories/50668) [![DietrichGebert%2Fponytail | Trendshift monthly ranking](https://camo.githubusercontent.com/bb7f2f43c7706028607eb335c28632dd3de9da04cc2d7b03832feb724ea69c57/68747470733a2f2f7472656e6473686966742e696f2f6170692f62616467652f7472656e6473686966742f7265706f7369746f726965732f35303636382f6d6f6e74686c793f6c616e67756167653d4a617661536372697074)
+](https://trendshift.io/repositories/50668?utm_source=trendshift-badge&utm_medium=badge&utm_campaign=badge-trendshift-50668) 
+
+[![Ponytail 5, rebuilt from the ground up: -53% code, -41% time, -26% cost, -45% tokens. And yet 98% of risky logic ships with a test, without Ponytail 68%.](/DietrichGebert/ponytail/raw/main/assets/v5/hero.jpg)
+](https://github.com/DietrichGebert/ponytail/blob/main/assets/v5/hero.jpg) 
+
+Ponytail 5: rebuilt from the ground up. -53% code · -41% time · -26% cost · -45%
+tokens And yet: 98% of risky logic ships with a test. Without Ponytail: 68%. 
+Benchmarked in Claude Code, the same agent with and without the skill: 39 tasks
+including a real FastAPI + React repo, Opus 5.5, 5 runs each. Details. 
+
+[Español](https://github.com/DietrichGebert/ponytail/blob/main/i18n/README.es.md) 
+· [한국어](https://github.com/DietrichGebert/ponytail/blob/main/i18n/README.ko.md) 
+· [简体中文](https://github.com/DietrichGebert/ponytail/blob/main/i18n/README.zh-CN.md) 
+· [日本語](https://github.com/DietrichGebert/ponytail/blob/main/i18n/README.ja.md) 
+
+[![Something's coming, join the waitlist](/DietrichGebert/ponytail/raw/main/assets/waitlist-banner.png)
+](https://ponytail.dev/soon) 
+
+## Already built with Ponytail
+
+[ ![Retriever](/DietrichGebert/ponytail/raw/main/assets/retriever-logo-light.svg)
+](https://theretriever.app/) [ ![PhotoReunion](/DietrichGebert/ponytail/raw/main/assets/photoreunion-logo-light.svg)
+](https://photoreunion.app/?ref=ponytail-gh) You know him. Long ponytail. Oval
+glasses. Has been at the company longer than the version control. You show him
+fifty lines; he looks at them, says nothing, and replaces them with one.
+
+Ponytail puts him inside your AI agent.
+
+## Numbers
+
+[![Share of the no-skill baseline. Lines of code: Ponytail v4.13 52%, Ponytail 5 47%. Output tokens: 57% and 55%. Cost: 84% and 74%. Time: 62% and 59%.](/DietrichGebert/ponytail/raw/main/assets/v5/chart.png)
+](https://github.com/DietrichGebert/ponytail/blob/main/assets/v5/chart.png) 
+
+[![Half the code, and yet better: 98% of risky logic ships with a test (no skill 68%); the agent's own tests catch 66% of injected bugs (no skill 46%).](/DietrichGebert/ponytail/raw/main/assets/v5/tests.png)
+](https://github.com/DietrichGebert/ponytail/blob/main/assets/v5/tests.png) 
+
+Two things the chart does not show: in a blind comparison, Ponytail 5's replies
+beat the previous Ponytail's 110 to 67. And on the six security tasks (SQL
+injection, path traversal, forged tokens, rate limiting, malformed CSV rows,
+caching) it passed all 30 runs: less code, no less safe. Method, per-task tables
+and limits: [benchmarks/results/2026-10-07-agentic.md](https://github.com/DietrichGebert/ponytail/blob/main/benchmarks/results/2026-10-07-agentic.md)
+.
+
+The rule was never "fewest tokens." It is: write only what the task needs, and
+never cut validation, error handling, security, or accessibility. The code ends
+up small because it is necessary, not golfed. Lower cost and latency are a side
+effect.
+
+## Before / after
+
+[![Add a date picker to the frontend. No skill: 335 lines, a calendar and a date picker built by hand. Ponytail 5: one 10-line file that reuses the repo's Input with type date, so the browser brings the calendar.](/DietrichGebert/ponytail/raw/main/assets/v5/beforeafter.png)
+](https://github.com/DietrichGebert/ponytail/blob/main/assets/v5/beforeafter.png) 
+
+You ask for a date picker. Without Ponytail, the agent installs a date picker
+library or builds a whole calendar by hand: 335 lines. Ponytail 5 first looks at
+what is already there: the repo has an `Input` component, and every browser has
+a date picker. It puts the two together. 10 lines.
+
+More survivors in [examples/](https://github.com/DietrichGebert/ponytail/blob/main/examples)
+.
+
+## The review, rebuilt
+
+[![The review, rebuilt. A real /ponytail-review finding from the benchmark: the change renamed a field, and an untouched file, src/routes/feed.js, now crashes. Must fix: the Atom feed now crashes on every request, with what this is, the problem, the fix, and what happens if we skip it. 100% of planted problems found, no skill 87%. 100% of problems outside the diff found, no skill 78%.](/DietrichGebert/ponytail/raw/main/assets/v5/review.png)
+](https://github.com/DietrichGebert/ponytail/blob/main/assets/v5/review.png) 
+
+`/ponytail-review` used to look only for code to cut. Now it reviews like the
+senior dev who gets paged when it breaks: it reads the code your change touches,
+not just the diff, and checks bugs, security, real load, missing tests, speed,
+and what to cut. Each finding says what the code does, what goes wrong, how to
+fix it, and what happens if you don't.
+
+## The audit, rebuilt
+
+[![Your whole repo, ranked. Fix this first. A real /ponytail-audit from the benchmark on a warehouse stock repo: 1 must fix, office batches with 1,200 fail completely; 2 must fix, the import silently skips bad rows; 3 must fix, a mistyped SKU in an office batch is silently ignored; 4 should fix, the risky code paths have no tests; 5 nice to have, the API crashes on a body that isn't an object. Verdict: fix 1 first.](/DietrichGebert/ponytail/raw/main/assets/v5/audit.png)
+](https://github.com/DietrichGebert/ponytail/blob/main/assets/v5/audit.png) 
+
+`/ponytail-audit` runs the same checks on the whole repo. It maps the code
+first: entry points, how data moves, what load the project expects. Then it
+ranks what it finds and tells you what to fix first. The old audit only listed
+what to delete.
+
+## New in 5.3: the band
+
+[![The ponytail band in Claude Code, above the prompt. Detail mode: cost $23.80, last turn $1.14, average $0.72 per turn; 56.7M tokens, 168k output, 33 turns; agent time 52m 14s; reuse 71%, 5 used, 2 new; tests passed after the last change. Compact mode shows the same in one line.](/DietrichGebert/ponytail/raw/main/assets/band/band.png)
+](https://github.com/DietrichGebert/ponytail/blob/main/assets/band/band.png) 
+
+In Claude Code, ponytail now shows a band above the prompt: what the current
+task costs, how many tokens and how much agent time it used, how often it reused
+existing code instead of writing new code, and whether the tests passed after
+the last change. Its buttons switch the level, run `/ponytail-review` or `/ponytail-audit`
+, copy the task as Markdown, and fold the band into one line. Don't want it? `/ponytail band` 
+hides it, the same command brings it back. Needs Claude Code 2.1.290 or later,
+in the terminal or the desktop app. It does not show in the VS Code chat panel,
+cloud sessions or `claude -p`.
+
+[![The ponytail board, a local page: 61 sessions, 20h 13m agent time, $285.30 and 492.5M tokens in the last 30 days; agent time per project over time; the latest sessions with their tests; active days and streak.](/DietrichGebert/ponytail/raw/main/assets/band/board.png)
+](https://github.com/DietrichGebert/ponytail/blob/main/assets/band/board.png) 
+
+Board opens a local page with every task across your projects: cost, agent time
+and tokens over time, every session with its tests, and the days you worked. By
+default, everything stays on your machine, in `~/.config/ponytail/band/`. `/ponytail band import` 
+adds your past Claude Code sessions to it, with their cost, agent time and
+tokens.
+
+## How it works
+
+[![Before writing code, stop at the first rung that holds: 1 does this need to exist, 2 already in this codebase, 3 does the standard library do it, 4 a native platform feature, 5 an installed dependency, 6 can it be one line, 7 only then the minimum that works, plus one small test if it has logic.](/DietrichGebert/ponytail/raw/main/assets/v5/ladder.png)
+](https://github.com/DietrichGebert/ponytail/blob/main/assets/v5/ladder.png) 
+
+The ladder runs after it understands the problem, not instead of it: it reads
+the code the change touches and traces the real flow before picking a rung. Lazy
+about the solution, never about reading.
+
+Lazy, not negligent: trust-boundary validation, data-loss handling, security,
+and accessibility are never on the chopping block.
+
+Logic with a branch, a loop, a parser, money or security leaves one small test
+behind. Every reply ends with what was skipped or not checked and any risk you
+should know.
+
+## The prompt
+
+Ponytail is one prompt: [`skills/ponytail/SKILL.md`](https://github.com/DietrichGebert/ponytail/blob/main/skills/ponytail/SKILL.md)
+. The compact version, for agents that read a rules file, is [`AGENTS.md`](https://github.com/DietrichGebert/ponytail/blob/main/AGENTS.md)
+. Everything else in this repo loads that prompt into different agents.
+
+## Install
+
+Claude Code, as two separate prompts:
+
+```
+/plugin marketplace add DietrichGebert/ponytail
+```
+
+```
+/plugin install ponytail@ponytail
+```
+
+Codex:
+
+```
+codex plugin marketplace add DietrichGebert/ponytail
+codex plugin add ponytail@ponytail```
+
+Then open `/hooks` in Codex, trust its two lifecycle hooks, and start a new
+thread.
+
+Any other agent: copy [`AGENTS.md`](https://github.com/DietrichGebert/ponytail/blob/main/AGENTS.md) 
+into your project, or ask your agent to install [`skills/ponytail/SKILL.md`](https://github.com/DietrichGebert/ponytail/blob/main/skills/ponytail/SKILL.md) 
+as a skill. Step by step for Copilot, Cursor, OpenCode, Gemini and the rest: [
+INSTALL.md](https://github.com/DietrichGebert/ponytail/blob/main/INSTALL.md).
+
+That was it. He'd be proud. He won't say it.
+
+Active every session, with a handful of commands (see Commands). `/ponytail ultra` 
+exists for when the codebase has wronged you personally. Startup and mode-change
+text shows the current mode.
+
+Only install ponytail from `DietrichGebert/ponytail` on GitHub or `@dietrichgebert/ponytail` 
+on npm. It never ships `.exe` or `.dll` files; a copy that does is not mine.
+
+## Commands
+
+| Command | What it does | 
+| --- | --- | 
+| `/ponytail [lite | full | ultra | off]` | Set the intensity, or turn it off. No argument switches ponytail on at the default level if it is off, and otherwise reports the current level. | 
+| `/ponytail band [on | off]` | Claude Code only: hide or show the band above the prompt. No argument switches it. The level stays. | 
+| `/ponytail band import` | Claude Code only: add your past Claude Code sessions to the board, with their cost, agent time and tokens. | 
+| `/ponytail-review` | Review the current diff like the senior dev who gets paged when it breaks: bugs, security, real load, risky code without a test, slow paths, and what to cut. Each finding says what the code does, what goes wrong, how to fix it, and what happens if you don't. Name a target in plain words to narrow or widen it: `uncommitted`, `staged`, `branch`, or a PR link. | 
+| `/ponytail-audit` | The same check for the whole repo, most important first. | 
+| `/ponytail-debt` | Harvest the `shortcut:` comments you've deferred into a ledger, so "later" doesn't become "never". | 
+| `/ponytail-gain` | Show the measured impact scoreboard (less code, less cost, more speed) from the benchmark. | 
+| `/ponytail-help` | Quick reference for the commands above. | 
+
+Commands need a skill-capable host (Claude Code, Codex, Devin CLI, OpenCode,
+Gemini, Antigravity CLI, pi, Hermes Agent, Qoder, Grok Build). In Codex CLI and
+the IDE extension they're skills under the plugin's namespace; invoke with `$ponytail:ponytail-review`
+. Cursor with the [hooks](https://github.com/DietrichGebert/ponytail/blob/main/INSTALL.md#cursor) 
+gets `/ponytail` level switching only, typed as a plain message. The
+instruction-only adapters (Cursor's rule file, Windsurf, Cline, Copilot, Kiro,
+Antigravity's `AGENTS.md` fallback) load the always-on ruleset without the
+commands.
+
+## FAQ
+
+Does it need a config file? No. An optional `~/.config/ponytail/config.json` or `PONYTAIL_DEFAULT_MODE` 
+env var can set the default level, but nothing is required.
+
+Why does it write `shortcut:` comments? They mark a deliberate shortcut and when
+to revisit it, and `/ponytail-debt` collects them into a ledger. Want another
+word, or none? Say so in your project's `CLAUDE.md` or `AGENTS.md`, then run `/ponytail-debt <your word>`
+.
+
+What if I really need the 120-line cache class? You don't. Insist anyway and
+he'll build it. Slowly. Correctly. While looking at you.
+
+Does it scale? The code you never wrote scales infinitely. Zero bugs, zero CVEs, 100%
+uptime since forever.
+
+Why "ponytail"? You know exactly why.
+
+## Sponsors
+
+[ ![GreenPT](/DietrichGebert/ponytail/raw/main/assets/logo-greenpt.svg)
+](https://greenpt.com/) 
+
+## License
+
+[MIT](https://github.com/DietrichGebert/ponytail/blob/main/LICENSE). The
+shortest license that works.
+
+## Star History
+
+[ ![Star History Chart](https://camo.githubusercontent.com/58110711afdba358b88dce127ab12eb5338589b930cf3545de2bf78808a29a9c/68747470733a2f2f6170692e737461722d686973746f72792e636f6d2f63686172743f7265706f733d44696574726963684765626572742f706f6e797461696c26747970653d44617465)
+](https://www.star-history.com/dietrichgebert/ponytail#history) 
+
+## About
+
+Makes your AI agent think like the laziest senior dev in the room. The best code
+is the code you never wrote.
+
+[ponytail.dev](https://ponytail.dev/)
+
+### Topics
+
+[agent-skills](https://github.com/topics/agent-skills)[ai-agents](https://github.com/topics/ai-agents)[
+claude](https://github.com/topics/claude)[claude-code](https://github.com/topics/claude-code)[
+claude-code-plugin](https://github.com/topics/claude-code-plugin)[cursor-rules](https://github.com/topics/cursor-rules)[
+developer-tools](https://github.com/topics/developer-tools)[llm](https://github.com/topics/llm)[
+prompt-engineering](https://github.com/topics/prompt-engineering)[yagni](https://github.com/topics/yagni)
+
+### Resources
+
+Readme
+
+MIT license
+
+### Contributing
+
+Contributing
+
+[Activity](https://github.com/DietrichGebert/ponytail/activity)
+
+### Stars
+
+180.5k stars
+
+### Watchers
+
+417 watching
+
+### Forks
+
+[9.9k forks](https://github.com/DietrichGebert/ponytail/forks)
+
+[Report repository](https://github.com/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2FDietrichGebert%2Fponytail&report=DietrichGebert+%28user%29)
+
+## Releases
+
+## Sponsor this project
+
+## Packages
+
+## Contributors
+
+## Languages
+
+## Footer
+
+© 2026 GitHub, Inc. 
+
+### Footer navigation
+
+- [Terms](https://docs.github.com/site-policy/github-terms/github-terms-of-service) 
+- [Privacy](https://docs.github.com/site-policy/privacy-policies/github-privacy-statement) 
+- [Security](https://github.com/security) 
+- [Status](https://www.githubstatus.com/) 
+- [Community](https://github.community/) 
+- [Docs](https://docs.github.com/) 
+- [Contact](https://support.github.com/?tags=dotcom-footer) 
+- Manage cookies 
+- Do not share my personal information 
+
+You can’t perform that action at this time. 
+
+
+[End contents for https://github.com/DietrichGebert/ponytail]

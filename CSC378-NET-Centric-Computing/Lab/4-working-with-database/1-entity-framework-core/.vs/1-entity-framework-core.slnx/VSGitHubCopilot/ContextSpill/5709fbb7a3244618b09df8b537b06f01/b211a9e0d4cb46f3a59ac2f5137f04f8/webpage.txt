@@ -1,0 +1,1259 @@
+﻿Extracted web page content in markdown format:
+[Start contents for https://github.com/JuliusBrussee/caveman]
+Skip to content 
+
+## Navigation Menu
+
+[Sign in](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FJuliusBrussee%2Fcaveman)
+
+- 
+
+Products
+
+    - 
+
+Platform
+        - [![Image](https://github.githubassets.com/assets/platform-4ce65ae0bf273ce2.png)
+![Image](https://github.githubassets.com/assets/platform-dark-ac89fbf373737ed3.png)
+GitHubRepository hosting, code review, and collaboration](https://github.com/platform)
+        - [![Image](https://github.githubassets.com/assets/copilot-e2b89335a66dba00.png)
+![Image](https://github.githubassets.com/assets/copilot-dark-2b28403b6080e898.png)
+CopilotAI coding agent for tasks, projects and automated work](https://github.com/features/copilot)
+    - 
+
+Build & Ship
+        - [ActionsCI/CD and automation](https://github.com/features/actions)
+        - [Code QualityQuality analysis, fixes, and enforcement](https://github.com/features/code-quality)
+        - [CodespacesCloud development environments](https://github.com/features/codespaces)
+    - 
+
+Secure
+        - [Code SecurityVulnerability detection and remediation](https://github.com/security/advanced-security/code-security)
+        - [Secret ProtectionSecret scanning and leak prevention](https://github.com/security/advanced-security/secret-protection)
+[All Features](https://github.com/features)
+- 
+
+Developers
+
+    - 
+
+Learn
+        - [Documentation](https://docs.github.com/en)
+        - [Training](https://learn.github.com/skills)
+        - [Certifications](https://learn.github.com/credentials)
+    - 
+
+Build
+        - [Build with Copilot](https://github.com/features/ai)
+        - [Customize Copilot](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-copilot-overview)
+        - [Integrations](https://github.com/marketplace)
+    - 
+
+Explore
+        - [Trending repos](https://github.com/trending)
+        - [GitHub Sponsors](https://github.com/open-source/sponsors)
+        - [Events](https://github.com/resources/events)
+    - 
+
+Changelog
+        - [![Image](https://github.githubassets.com/assets/changelog-fd687bff072883b0.png)
+![Image](https://github.githubassets.com/assets/changelog-dark-b1c25ae971bd641b.png)
+ChangelogYour source for the latest features, improvements, and fixes across
+GitHub products, all in one place.](https://github.blog/changelog/)
+- 
+
+Businesses
+
+    - 
+
+By Stage
+        - [Enterprises](https://github.com/enterprise)
+        - [Team](https://github.com/team)
+        - [Startups](https://github.com/enterprise/startups)
+        - [Nonprofits](https://github.com/solutions/industry/nonprofits)
+    - 
+
+By Industry
+        - [Healthcare](https://github.com/solutions/industry/healthcare)
+        - [Financial services](https://github.com/solutions/industry/financial-services)
+        - [Manufacturing](https://github.com/solutions/industry/manufacturing)
+        - [Government](https://github.com/solutions/industry/government)
+        - [See all industries](https://github.com/solutions/industry)
+    - 
+
+Evaluate GitHub
+        - [Why GitHub](https://github.com/why-github)
+        - [Customer Stories](https://github.com/customer-stories)
+        - [Business insights](https://github.com/solutions/executive-insights)
+        - [Trust Center](https://github.com/trust-center)
+    - 
+
+Add-ons
+        - [GitHub Advanced SecurityEnterprise-grade code security](https://github.com/security/advanced-security)
+        - [Copilot for businessEnterprise-grade AI features](https://github.com/features/copilot/copilot-business)
+        - [Premium SupportEnterprise-grade 24/7 support](https://github.com/enterprise/premium-support)
+- 
+
+Resources
+
+    - 
+
+Learn & Connect
+        - [Documentation](https://docs.github.com/en)
+        - [Resource center](https://github.com/resources)
+        - [Blog](https://github.blog/)
+        - [Events & webinars](https://github.com/resources/events)
+        - [Community Forum](https://github.com/orgs/community/discussions)
+        - [Customer Stories](https://github.com/customer-stories)
+        - [Integrations](https://github.com/marketplace)
+    - 
+
+Support
+        - [Customer support](https://help.github.com/)
+        - [Training](https://learn.github.com/skills)
+        - [GitHub Status](https://www.githubstatus.com/)
+    - 
+
+Company
+        - [About](https://github.com/about)
+        - [Partners](https://github.com/partners)
+        - [Changelog](https://github.blog/changelog/)
+    - 
+
+GitHub Universe
+        - [![Image](https://github.githubassets.com/assets/universe-a98cd54821b27569.png)
+![Image](https://github.githubassets.com/assets/universe-a98cd54821b27569.png)
+GitHub UniverseThe event for developers, by developers — talks, workshops, and
+what’s next for GitHub.](https://githubuniverse.com/)
+- [Pricing](https://github.com/pricing)
+
+Search/
+
+[Sign in](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FJuliusBrussee%2Fcaveman)[
+Sign up](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=JuliusBrussee%2Fcaveman)
+
+Appearance settings
+
+You signed in with another tab or window. Reload to refresh your session. You
+signed out in another tab or window. Reload to refresh your session. You
+switched accounts on another tab or window. Reload to refresh your session. 
+Dismiss alert 
+
+1. [JuliusBrussee](https://github.com/JuliusBrussee)
+1. caveman
+
+## Repository navigation
+
+- 
+- Code
+- [Issues61 (61)](https://github.com/JuliusBrussee/caveman/issues)
+- [Pull requests68 (68)](https://github.com/JuliusBrussee/caveman/pulls)
+- [Discussions](https://github.com/JuliusBrussee/caveman/discussions)
+- [Actions](https://github.com/JuliusBrussee/caveman/actions)
+- [Projects](https://github.com/JuliusBrussee/caveman/projects)
+- [Security and quality](https://github.com/JuliusBrussee/caveman/security)
+- [Insights](https://github.com/JuliusBrussee/caveman/pulse)
+
+More items
+
+![JuliusBrussee](https://avatars.githubusercontent.com/u/104168679?s=60&v=4)
+cavemanPublic
+
+- Sponsor
+- [Notifications](https://github.com/login?return_to=%2FJuliusBrussee%2Fcaveman)
+You must be signed in to change notification settings
+- [Fork6.7k (6.7k)](https://github.com/login?return_to=%2FJuliusBrussee%2Fcaveman)
+- [Star116k (116k)](https://github.com/login?return_to=%2FJuliusBrussee%2Fcaveman)
+You must be signed in to star a repository
+
+## About
+
+🪨 why use many token when few token do trick. Viral skill + proxy for coding
+agents that cuts 65% of tokens by talking like a caveman.
+
+[docs.caveman.so/caveman](https://docs.caveman.so/caveman)
+
+### Topics
+
+[ai](https://github.com/topics/ai)[anthropic](https://github.com/topics/anthropic)[
+caveman](https://github.com/topics/caveman)[claude](https://github.com/topics/claude)[
+claude-code](https://github.com/topics/claude-code)[llm](https://github.com/topics/llm)[
+meme](https://github.com/topics/meme)[prompt-engineering](https://github.com/topics/prompt-engineering)[
+skill](https://github.com/topics/skill)[tokens](https://github.com/topics/tokens)
+
+### Resources
+
+Readme
+
+Apache-2.0, MIT licenses found
+
+### Code of conduct
+
+Code of conduct
+
+### Contributing
+
+Contributing
+
+### Security policy
+
+Security policy
+
+[Activity](https://github.com/JuliusBrussee/caveman/activity)
+
+### Stars
+
+116.2k stars
+
+### Watchers
+
+253 watching
+
+### Forks
+
+[6.7k forks](https://github.com/JuliusBrussee/caveman/forks)
+
+[Report repository](https://github.com/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2FJuliusBrussee%2Fcaveman&report=JuliusBrussee+%28user%29)
+
+main
+
+[Branches](https://github.com/JuliusBrussee/caveman/branches)[Tags](https://github.com/JuliusBrussee/caveman/tags)
+
+Go to fileCode
+
+Open more actions menu
+
+## Latest commit
+
+## History
+
+[1,886 Commits](https://github.com/JuliusBrussee/caveman/commits/main/)
+
+1,886 Commits
+
+## Folders and files
+
+| Name | Name | 
+
+Last commit message | 
+
+Last commit date | 
+| --- | --- | --- | --- | 
+| 
+
+[.blocks](https://github.com/JuliusBrussee/caveman/tree/main/.blocks) | 
+
+[.blocks](https://github.com/JuliusBrussee/caveman/tree/main/.blocks) | 
+
+ | 
+
+ | 
+| 
+
+[.claude-plugin](https://github.com/JuliusBrussee/caveman/tree/main/.claude-plugin) | 
+
+[.claude-plugin](https://github.com/JuliusBrussee/caveman/tree/main/.claude-plugin) | 
+
+ | 
+
+ | 
+| 
+
+[.codex](https://github.com/JuliusBrussee/caveman/tree/main/.codex) | 
+
+[.codex](https://github.com/JuliusBrussee/caveman/tree/main/.codex) | 
+
+ | 
+
+ | 
+| 
+
+[.cursor-plugin](https://github.com/JuliusBrussee/caveman/tree/main/.cursor-plugin) | 
+
+[.cursor-plugin](https://github.com/JuliusBrussee/caveman/tree/main/.cursor-plugin) | 
+
+ | 
+
+ | 
+| 
+
+[.github](https://github.com/JuliusBrussee/caveman/tree/main/.github) | 
+
+[.github](https://github.com/JuliusBrussee/caveman/tree/main/.github) | 
+
+ | 
+
+ | 
+| 
+
+[agents](https://github.com/JuliusBrussee/caveman/tree/main/agents) | 
+
+[agents](https://github.com/JuliusBrussee/caveman/tree/main/agents) | 
+
+ | 
+
+ | 
+| 
+
+[benchmarks](https://github.com/JuliusBrussee/caveman/tree/main/benchmarks) | 
+
+[benchmarks](https://github.com/JuliusBrussee/caveman/tree/main/benchmarks) | 
+
+ | 
+
+ | 
+| 
+
+[browse](https://github.com/JuliusBrussee/caveman/tree/main/browse) | 
+
+[browse](https://github.com/JuliusBrussee/caveman/tree/main/browse) | 
+
+ | 
+
+ | 
+| 
+
+[commands](https://github.com/JuliusBrussee/caveman/tree/main/commands) | 
+
+[commands](https://github.com/JuliusBrussee/caveman/tree/main/commands) | 
+
+ | 
+
+ | 
+| 
+
+[deploy](https://github.com/JuliusBrussee/caveman/tree/main/deploy) | 
+
+[deploy](https://github.com/JuliusBrussee/caveman/tree/main/deploy) | 
+
+ | 
+
+ | 
+| 
+
+[dist](https://github.com/JuliusBrussee/caveman/tree/main/dist) | 
+
+[dist](https://github.com/JuliusBrussee/caveman/tree/main/dist) | 
+
+ | 
+
+ | 
+| 
+
+[docs](https://github.com/JuliusBrussee/caveman/tree/main/docs) | 
+
+[docs](https://github.com/JuliusBrussee/caveman/tree/main/docs) | 
+
+ | 
+
+ | 
+| 
+
+[engine](https://github.com/JuliusBrussee/caveman/tree/main/engine) | 
+
+[engine](https://github.com/JuliusBrussee/caveman/tree/main/engine) | 
+
+ | 
+
+ | 
+| 
+
+[evals](https://github.com/JuliusBrussee/caveman/tree/main/evals) | 
+
+[evals](https://github.com/JuliusBrussee/caveman/tree/main/evals) | 
+
+ | 
+
+ | 
+| 
+
+[extension](https://github.com/JuliusBrussee/caveman/tree/main/extension) | 
+
+[extension](https://github.com/JuliusBrussee/caveman/tree/main/extension) | 
+
+ | 
+
+ | 
+| 
+
+[hooks](https://github.com/JuliusBrussee/caveman/tree/main/hooks) | 
+
+[hooks](https://github.com/JuliusBrussee/caveman/tree/main/hooks) | 
+
+ | 
+
+ | 
+| 
+
+[installer](https://github.com/JuliusBrussee/caveman/tree/main/installer) | 
+
+[installer](https://github.com/JuliusBrussee/caveman/tree/main/installer) | 
+
+ | 
+
+ | 
+| 
+
+[integrations](https://github.com/JuliusBrussee/caveman/tree/main/integrations) | 
+
+[integrations](https://github.com/JuliusBrussee/caveman/tree/main/integrations) | 
+
+ | 
+
+ | 
+| 
+
+[mcp](https://github.com/JuliusBrussee/caveman/tree/main/mcp) | 
+
+[mcp](https://github.com/JuliusBrussee/caveman/tree/main/mcp) | 
+
+ | 
+
+ | 
+| 
+
+[mem](https://github.com/JuliusBrussee/caveman/tree/main/mem) | 
+
+[mem](https://github.com/JuliusBrussee/caveman/tree/main/mem) | 
+
+ | 
+
+ | 
+| 
+
+[packages](https://github.com/JuliusBrussee/caveman/tree/main/packages) | 
+
+[packages](https://github.com/JuliusBrussee/caveman/tree/main/packages) | 
+
+ | 
+
+ | 
+| 
+
+[plugins/caveman](https://github.com/JuliusBrussee/caveman/tree/main/plugins/caveman) | 
+
+[plugins/caveman](https://github.com/JuliusBrussee/caveman/tree/main/plugins/caveman) | 
+
+ | 
+
+ | 
+| 
+
+[proxy](https://github.com/JuliusBrussee/caveman/tree/main/proxy) | 
+
+[proxy](https://github.com/JuliusBrussee/caveman/tree/main/proxy) | 
+
+ | 
+
+ | 
+| 
+
+[scripts](https://github.com/JuliusBrussee/caveman/tree/main/scripts) | 
+
+[scripts](https://github.com/JuliusBrussee/caveman/tree/main/scripts) | 
+
+ | 
+
+ | 
+| 
+
+[shared](https://github.com/JuliusBrussee/caveman/tree/main/shared) | 
+
+[shared](https://github.com/JuliusBrussee/caveman/tree/main/shared) | 
+
+ | 
+
+ | 
+| 
+
+[shrink](https://github.com/JuliusBrussee/caveman/tree/main/shrink) | 
+
+[shrink](https://github.com/JuliusBrussee/caveman/tree/main/shrink) | 
+
+ | 
+
+ | 
+| 
+
+[skills](https://github.com/JuliusBrussee/caveman/tree/main/skills) | 
+
+[skills](https://github.com/JuliusBrussee/caveman/tree/main/skills) | 
+
+ | 
+
+ | 
+| 
+
+[src](https://github.com/JuliusBrussee/caveman/tree/main/src) | 
+
+[src](https://github.com/JuliusBrussee/caveman/tree/main/src) | 
+
+ | 
+
+ | 
+| 
+
+[supabase](https://github.com/JuliusBrussee/caveman/tree/main/supabase) | 
+
+[supabase](https://github.com/JuliusBrussee/caveman/tree/main/supabase) | 
+
+ | 
+
+ | 
+| 
+
+[tests](https://github.com/JuliusBrussee/caveman/tree/main/tests) | 
+
+[tests](https://github.com/JuliusBrussee/caveman/tree/main/tests) | 
+
+ | 
+
+ | 
+| 
+
+[.dockerignore](https://github.com/JuliusBrussee/caveman/blob/main/.dockerignore) | 
+
+[.dockerignore](https://github.com/JuliusBrussee/caveman/blob/main/.dockerignore) | 
+
+ | 
+
+ | 
+| 
+
+[.editorconfig](https://github.com/JuliusBrussee/caveman/blob/main/.editorconfig) | 
+
+[.editorconfig](https://github.com/JuliusBrussee/caveman/blob/main/.editorconfig) | 
+
+ | 
+
+ | 
+| 
+
+[.gitattributes](https://github.com/JuliusBrussee/caveman/blob/main/.gitattributes) | 
+
+[.gitattributes](https://github.com/JuliusBrussee/caveman/blob/main/.gitattributes) | 
+
+ | 
+
+ | 
+| 
+
+[.gitignore](https://github.com/JuliusBrussee/caveman/blob/main/.gitignore) | 
+
+[.gitignore](https://github.com/JuliusBrussee/caveman/blob/main/.gitignore) | 
+
+ | 
+
+ | 
+| 
+
+[.npmignore](https://github.com/JuliusBrussee/caveman/blob/main/.npmignore) | 
+
+[.npmignore](https://github.com/JuliusBrussee/caveman/blob/main/.npmignore) | 
+
+ | 
+
+ | 
+| 
+
+[AGENTS.md](https://github.com/JuliusBrussee/caveman/blob/main/AGENTS.md) | 
+
+[AGENTS.md](https://github.com/JuliusBrussee/caveman/blob/main/AGENTS.md) | 
+
+ | 
+
+ | 
+| 
+
+[CLAUDE.md](https://github.com/JuliusBrussee/caveman/blob/main/CLAUDE.md) | 
+
+[CLAUDE.md](https://github.com/JuliusBrussee/caveman/blob/main/CLAUDE.md) | 
+
+ | 
+
+ | 
+| 
+
+[CODE_OF_CONDUCT.md](https://github.com/JuliusBrussee/caveman/blob/main/CODE_OF_CONDUCT.md) | 
+
+[CODE_OF_CONDUCT.md](https://github.com/JuliusBrussee/caveman/blob/main/CODE_OF_CONDUCT.md) | 
+
+ | 
+
+ | 
+| 
+
+[CONTRIBUTING.md](https://github.com/JuliusBrussee/caveman/blob/main/CONTRIBUTING.md) | 
+
+[CONTRIBUTING.md](https://github.com/JuliusBrussee/caveman/blob/main/CONTRIBUTING.md) | 
+
+ | 
+
+ | 
+| 
+
+[Dockerfile](https://github.com/JuliusBrussee/caveman/blob/main/Dockerfile) | 
+
+[Dockerfile](https://github.com/JuliusBrussee/caveman/blob/main/Dockerfile) | 
+
+ | 
+
+ | 
+| 
+
+[GEMINI.md](https://github.com/JuliusBrussee/caveman/blob/main/GEMINI.md) | 
+
+[GEMINI.md](https://github.com/JuliusBrussee/caveman/blob/main/GEMINI.md) | 
+
+ | 
+
+ | 
+| 
+
+[INSTALL.md](https://github.com/JuliusBrussee/caveman/blob/main/INSTALL.md) | 
+
+[INSTALL.md](https://github.com/JuliusBrussee/caveman/blob/main/INSTALL.md) | 
+
+ | 
+
+ | 
+| 
+
+[LICENSE](https://github.com/JuliusBrussee/caveman/blob/main/LICENSE) | 
+
+[LICENSE](https://github.com/JuliusBrussee/caveman/blob/main/LICENSE) | 
+
+ | 
+
+ | 
+| 
+
+[LICENSE-MIT](https://github.com/JuliusBrussee/caveman/blob/main/LICENSE-MIT) | 
+
+[LICENSE-MIT](https://github.com/JuliusBrussee/caveman/blob/main/LICENSE-MIT) | 
+
+ | 
+
+ | 
+| 
+
+[LICENSING.md](https://github.com/JuliusBrussee/caveman/blob/main/LICENSING.md) | 
+
+[LICENSING.md](https://github.com/JuliusBrussee/caveman/blob/main/LICENSING.md) | 
+
+ | 
+
+ | 
+| 
+
+[NOTICE](https://github.com/JuliusBrussee/caveman/blob/main/NOTICE) | 
+
+[NOTICE](https://github.com/JuliusBrussee/caveman/blob/main/NOTICE) | 
+
+ | 
+
+ | 
+| 
+
+[README.md](https://github.com/JuliusBrussee/caveman/blob/main/README.md) | 
+
+[README.md](https://github.com/JuliusBrussee/caveman/blob/main/README.md) | 
+
+ | 
+
+ | 
+| 
+
+[SECURITY.md](https://github.com/JuliusBrussee/caveman/blob/main/SECURITY.md) | 
+
+[SECURITY.md](https://github.com/JuliusBrussee/caveman/blob/main/SECURITY.md) | 
+
+ | 
+
+ | 
+| 
+
+[TRADEMARKS.md](https://github.com/JuliusBrussee/caveman/blob/main/TRADEMARKS.md) | 
+
+[TRADEMARKS.md](https://github.com/JuliusBrussee/caveman/blob/main/TRADEMARKS.md) | 
+
+ | 
+
+ | 
+| 
+
+[gemini-extension.json](https://github.com/JuliusBrussee/caveman/blob/main/gemini-extension.json) | 
+
+[gemini-extension.json](https://github.com/JuliusBrussee/caveman/blob/main/gemini-extension.json) | 
+
+ | 
+
+ | 
+| 
+
+[go.mod](https://github.com/JuliusBrussee/caveman/blob/main/go.mod) | 
+
+[go.mod](https://github.com/JuliusBrussee/caveman/blob/main/go.mod) | 
+
+ | 
+
+ | 
+| 
+
+[go.sum](https://github.com/JuliusBrussee/caveman/blob/main/go.sum) | 
+
+[go.sum](https://github.com/JuliusBrussee/caveman/blob/main/go.sum) | 
+
+ | 
+
+ | 
+| 
+
+[install.ps1](https://github.com/JuliusBrussee/caveman/blob/main/install.ps1) | 
+
+[install.ps1](https://github.com/JuliusBrussee/caveman/blob/main/install.ps1) | 
+
+ | 
+
+ | 
+| 
+
+[install.sh](https://github.com/JuliusBrussee/caveman/blob/main/install.sh) | 
+
+[install.sh](https://github.com/JuliusBrussee/caveman/blob/main/install.sh) | 
+
+ | 
+
+ | 
+| 
+
+[package.json](https://github.com/JuliusBrussee/caveman/blob/main/package.json) | 
+
+[package.json](https://github.com/JuliusBrussee/caveman/blob/main/package.json) | 
+
+ | 
+
+ | 
+| 
+
+[pnpm-lock.yaml](https://github.com/JuliusBrussee/caveman/blob/main/pnpm-lock.yaml) | 
+
+[pnpm-lock.yaml](https://github.com/JuliusBrussee/caveman/blob/main/pnpm-lock.yaml) | 
+
+ | 
+
+ | 
+| 
+
+[pnpm-workspace.yaml](https://github.com/JuliusBrussee/caveman/blob/main/pnpm-workspace.yaml) | 
+
+[pnpm-workspace.yaml](https://github.com/JuliusBrussee/caveman/blob/main/pnpm-workspace.yaml) | 
+
+ | 
+
+ | 
+| 
+
+[tsconfig.base.json](https://github.com/JuliusBrussee/caveman/blob/main/tsconfig.base.json) | 
+
+[tsconfig.base.json](https://github.com/JuliusBrussee/caveman/blob/main/tsconfig.base.json) | 
+
+ | 
+
+ | 
+| 
+
+View all files | 
+
+## Repository files navigation
+
+- 
+- README
+- Code of conduct
+- Contributing
+- Apache-2.0 license
+- MIT license
+- Security
+
+More items
+
+[![Caveman](/JuliusBrussee/caveman/raw/main/docs/assets/caveman-logo-banner.png)
+](https://github.com/JuliusBrussee/caveman/blob/main/docs/assets/caveman-logo-banner.png) 
+
+# why many token when few do trick
+
+Caveman make your AI agent say less and read less. Code stay exact. Brain still
+big.
+
+[![GitHub stars](https://camo.githubusercontent.com/2186c362284344083db06ac02d067496337480aec83ef1d062023877bfa977ce/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4a756c697573427275737365652f636176656d616e3f7374796c653d666c61742d73717561726526636f6c6f723d463041363343266c6162656c3d7374617273)
+](https://github.com/JuliusBrussee/caveman/stargazers) [![npm downloads](https://camo.githubusercontent.com/1b92ab09f800166f390122394fafd391a4013e4defa6fc1790c05fbe1e760000/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f646d2f40636176656d616e2d61692f636c693f7374796c653d666c61742d73717561726526636f6c6f723d463041363343266c6162656c3d636c69253230646f776e6c6f616473)
+](https://www.npmjs.com/package/@caveman-ai/cli) [![30+ agents](https://camo.githubusercontent.com/3342d8dc80d49e9db408c9adf31b71e42df76e0773af68d42d0fdcbd20d78f5c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f776f726b735f776974682d33302532425f6167656e74732d6f72616e67653f7374796c653d666c61742d737175617265)
+](https://github.com/JuliusBrussee/caveman/blob/main/INSTALL.md) ![License](https://camo.githubusercontent.com/f9e086eace7b61d48283e615241f1f172995499fa3b0b4bd64d7ae0012773621/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4170616368652d2d322e302d677265656e3f7374796c653d666c61742d737175617265)
+
+
+
+Cited by [Adobe Research](https://arxiv.org/abs/2606.24083) · A/B tested by [
+JetBrains](https://blog.jetbrains.com/ai/2026/07/speak-to-ai-agents-like-cavemen-tosave-tokens/) 
+· Remade for Elasticsearch on [Elasticsearch Labs](https://www.elastic.co/search-labs/blog/elastic-caveman-ai-token-reduction) 
+#1 on [Hacker News](https://news.ycombinator.com/item?id=47647455) · #1 on
+GitHub Trending · "No way this actually works." [ThePrimeagen](https://www.youtube.com/watch?v=L29q2LRiMRc)
+
+Install · Six rocks · Proof · Say less · Read less · Auto · Blocks · Commands · 
+Caveman Cloud
+
+| Normal agent · 63 tokens | [![Image](/JuliusBrussee/caveman/raw/main/docs/assets/dancing-rock.svg)
+](https://github.com/JuliusBrussee/caveman/blob/main/docs/assets/dancing-rock.svg) Caveman agent · 20 tokens | 
+| --- | --- | 
+| 
+> The reason your React component is re-rendering is likely because you're creating a new object reference on each render cycle. When you pass an inline object as a prop, React's shallow comparison sees it as a different object every time, which triggers a re-render. I'd recommend using useMemo to memoize the object.
+
+
+
+ | 
+> New object ref each render, so React re-renders. Wrap the prop in `useMemo`.
+
+
+
+ | 
+
+Same fix. 63 token become 20. Brain still big.
+
+Pick your club:
+
+| Skill | Same answer | Tokens | 
+| --- | --- | --- | 
+| `/caveman` | New object ref each render, so React re-renders. Wrap the prop in `useMemo`. | 20 | 
+| `/ultracave` | Inline object prop, new ref, re-render. `useMemo`. | 14 | 
+| `/megacave` | 新參照致重繪。`useMemo`。 | 13 | 
+
+Token counts: tiktoken o200k.
+
+## Install
+
+```
+npx @caveman-ai/cli@latest```
+
+One command. Mac, Linux, Windows. Caveman find your agents and your logins, show
+what it change. Press Enter. Done. Needs Node.js 22.13+.
+
+After that, plain `claude` stays caveman'd. So do Codex, Gemini CLI, OpenCode,
+and [30+ more](https://github.com/JuliusBrussee/caveman/blob/main/INSTALL.md).
+It runs on your machine, with your keys and your Claude Pro/Max login. One rock.
+That it.
+
+Had caveman before 4.0? Say `@latest`, or the old copy on your machine wins.
+Already set up? `caveman setup` opens the screen again. Only want shorter
+answers? Get just the skill.
+
+## Six rocks, one install
+
+New in 4.0: caveman is six parts. All on after install. Each has its own switch.
+
+| Rock | What it does | Measured | 
+| --- | --- | --- | 
+| Say less | Agent answers short. Code stays exact | 63 → 20 tokens, same fix | 
+| Read less | Logs, JSON, CSV, test output shrink before the model reads them | 33.2% fewer input tokens per session | 
+| Auto · new | Picks the model and the effort for each ask | 54% cheaper than Opus at xhigh, same score | 
+| Blocks · new | Code mode: agent keeps the scripts it writes and runs them again | 397 → 76 tokens for one test run | 
+| Waste fixes | Finds where your tokens go and fixes it. New: keeps the prompt cache warm while you pause | Not measured yet | 
+| Browse | Web pages come back compressed | 129.8× smaller page | 
+
+`caveman status` shows what is on. `caveman off browse` turns one off. Only Auto
+needs an account, and it is free. [4.0.0 release notes](https://github.com/JuliusBrussee/caveman/releases/tag/v4.0.0)
+
+## Proof
+
+Outside labs first. Ours come with each rock below. Nothing rounded up. Red rows
+stay red.
+
+| Who | Setup | Result | 
+| --- | --- | --- | 
+| [Adobe Research](https://arxiv.org/abs/2606.24083), CAVEWOMAN paper (cites this repo) | Caveman-style output, eight models, five datasets | Cost cut 1.4 to 2.4× per model, up to 3× | 
+| [Elastic](https://www.elastic.co/search-labs/blog/elastic-caveman-ai-token-reduction), Elasticsearch Labs | Caveman mode remade for Elasticsearch, eight live MCP scenarios | 63.6% fewer response tokens. "Zero information loss." | 
+| [JetBrains](https://blog.jetbrains.com/ai/2026/07/speak-to-ai-agents-like-cavemen-tosave-tokens/) | 86 real coding tasks, paired A/B | No measurable quality loss (p = 0.82). 8.5% fewer output tokens | 
+
+Two findings shaped caveman. Adobe: cavemanning your prompt makes answers worse,
+so caveman never touches your prompt. JetBrains: agent sessions are mostly code
+and tool calls, which the voice leaves alone. So caveman grew rocks that shrink
+what the agent reads and what it runs on.
+
+## Say less: the caveman voice
+
+A voice, not broken grammar. Every reply follows the same structure.
+
+| Rule | What it means | 
+| --- | --- | 
+| Answer first | `[thing] [action] [reason]. [next step].` No greeting, no "let me", no recap | 
+| One idea per sentence | Built on [ASD-STE100](https://www.asd-ste100.org/), the controlled English of aircraft maintenance manuals: 20 words max, active voice, one term per thing | 
+| Meaning never dropped | Articles can go. not, never, no, only never go. Numbers and units stay exact | 
+| Payload verbatim | Code, commands, paths, and error messages untouched, character for character | 
+| No theater | No "me think". No chatter between tool calls. If caveman phrasing isn't shorter, plain wins | 
+| Knows when to stop | Security warnings, irreversible actions, and confused users get full sentences. Then grunt resumes | 
+| Your prompts stay yours | Never rewritten. Research say that backfire | 
+
+Ten dev questions on claude-opus-5-5:
+
+| Instruction | Output tokens | 
+| --- | --- | 
+| None | 6,983 | 
+| `Answer concisely.` | 4,334 | 
+| `/caveman` | 4,119 | 
+| `/ultracave` | 2,693 | 
+
+"Be concise" is the real baseline; new models already know it. On top of it, `/caveman` 
+cuts 3% more at the median and `/ultracave` 35% more. Measured on the 3.1.0
+rules, not yet re-run. The rules cost about 1,160 tokens of input, and if you
+pay per request (GitHub Copilot), shorter answers save nothing. [Harness](https://github.com/JuliusBrussee/caveman/blob/main/evals/README.md) 
+· [Every case where caveman loses](https://github.com/JuliusBrussee/caveman/blob/main/docs/HONEST-NUMBERS.md)
+
+Only want this rock? The skill alone, no proxy:
+
+```
+npx skills add JuliusBrussee/caveman -g```
+
+[![skills.sh](https://camo.githubusercontent.com/7579385dc688ec9b17cd74d30e05d0e49f646c8e943cad4972fcc54f19405e03/68747470733a2f2f736b696c6c732e73682f622f4a756c697573427275737365652f636176656d616e)
+](https://skills.sh/JuliusBrussee/caveman)
+
+Type `/caveman` (`$caveman` in Codex) if it doesn't start on its own. Say `stop caveman` 
+to go back.
+
+Other ways in: Claude app and phone, Claude Code plugin, Gemini, every agent at
+once, Windows, uninstall Claude on the web, the phone app, or Cowork? No
+terminal. Add caveman to your Claude account once, in Customize > Plugins: [
+steps](https://github.com/JuliusBrussee/caveman/blob/main/INSTALL.md#claude-apps-claudeai-desktop-mobile-cowork)
+. Not tested end to end yet.
+
+```
+# Claude Code plugin, auto-starts every interactive session, subagents too
+claude plugin marketplace add JuliusBrussee/caveman && claude plugin install caveman@caveman
+
+# Gemini CLI
+gemini extensions install https://github.com/JuliusBrussee/caveman
+
+# Every agent on your machine at once, plus the Claude Code statusline badge (Node.js 22.13+)
+curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/v4.0.1/install.sh | bash```
+
+Already inside Claude Code? Same rock, slash form. Type these where you talk to
+Claude:
+
+```
+/plugin marketplace add JuliusBrussee/caveman
+/plugin install caveman@caveman
+```
+
+Windows, PowerShell 5.1+:
+
+```
+irm https://raw.githubusercontent.com/JuliusBrussee/caveman/v4.0.1/install.ps1 | iex```
+
+On npm 12 or newer, new npm block git install. One-liners above handle it
+themselves from v3.2.0 on. Old one-liner pinned to v3.1.0 or older still fail
+there: use one above, or this: `npx --allow-git=root -y github:JuliusBrussee/caveman#v4.0.1`
+
+Changed your mind: `npx -y github:JuliusBrussee/caveman -- --uninstall` (on npm 12+,
+add `--allow-git=root` too)
+
+Only grabbed the skill? `npx skills remove JuliusBrussee/caveman -g` take it
+back out.
+
+Install broke? Open your agent in this repo and say "Read CLAUDE.md and
+INSTALL.md, install caveman for me." Agent fix own brain.
+
+## Read less: 33.2% fewer input tokens
+
+The voice shrinks what the agent says. This shrinks what it reads. Same answers: 18
+of 18 right.
+
+| File type | The file, through caveman | File saved | Whole Claude Code session, 3 runs | Session saved | 
+| --- | --- | --- | --- | --- | 
+| CSV | 28,041 → 314 | 98.9% | 165,823 → 74,484 | 55.1% | 
+| Logs | 22,810 → 348 | 98.5% | 148,807 → 74,068 | 50.2% | 
+| YAML | 20,447 → 178 | 99.1% | 132,124 → 71,027 | 46.2% | 
+| Test output | 18,806 → 203 | 98.9% | 150,377 → 108,514 | 27.8% | 
+| JSON | 18,837 → 281 | 98.5% | 147,975 → 108,939 | 26.4% | 
+| HTML | 21,670 → 21,670 | none yet | 140,687 → 154,641 | 9.9% worse | 
+| All six | 130,611 → 22,994 | 82.4% | 885,793 → 591,673 | 33.2% | 
+
+The file is each test file through today's compressor alone. The session is the
+whole agent run, which also carries the system prompt and tools, so it moves
+less. Honest part: the session run is from August 2026 on an older engine, HTML
+has no compressor yet so it lost, and each test file hides one record in 61 to 72
+KB of noise. Yours will vary. Headroom on the same suite: 15 of 18 right, 6.7%
+fewer tokens. [Method](https://github.com/JuliusBrussee/caveman/blob/main/docs/WRAP-BENCHMARK.md#per-file-compression)
+
+Every original stays on your disk. The agent can pull it back any time.
+
+## Auto: 54% cheaper, same score
+
+New model in your agent's picker. Pick Auto and caveman chooses the model and
+the effort for each ask. Hard ask, big brain. Easy ask, save rocks.
+
+| Setup | Tasks solved | Cost per try | Median time | 
+| --- | --- | --- | --- | 
+| Opus 5.5, xhigh effort, every ask | 44.3% | $7.83 | 35.2 min | 
+| Auto, Claude models only | 43.7% | $3.59 | 15.9 min | 
+| Auto, plus OpenAI and open models | 42.9% | $3.47 | 16.7 min | 
+
+Auto costs 0.46× what Opus 5.5 at xhigh costs. That is 54% saved, in under half
+the time. 85 real coding tasks from SWE-Interact and SWE-Together, one try each.
+Honest part: the run is half done, the 0.5-point score gap is too small to tell
+apart at this size (±7), and most of the saving is Auto lowering effort on easy
+asks. Already on Opus at medium? Expect less; not measured yet. [Full table and
+limits](https://github.com/JuliusBrussee/caveman/blob/main/docs/AUTO-BENCHMARK.md)
+
+```
+caveman login                  # free account. Auto shows up in the model picker
+caveman providers add openai   # optional: give Auto more models, on your own key```
+
+Works in Claude Code, OpenCode, and Codex on a ChatGPT login, with API keys,
+Claude Pro/Max, or ChatGPT. Any other model you pick runs as picked. Not signed
+in: no Auto, nothing sent. What Auto sends
+
+## Blocks: code mode, script written once
+
+skills.sh for code mode. Code mode is the agent writing a script instead of
+making tool call after tool call ([Cloudflare](https://blog.cloudflare.com/code-mode/)
+, [Anthropic](https://www.anthropic.com/engineering/code-execution-with-mcp)).
+Problem: agent write same script every session, throw it away, write it again.
+Blocks keep it in your repo, check it every pull request, hand it back.
+
+| Input | Raw | What agents type now | Block | 
+| --- | --- | --- | --- | 
+| `go test -v ./...`, 326 tests | 10,561 | 397 · `| tail -20` | 76 · `test-summary` | 
+| 1.4 MB JSON file | 251,893 | 236 · their own heredoc | 227 · `json-peek` | 
+| 366-line Go file | 3,111 | 250 · `grep -n` | 489 · `grep-defs` | 
+
+Tokens the agent reads back. In one week, agents on one machine wrote the same
+script [394 times](https://github.com/caveman-ai/blocks#one-script-written-394-times-in-a-week)
+. [Purdue](https://arxiv.org/abs/2609.30725) measured the habit at up to 9.57%
+of task cost. `grep-defs` loses to a bare grep; row stays. [Method](https://github.com/caveman-ai/blocks#blocks-against-what-agents-type-now)
+
+Comes with caveman. Eight blocks ready: `json-peek` · `jsonl-stats` · `test-summary` 
+· `first-error` · `wait-for` · `grep-defs` · `http-json` · `replace-in-file`.
+When the agent starts typing a script a block already covers, it gets one line:
+use the block. Never denies or rewrites a command.
+
+```
+caveman-blocks scan    # what your agents retyped this month. Script text never leaves your machine
+caveman-blocks init    # rules and block index into this repo's AGENTS.md```
+
+Pre-release (v0.1.0-rc.5). Python only, no sandbox yet. Own repo, own stars: [
+caveman-ai/blocks](https://github.com/caveman-ai/blocks)
+
+## Smaller rocks
+
+| Rock | What it does | Measured | 
+| --- | --- | --- | 
+| `caveman learn` | Ranks where your tokens go, from agent history already on disk. `caveman learn implement` applies fixes one diff at a time, only on your yes | Not yet | 
+| Warm cache · new | Step away and the provider forgets your session, so the next ask pays full price. Caveman keeps Anthropic's prompt cache warm while you pause, only when your own history says you come back in time. Every warm is listed in `caveman stats` | Not yet | 
+| `caveman browse <url>` | A compressed web page for the agent | 121 tokens instead of 15,704 for a Playwright snapshot of a 200-row table. Tiny forms lose 2.3×. [Bench](https://github.com/JuliusBrussee/caveman/blob/main/browse/BENCHMARK.md) | 
+| `/caveman-compress <file>` | Shrinks memory files like `CLAUDE.md`, keeps a backup | 4,138 tokens instead of 6,198 across five files, 22.8% to 49.1% each, every heading, code block, and path intact. [Bench](https://github.com/JuliusBrussee/caveman/blob/main/skills/caveman-compress/README.md#benchmarks) | 
+| Middleware | Same shrinking inside the Vercel AI SDK, LangChain, OpenAI, or Anthropic call you already make. [TypeScript](https://github.com/JuliusBrussee/caveman/blob/main/packages/middleware/typescript/README.md) · [Python](https://github.com/JuliusBrussee/caveman/blob/main/packages/middleware/python/README.md) · [Every framework](https://docs.caveman.so/caveman/middleware) · [One container for the team](https://github.com/JuliusBrussee/caveman/blob/main/docs/technical/deploy.md) | Not yet | 
+
+[![Caveman Learn report: a summary and savings cards on the left; the biggest places tokens go, with one fix opened, and a chart of how full sessions get on the right](/JuliusBrussee/caveman/raw/main/docs/assets/learn-report.png)
+](https://github.com/JuliusBrussee/caveman/blob/main/docs/assets/learn-report.png) 
+
+## Commands
+
+In your terminal:
+
+```
+caveman claude                # start an agent on caveman: codex · gemini · opencode · aider · kilo · qwen · hermes · openclaw · pi
+caveman status                # what is on, which agents it reaches, one next step
+caveman on browse             # switch one rock on or off: output · input · waste-fixes · routing · scripts · browse
+caveman login                 # free account, turns on Auto
+caveman learn                 # where your tokens go
+caveman trial -- claude       # A/B a real session on your own work
+caveman shrink -- pnpm test   # compress noisy command output
+caveman convert --dry-run     # pixel mode: skills the model reads as images
+caveman stats                 # your token history
+caveman doctor                # one problem per line, with its fix```
+
+In your agent:
+
+| Command | What it does | 
+| --- | --- | 
+| `/caveman` · `/ultracave` · `/megacave` | The voice, the grunt, the 文言文. `/caveman status` shows the mode, `/caveman off` stops it | 
+| `/caveman-commit` | One-line Conventional Commit | 
+| `/caveman-review` | One finding per line: `L42: 🔴 null deref. Guard it.` | 
+| `/caveman-compress <file>` | Shrinks memory files and backs up the original | 
+| `/caveman-stats` | Real token usage for this Claude Code session | 
+| `/caveman-help` | Every mode and command on one screen | 
+| `cavecrew` | Subagents that find, edit, and review code, then report back in caveman | 
+| `investigate-first` · `lean-build` · `surgical-patch` · `safe-refactor` · `migration` · `verify-and-stop` | Work patterns that write less code. Your agent picks them up when a task fits | 
+| `caveman-setup` · `caveman-discover` · `caveman-learn` · `caveman-manage` · `caveman-optimize` · `caveman-explore` · `caveman-evidence-review` | Drive the proxy from inside your agent | 
+
+## Caveman Cloud
+
+Everything above is for the coding agent you use. Caveman Cloud is for the
+agents you build.
+
+You ship an agent. Every run costs money. Is it good? Is it cheap? Which change
+made it worse? Cloud answers.
+
+| Cloud does | What you get | 
+| --- | --- | 
+| Observability | Every run traced to the work and what it cost. Sets itself up from your repo, your keys, and the logs or OpenTelemetry you already have | 
+| Evals | Grades how good the answers are, on your own tasks, from your real traffic | 
+| Autopilot | Proposes a cheaper change, tests it on your recorded work, ships only when the evals say answers are still as good. You approve the pull request | 
+| Proof | Every number says if it is measured, inferred, or verified. A saving counts only after real traffic shows it | 
+
+[Sign up free](https://app.caveman.so/signup) · [Try the demo](https://caveman.so/demo) 
+· [Book a call](https://cal.com/caveman/chat) · [Docs](https://docs.caveman.so/) 
+
+## In the wild
+
+[![ThePrimeagen reacts to Caveman: No way this actually works](https://camo.githubusercontent.com/dc434f11008a35036c566e5b4bcb4c51daba08f3a3df4e2140fa1bb666e065b6/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f4c323971324c52694d52632f687164656661756c742e6a7067)
+](https://www.youtube.com/watch?v=L29q2LRiMRc)
+
+ThePrimeagen: "No way this actually works." [Watch](https://www.youtube.com/watch?v=L29q2LRiMRc)
+
+Adobe Research: [CAVEWOMAN](https://arxiv.org/abs/2606.24083), arXiv, June 2026
+
+JetBrains: "It is fun, and it costs you nothing measurable in quality." [Read](https://blog.jetbrains.com/ai/2026/07/speak-to-ai-agents-like-cavemen-tosave-tokens/)
+
+Elastic: [elastic-caveman](https://www.elastic.co/search-labs/blog/elastic-caveman-ai-token-reduction) 
+on Elasticsearch Labs, April 2026
+
+Hacker News: [#1, 904 points](https://news.ycombinator.com/item?id=47647455)
+
+GitHub Trending #1 overall, July 2026 · [Trendshift](https://trendshift.io/repositories/25391) 
+#1 repo of the day, April 2026 · [Product Hunt](https://www.producthunt.com/products/caveman) 
+#8 of the day
+
+Started as a joke in April 2026. Now past 100,000 stars. Joke got serious. Voice
+did not.
+
+[![Star History Chart](/JuliusBrussee/caveman/raw/main/docs/assets/star-history.png)
+](https://star-history.com/#JuliusBrussee/caveman&Date)
+
+## Privacy
+
+- The skill runs on your machine and sends nothing. One exception: `/caveman-compress` 
+sends the file you compress to your configured model provider.
+- The CLI sends usage stats by default: commands run, token counts,
+caveman-blocks commands and usage counts, a random install ID, OS, and IP. Never
+your prompts, code, file paths, or scripts you wrote. One person maintains this
+for free, and those stats show what to build next. Off for good, Blocks
+included: `caveman telemetry off` or `DO_NOT_TRACK=1`.
+- Auto, only once you sign in and pick it: each ask sends Caveman Cloud your
+latest ask (with whatever your agent attaches to it, such as CLAUDE.md, memory
+or @-mentioned files), the one before it, and the end of the agent's last reply,
+plus each request's tool names, effort, a few agent headers, and the previous
+request's token counts. On the Free plan Caveman may keep it to improve routing. `caveman off routing` 
+stops it.
+- Where requests go: from your machine to your provider, or to another provider
+you added with `caveman providers add`, on your own key. Only a request routed
+to a Caveman Cloud model passes through Caveman Cloud, whole (system prompt,
+tool results, code), on your Caveman project's stored key, billed to that
+project. `caveman providers cloud off` stops that.
+
+The full list, and how to delete sent telemetry: [SECURITY.md](https://github.com/JuliusBrussee/caveman/blob/main/SECURITY.md)
+.
+
+## License
+
+[Apache-2.0](https://github.com/JuliusBrussee/caveman/blob/main/LICENSE), whole
+repo. Read it, fork it, ship it, host it. Free like mammoth on open plain. Older
+releases and third-party notices: [LICENSING.md](https://github.com/JuliusBrussee/caveman/blob/main/LICENSING.md)
+. "Caveman" and the rock logo are trademarks of Julius Brussee.
+
+## Cite
+
+```
+@software{brussee2026caveman,
+  author = {Brussee, Julius},
+  title  = {Caveman: why many token when few do trick},
+  year   = {2026},
+  url    = {https://github.com/JuliusBrussee/caveman}
+}```
+
+🪨 Caveman save you token. Star cost zero. Fair trade.
+
+[Docs](https://github.com/JuliusBrussee/caveman/blob/main/docs/README.md) · [
+Install matrix](https://github.com/JuliusBrussee/caveman/blob/main/INSTALL.md) 
+· [Honest numbers](https://github.com/JuliusBrussee/caveman/blob/main/docs/HONEST-NUMBERS.md) 
+· [Contributing](https://github.com/JuliusBrussee/caveman/blob/main/CONTRIBUTING.md) 
+· [Caveman Cloud](https://app.caveman.so/signup) · [Issues](https://github.com/JuliusBrussee/caveman/issues) 
+
+## About
+
+🪨 why use many token when few token do trick. Viral skill + proxy for coding
+agents that cuts 65% of tokens by talking like a caveman.
+
+[docs.caveman.so/caveman](https://docs.caveman.so/caveman)
+
+### Topics
+
+[ai](https://github.com/topics/ai)[anthropic](https://github.com/topics/anthropic)[
+caveman](https://github.com/topics/caveman)[claude](https://github.com/topics/claude)[
+claude-code](https://github.com/topics/claude-code)[llm](https://github.com/topics/llm)[
+meme](https://github.com/topics/meme)[prompt-engineering](https://github.com/topics/prompt-engineering)[
+skill](https://github.com/topics/skill)[tokens](https://github.com/topics/tokens)
+
+### Resources
+
+Readme
+
+Apache-2.0, MIT licenses found
+
+### Code of conduct
+
+Code of conduct
+
+### Contributing
+
+Contributing
+
+### Security policy
+
+Security policy
+
+[Activity](https://github.com/JuliusBrussee/caveman/activity)
+
+### Stars
+
+116.2k stars
+
+### Watchers
+
+253 watching
+
+### Forks
+
+[6.7k forks](https://github.com/JuliusBrussee/caveman/forks)
+
+[Report repository](https://github.com/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2FJuliusBrussee%2Fcaveman&report=JuliusBrussee+%28user%29)
+
+## Releases
+
+## Sponsor this project
+
+## Packages
+
+## Used by
+
+## Contributors
+
+## Languages
+
+## Footer
+
+© 2026 GitHub, Inc. 
+
+### Footer navigation
+
+- [Terms](https://docs.github.com/site-policy/github-terms/github-terms-of-service) 
+- [Privacy](https://docs.github.com/site-policy/privacy-policies/github-privacy-statement) 
+- [Security](https://github.com/security) 
+- [Status](https://www.githubstatus.com/) 
+- [Community](https://github.community/) 
+- [Docs](https://docs.github.com/) 
+- [Contact](https://support.github.com/?tags=dotcom-footer) 
+- Manage cookies 
+- Do not share my personal information 
+
+You can’t perform that action at this time. 
+
+
+[End contents for https://github.com/JuliusBrussee/caveman]
