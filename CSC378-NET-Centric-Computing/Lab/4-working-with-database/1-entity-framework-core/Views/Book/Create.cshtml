@@ -1,0 +1,27 @@
+﻿@model _1_entity_framework_core.Models.Book
+
+<h2>Add Book</h2>
+
+<form asp-action="Create" method="post">
+
+    <div>
+        <label>Title</label>
+        <input asp-for="Title" />
+    </div>
+
+    <br />
+
+    <div>
+        <label>Author</label>
+        <input asp-for="Author" />
+    </div>
+
+    <br />
+
+    <button type="submit">Save Book</button>
+
+</form>
+
+<br />
+
+<a asp-action="Index">View Books</a>

@@ -1,0 +1,40 @@
+﻿using _1_entity_framework_core.Data;
+using _1_entity_framework_core.Models;
+using Microsoft.AspNetCore.Mvc;
+namespace _1_entity_framework_core.Controllers
+{
+    public class BookController
+    {
+        private readonly ApplicationDbContext _context;
+
+        public BooktController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
+        // Display students
+        public IActionResult Index()
+        {
+            var students = _context.Books.ToList();
+
+            return View(students);
+        }
+
+        // Show insert form
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        // Insert student
+        [HttpPost]
+        public IActionResult Create(Book student)
+        {
+            _context.Books.Add(student);
+
+            _context.SaveChanges();
+
+            return RedirectToAction("Index");
+        }
+    }
+}

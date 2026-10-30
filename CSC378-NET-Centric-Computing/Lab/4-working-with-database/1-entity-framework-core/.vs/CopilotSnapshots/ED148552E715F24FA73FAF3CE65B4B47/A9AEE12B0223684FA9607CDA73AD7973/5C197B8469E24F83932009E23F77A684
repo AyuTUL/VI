@@ -1,0 +1,9 @@
+﻿# Copilot Instructions
+
+## Project Guidelines
+- Use ponytail style for this project.
+- Prefer smallest complete change that solves request.
+- Keep replies short and direct.
+- Reuse existing patterns and dependencies; avoid adding new ones unless required.
+- Skip speculative abstractions and future-proofing not requested.
+- For bug fixes, fix root cause with minimal diff.
