@@ -1,0 +1,36 @@
+﻿@model IEnumerable<_1_entity_framework_core.Models.Book>
+
+<h2>Book List</h2>
+
+<a asp-action="Create">Add New Book</a>
+
+<br />
+<br />
+
+<table border="1" cellpadding="10">
+
+    <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Actions</th>
+    </tr>
+
+    @foreach (var book in Model)
+    {
+        <tr>
+            <td>@book.Id</td>
+            <td>@book.Title</td>
+            <td>@book.Author</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@book.Id">Edit</a>
+                |
+                <form asp-action="Delete" method="post" style="display:inline;">
+                    <input type="hidden" name="id" value="@book.Id" />
+                    <button type="submit">Delete</button>
+                </form>
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,27 @@
+@model _1_entity_framework_core.Models.Book
+
+<h2>Edit Book</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div>
+        <label>Title</label>
+        <input asp-for="Title" />
+    </div>
+
+    <br />
+
+    <div>
+        <label>Author</label>
+        <input asp-for="Author" />
+    </div>
+
+    <br />
+
+    <button type="submit">Update Book</button>
+</form>
+
+<br />
+
+<a asp-action="Index">Back to List</a>

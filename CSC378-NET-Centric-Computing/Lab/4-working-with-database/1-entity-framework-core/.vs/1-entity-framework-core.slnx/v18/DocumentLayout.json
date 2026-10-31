@@ -1,12 +1,156 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\4-working-with-database\\1-entity-framework-core\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\4-working-with-database\\1-entity-framework-core\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C21467D-E29F-6909-E261-82FB48A63786}|1-entity-framework-core.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\4-working-with-database\\1-entity-framework-core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C21467D-E29F-6909-E261-82FB48A63786}|1-entity-framework-core.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C21467D-E29F-6909-E261-82FB48A63786}|1-entity-framework-core.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\4-working-with-database\\1-entity-framework-core\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C21467D-E29F-6909-E261-82FB48A63786}|1-entity-framework-core.csproj|solutionrelative:views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C21467D-E29F-6909-E261-82FB48A63786}|1-entity-framework-core.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\4-working-with-database\\1-entity-framework-core\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C21467D-E29F-6909-E261-82FB48A63786}|1-entity-framework-core.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C21467D-E29F-6909-E261-82FB48A63786}|1-entity-framework-core.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\4-working-with-database\\1-entity-framework-core\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C21467D-E29F-6909-E261-82FB48A63786}|1-entity-framework-core.csproj|solutionrelative:views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C21467D-E29F-6909-E261-82FB48A63786}|1-entity-framework-core.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\4-working-with-database\\1-entity-framework-core\\.github\\copilot-instructions.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{0C21467D-E29F-6909-E261-82FB48A63786}|1-entity-framework-core.csproj|solutionrelative:.github\\copilot-instructions.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C21467D-E29F-6909-E261-82FB48A63786}|1-entity-framework-core.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\4-working-with-database\\1-entity-framework-core\\views\\book\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C21467D-E29F-6909-E261-82FB48A63786}|1-entity-framework-core.csproj|solutionrelative:views\\book\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C21467D-E29F-6909-E261-82FB48A63786}|1-entity-framework-core.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\4-working-with-database\\1-entity-framework-core\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C21467D-E29F-6909-E261-82FB48A63786}|1-entity-framework-core.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C21467D-E29F-6909-E261-82FB48A63786}|1-entity-framework-core.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\4-working-with-database\\1-entity-framework-core\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C21467D-E29F-6909-E261-82FB48A63786}|1-entity-framework-core.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\4-working-with-database\\1-entity-framework-core\\Views\\Book\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\Edit.cshtml",
+              "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\4-working-with-database\\1-entity-framework-core\\Views\\Book\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Book\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-30T17:02:15.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\4-working-with-database\\1-entity-framework-core\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
+              "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\4-working-with-database\\1-entity-framework-core\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Controllers\\BookController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAuwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T16:49:48.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\4-working-with-database\\1-entity-framework-core\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\4-working-with-database\\1-entity-framework-core\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T16:43:33.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "copilot-instructions.md",
+              "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\4-working-with-database\\1-entity-framework-core\\.github\\copilot-instructions.md",
+              "RelativeDocumentMoniker": ".github\\copilot-instructions.md",
+              "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\4-working-with-database\\1-entity-framework-core\\.github\\copilot-instructions.md",
+              "RelativeToolTip": ".github\\copilot-instructions.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-30T17:03:47.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\4-working-with-database\\1-entity-framework-core\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\4-working-with-database\\1-entity-framework-core\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T16:44:18.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\4-working-with-database\\1-entity-framework-core\\Views\\Book\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\Create.cshtml",
+              "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\4-working-with-database\\1-entity-framework-core\\Views\\Book\\Create.cshtml",
+              "RelativeToolTip": "Views\\Book\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-30T16:51:58.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\4-working-with-database\\1-entity-framework-core\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Models\\Book.cs",
+              "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\4-working-with-database\\1-entity-framework-core\\Models\\Book.cs",
+              "RelativeToolTip": "Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T16:44:14.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\4-working-with-database\\1-entity-framework-core\\Views\\Book\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\Index.cshtml",
+              "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\4-working-with-database\\1-entity-framework-core\\Views\\Book\\Index.cshtml",
+              "RelativeToolTip": "Views\\Book\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-30T16:54:20.725Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
