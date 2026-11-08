@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\5-state-management-on-ASP.NET-core-application\\1-server-side-state-management\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{029A2853-FD27-4477-90AC-57449E762551}|1-server-side-state-management.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\5-state-management-on-asp.net-core-application\\1-server-side-state-management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{029A2853-FD27-4477-90AC-57449E762551}|1-server-side-state-management.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{029A2853-FD27-4477-90AC-57449E762551}|1-server-side-state-management.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\5-state-management-on-asp.net-core-application\\1-server-side-state-management\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{029A2853-FD27-4477-90AC-57449E762551}|1-server-side-state-management.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{029A2853-FD27-4477-90AC-57449E762551}|1-server-side-state-management.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\5-state-management-on-asp.net-core-application\\1-server-side-state-management\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{029A2853-FD27-4477-90AC-57449E762551}|1-server-side-state-management.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{029A2853-FD27-4477-90AC-57449E762551}|1-server-side-state-management.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\5-state-management-on-asp.net-core-application\\1-server-side-state-management\\views\\home\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{029A2853-FD27-4477-90AC-57449E762551}|1-server-side-state-management.csproj|solutionrelative:views\\home\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\5-state-management-on-ASP.NET-core-application\\1-server-side-state-management\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\5-state-management-on-ASP.NET-core-application\\1-server-side-state-management\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-31T09:49:20.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\5-state-management-on-ASP.NET-core-application\\1-server-side-state-management\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\5-state-management-on-ASP.NET-core-application\\1-server-side-state-management\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T09:48:15.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\5-state-management-on-ASP.NET-core-application\\1-server-side-state-management\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\5-state-management-on-ASP.NET-core-application\\1-server-side-state-management\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T09:46:15.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Show.cshtml",
+              "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\5-state-management-on-ASP.NET-core-application\\1-server-side-state-management\\Views\\Home\\Show.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Show.cshtml",
+              "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\5-state-management-on-ASP.NET-core-application\\1-server-side-state-management\\Views\\Home\\Show.cshtml",
+              "RelativeToolTip": "Views\\Home\\Show.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-31T09:49:46.084Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+D:\Ayu\CSIT\VI\CSC378-NET-Centric-Computing\Lab\6-securing-in-ASP.NET-core-application\1-authentication-and-authorization-using-ASP.NET-core-identity\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\Ayu\CSIT\VI\CSC378-NET-Centric-Computing\Lab\6-securing-in-ASP.NET-core-application\1-authentication-and-authorization-using-ASP.NET-core-identity\obj\Debug\net10.0\1-authentication-and-authorization-using-ASP.NET-core-identity.GeneratedMSBuildEditorConfig.editorconfig
