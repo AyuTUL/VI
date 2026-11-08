@@ -42,21 +42,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "copilot-instructions.md",
-              "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\4-working-with-database\\1-entity-framework-core\\.github\\copilot-instructions.md",
-              "RelativeDocumentMoniker": ".github\\copilot-instructions.md",
-              "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\4-working-with-database\\1-entity-framework-core\\.github\\copilot-instructions.md",
-              "RelativeToolTip": ".github\\copilot-instructions.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-10-30T17:03:47.978Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
@@ -67,8 +54,7 @@
               "RelativeToolTip": "Views\\Book\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-30T17:02:15.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-30T17:02:15.334Z"
             },
             {
               "$type": "Document",
@@ -80,7 +66,19 @@
               "RelativeToolTip": "Controllers\\BookController.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAuwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-30T16:49:48.793Z",
+              "WhenOpened": "2026-10-30T16:49:48.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\4-working-with-database\\1-entity-framework-core\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\4-working-with-database\\1-entity-framework-core\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T16:43:33.43Z",
               "EditorCaption": ""
             },
             {
@@ -93,21 +91,7 @@
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-30T16:44:18.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\4-working-with-database\\1-entity-framework-core\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\4-working-with-database\\1-entity-framework-core\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-30T16:43:33.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-30T16:44:18.247Z"
             },
             {
               "$type": "Document",
@@ -119,8 +103,7 @@
               "RelativeToolTip": "Views\\Book\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-30T16:51:58.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-30T16:51:58.103Z"
             },
             {
               "$type": "Document",
@@ -132,8 +115,7 @@
               "RelativeToolTip": "Models\\Book.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-30T16:44:14.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-30T16:44:14.242Z"
             },
             {
               "$type": "Document",
@@ -145,8 +127,23 @@
               "RelativeToolTip": "Views\\Book\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-30T16:54:20.725Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-30T16:54:20.725Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "copilot-instructions.md",
+              "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\4-working-with-database\\1-entity-framework-core\\.github\\copilot-instructions.md",
+              "RelativeDocumentMoniker": ".github\\copilot-instructions.md",
+              "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\4-working-with-database\\1-entity-framework-core\\.github\\copilot-instructions.md",
+              "RelativeToolTip": ".github\\copilot-instructions.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-30T17:03:47.978Z"
             }
           ]
         }
