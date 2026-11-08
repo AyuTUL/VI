@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("1-server-side-state-management")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f0e634a41a551d1a16c50e96cb043635246e88b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+524d4dfae289094cf27dabd57275d7ca9470be05")]
 [assembly: System.Reflection.AssemblyProductAttribute("1-server-side-state-management")]
 [assembly: System.Reflection.AssemblyTitleAttribute("1-server-side-state-management")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
