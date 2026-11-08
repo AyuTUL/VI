@@ -33,3 +33,7 @@
 
 # VS Code machine-specific settings
 .vscode/settings.json
+
+.vs/
+bin/
+obj/
