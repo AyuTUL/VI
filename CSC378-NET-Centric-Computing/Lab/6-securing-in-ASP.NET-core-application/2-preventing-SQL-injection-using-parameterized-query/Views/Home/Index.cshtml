@@ -1,8 +1,15 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "SQL Injection Demo";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h1>SQL Injection Demo</h1>
+<pre>var username = "' OR '1'='1";
+
+unsafeCommand.CommandText = $"SELECT COUNT(*) FROM Users WHERE Username = '{username}' AND Password = 'wrong'";
+
+safeCommand.CommandText = "SELECT COUNT(*) FROM Users WHERE Username = $username AND Password = $password";
+safeCommand.Parameters.AddWithValue("$username", username);
+safeCommand.Parameters.AddWithValue("$password", "wrong");</pre>
+
+<p>Unsafe result: @ViewBag.UnsafeResult</p>
+<p>Parameterized result: @ViewBag.SafeResult</p>

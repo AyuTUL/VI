@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("2-preventing-SQL-injection-using-parameterized-query")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f0e634a41a551d1a16c50e96cb043635246e88b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a433b8785c844b353a4e02dd664d665cc6ac8a03")]
 [assembly: System.Reflection.AssemblyProductAttribute("2-preventing-SQL-injection-using-parameterized-query")]
 [assembly: System.Reflection.AssemblyTitleAttribute("2-preventing-SQL-injection-using-parameterized-query")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
