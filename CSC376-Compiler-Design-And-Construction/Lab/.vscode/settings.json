@@ -1,0 +1,5 @@
+{
+    "lexRunner.flexCommand": "D:/Ayu/CSIT/Flex Windows/Lex/bin/flex.exe",
+    "lexRunner.cCompiler": "D:/Ayu/CSIT/Flex Windows/gcc/bin/gcc.exe",
+    "lexRunner.cppCompiler": "D:/Ayu/CSIT/Flex Windows/gcc/bin/g++.exe"
+}
