@@ -1,0 +1,12 @@
+@model List<_2_preventing_SQL_injection_using_parameterized_query.Models.UserRecord>
+
+<h3>Database records</h3>
+<table>
+    <thead><tr><th>Id</th><th>Name</th><th>Password</th></tr></thead>
+    <tbody>
+    @foreach (var user in Model)
+    {
+        <tr><td>@user.Id</td><td>@user.Username</td><td>@user.Password</td></tr>
+    }
+    </tbody>
+</table>

@@ -1,0 +1,7 @@
+@model _2_preventing_SQL_injection_using_parameterized_query.Models.SqlInjectionDemoViewModel
+
+<p>Login @(Model.LoginSucceeded ? "successful" : "failed")</p>
+@if (Model.LoginSucceeded)
+{
+    <partial name="_Records" model="Model.Users" />
+}

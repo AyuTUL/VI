@@ -1,15 +1,58 @@
-﻿@{
+﻿@model _2_preventing_SQL_injection_using_parameterized_query.Models.SqlInjectionDemoViewModel
+@{
     ViewData["Title"] = "SQL Injection Demo";
 }
 
-<h1>SQL Injection Demo</h1>
-<pre>var username = "' OR '1'='1";
+<style>
+    .demo { max-width: 1000px; margin: 20px auto; font-family: Arial, sans-serif; }
+    .panels { display: flex; gap: 20px; }
+    .panel { flex: 1; border: 1px solid; padding: 20px; }
+    label, input, button { display: block; width: 100%; box-sizing: border-box; }
+    input { margin: 6px 0 14px; padding: 8px; }
+    button { padding: 8px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+    th, td { border: 1px solid; padding: 6px; text-align: left; }
+    @@media (max-width: 700px) { .panels { display: block; } .panel { margin-bottom: 20px; } }
+</style>
 
-unsafeCommand.CommandText = $"SELECT COUNT(*) FROM Users WHERE Username = '{username}' AND Password = 'wrong'";
+<div class="demo">
+    <h1>SQL Injection Demo</h1>
+    <p>Try <code>' OR '1'='1' --</code> as the username and any password.</p>
 
-safeCommand.CommandText = "SELECT COUNT(*) FROM Users WHERE Username = $username AND Password = $password";
-safeCommand.Parameters.AddWithValue("$username", username);
-safeCommand.Parameters.AddWithValue("$password", "wrong");</pre>
+    <div class="panels">
+        <section class="panel raw">
+            <h2>Raw concatenation</h2>
+            <form class="login-form" action="@Url.Action("RawLogin")" method="post" data-result="raw-result">
+                <label>Username</label>
+                <input name="Username" value="@Model.Username" />
+                <label>Password</label>
+                <input name="Password" type="text" value="@Model.Password" />
+                <button type="submit">Raw concat login</button>
+            </form>
+            <div id="raw-result"></div>
+        </section>
 
-<p>Unsafe result: @ViewBag.UnsafeResult</p>
-<p>Parameterized result: @ViewBag.SafeResult</p>
+        <section class="panel safe">
+            <h2>Parameterized query</h2>
+            <form class="login-form" action="@Url.Action("ParameterizedLogin")" method="post" data-result="safe-result">
+                <label>Username</label>
+                <input name="Username" value="@Model.Username" />
+                <label>Password</label>
+                <input name="Password" type="text" value="@Model.Password" />
+                <button type="submit">Parameterized login</button>
+            </form>
+            <div id="safe-result"></div>
+        </section>
+    </div>
+
+</div>
+
+<script>
+    document.querySelectorAll('.login-form').forEach(form => {
+        form.addEventListener('submit', async event => {
+            event.preventDefault();
+            const response = await fetch(form.action, { method: 'POST', body: new FormData(form) });
+            document.getElementById(form.dataset.result).innerHTML = await response.text();
+        });
+    });
+</script>
