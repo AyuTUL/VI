@@ -1,0 +1,38 @@
+data warehousing: FIG SeTlT
+- centralized repository to extract, transform and load integrated, historical, subject oriented and non volatile operational data from disparate sources to support ONline Analytical Sources OLAP and decision support system
+
+data mining: FIG PPAMVI
+- discovering hiddien predictive patterns, trends, correlations and anomlaies from large datasets using machine learning, statistics and database techniques
+
+applications:
+- planning:
+	- predictive modling and forecasting
+	- service egap identification
+	- disaster risk planning
+- commerce and trade:
+	- trade trend analysis and revenue forcasting
+	- anomaly and fraud detection
+	- world price monitoring
+- rural development sector;
+	- socioeconomic clustering
+	- project monitoring and impact assessment
+
+2. **Discuss the role of Smart Nagarpalika initiative in promoting e-governance at the local level in Nepal. What lessons can Nepal learn from the Bhoomi project in land records management?** *(Model Set)*[11]
+3. **Explain the uses of data warehousing and data mining in health, education and the rural development.** *(2078)*[103]
+4. **How can we use human resource management software to support E-Government? Explain.** *(2078)*[62][116]
+5. **Explain the components of data warehouse. What are the applications of data mining in eGovernance in the context of Nepal?** *(2076)*[102]
+
+### Short Answer Questions (5 Marks)
+
+1. **How can we use data warehousing and data mining concepts in agriculture and rural development?** *(2082)*[103]
+2. **Explain the concept of National Data Warehouses. How do they facilitate better governance?** *(2082)*[122]
+3. **Discuss how data warehousing and data mining is used in census data.** *(2081)*[125]
+4. **Explain the uses of data warehousing and data mining in agriculture.** *(2079)*[120]
+5. **How can you develop the rural area through e-governance?** *(2076)*[103][113]
+6. **What are the main contents needed for human resource management software? Explain.** *(2076)*[62][116]
+7. **Short Note: Data centers.** *(2082)*[63]
+8. **Short Note: E-governance implementation in land reform.** *(2079)*[108]
+9. **Short Note: IT in judiciary.** *(2078, 2076)*[133]
+10. **Short Note: E-Payment.** *(2076)*[61][77]
+
+---

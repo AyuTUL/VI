@@ -1,0 +1,80 @@
+1.      Differentiate between verification and validation. Explain the software Inspection process.
+verification						validation
+- checking documents, deisng, codes and programs	- testing and validating acutal product
+- stastic testing					- dynamic testing
+- no execution of code					- execution of code
+- reviews, walthroughs, inpesctions, desk checking	- black box, white box, non fiunctional testing
+- whether software conforms to the specifications 	- whether software meets requiermtns of 							customer
+- find bugs in early stage of development		- finds bugs not found by verficaiton
+- goal is application and sofwatre architecture and	- goal is actual product
+specification
+- done by QA team					- done by testing team
+- before validation					- after verification
+- performed by human					- perform by computer
+
+software inspection:
+- formal quality control technique used to analyze ssyutem representation like requiremetns document, design diagrams and program source ocde without executing code
+- catches defects early when they are much cheaper to fix than during dynamic program testing
+
+roles: marrci
+- author: creates work proddcut, fixes defects during inspection
+- moderator: leads, plans, coordinates inspection, reports progress to chief moderator
+- chief moderator: responsible ofr overall process improvmenet, standards development, checklist updates
+- reader: reads through document or code line by line out loud during meeting
+- recorder: documents all defects found during inspection
+- inspector: team members who examine work product to identify errors, omissions and inconsistencies
+
+process: FIG POIIRF
+- planning: moderator forms inspection team, organizes meeting facilities, ensures materials are complete
+- overview: author presents background context of work product to inspection team
+- individual preparation: inspoectors independently study sdpecifications and work product using fault checklist to locate potential defects
+- inspection meeting: reader reads work product part by part; inspectors point out defects which are logged by recorder, short, < 2 hours, focused on defect detection
+- rework: author resolves all logged defects by modifying code/document according to action plan
+- follow up: moderator verifies all changes were made correctly and decides if reinspection is required before approving release
+
+2.      Differentiate between black box testing and white box testing.
+black box testing					white box testing
+- evaluate system behavior from outside without viewing - evaluates internal code logic, control flow,
+intenal code/logic					data structures and algorithms
+- no knowledge of internal programming languages or code- requires full access and knowledge of source
+structure, relies on SRS specifications			code architecture
+- by independent QA testers, release testers, end users	- by software developers during unit and 							development testing
+- test cases derived from functional specifications and	- test cases derived from internal path 							analysis, condition branches and statements
+- equivalence partitioning, boundary values analysis,	- statement coverage, branch covergage, apth 							testing, control flow graph testing
+- used during system testing, relase testing, acceptance- unit tesinf and initial component integration
+testing							testing
+- high level						- low level
+
+3.      Suppose that a project was estimated to be 400 KLOC. Calculate the effort and development time for organic and semidetached.
+
+4.      Explain the Agile software development and its applications.
+agile model: FIG
+- iterative and incremental model where requirements and solutions evolve through collaboration between
+self organizing cross functional teams
+- rapid elivery, frequent inspection and adaption to changing requirements
+
+principles: IMCPE
+- customer involvement: customers work closely with develoeprs throughout process to evaluate increaments and prioritize features
+- incremental delivery: sofwatre is built and delivered in small functional increments
+- people not process: team skills and informal comms are valued over prescriptive rigid process
+- embrace change: expects and accommodates requiment changes at any phase
+- maintain simplicity: focus on simplicity in both software code and dev process
+
+1.      What do you mean by legacy system? Explain its importance.
+legacy system:
+- older software apps that have been in operation ofr long time and have become difficult to maintain /update due to obsolete tech, outdated architecture or missing documentation
+
+importance:
+- critical business assests
+- high investment value
+- high replacement risk
+
+strategic management options: SRRR
+- scrap:
+- re engineer:
+- regular maintenance:
+- replace:
+
+2.      Draw use case diagram and class diagram for online bus ticketing system.
+3.      Explain the behavioral model with example.
+4.      Explain COCOMO model in detail.

@@ -1,0 +1,35 @@
+Security Management Model: FIG
+- generic description of what org should do to provide secure environment for itself
+
+1. User Level: regulates who enters system and what actions they can perform
+
+- identity management:
+	- issues unique digital credentials liek ussernme and paswords to legal users to establish verified digital identities
+
+- access management:
+	- match presented credential against registries to authenticates users
+		- level 0: basic registration with username password
+		- level 1: username password combined wuth OTP token and UID card number
+		- level 2: hardware/software token combined with PIN
+		- level 3: biometric authentication like fingerprint, iris scan
+
+- interaction management:
+	- integrity, confidentialiy, non repudation using PKI, gigtal signatures, hardware tokens and asymmtetric key crypto
+
+2. Transport Level: protects data in transit across internal and public internet channels
+
+- secure communication system:
+	- VPN and isolated network channels to secure data transfer between governemtn agencies and remote users
+
+- cryptographic system:
+	- encryption protocls like SSL TLS to encrypt data payloads, preveting eavesdropping and packet sniffing
+
+3. ICT Assets Level: protect central servers, hardware, databases, network equipment using physical and electronic defenses
+
+- physical security: 
+	- secures physical data centers against unauthorized physical entry and envirometnal hazards through biometric acesss 	controls, dust prrof enclosures, CCTV surveliiance
+
+- electronic security:
+	- proitets against digital threats
+		- anti virus system: defends servers agsinst virurs, worms and trojon horse that corrupt storage, disrupt 		operations
+		- enterprise friewalls: harwadre/software security gateways that separate secure private intranets from 		untrusted public networks

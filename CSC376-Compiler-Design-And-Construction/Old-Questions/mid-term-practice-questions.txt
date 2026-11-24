@@ -13,7 +13,7 @@ analysis: intermediate representation is created from sorue program, called fron
 	interior nodes are operators and exterior are operands
 	checks that expression made by token is syntactically correct according to syntax rules of source language
 
--semantic analysis:
+-semantic analysis:                                                                                                                        
 	input is parse tree from SA to identify operators and operands
 	checks for semnatic erors and gather type infroaation accorsding to source language specification for next phase
 

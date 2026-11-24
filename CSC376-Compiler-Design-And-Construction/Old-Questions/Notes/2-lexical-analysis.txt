@@ -1,0 +1,49 @@
+Lexical Analysis: FIG
+- converting sequence of characters into tokens used by parser for syntax analysis
+- auxiliary operations like removing redundant white spaces, token separators
+
+Token: logically cohesive sequence of characters like identifiers, keywords
+Lexeme: group of characters forming a token
+Pattern: description of form of lexemes in token, specified by regular expressions
+
+Error Recovery Strategies:
+- deleting irrelevant character
+- inserting missing character
+- replacing incorrect by correct character
+- transforming 2 adjacent characters
+- deleting successive characters from token until error is resolved
+
+Specification of Tokens:
+- String: finite sequence of symbols from alphabet (finite set of symbols)
+- Language: finite set of strings over alphabet
+- Regular Expression: algebraic expressions used to describe tokens of programming language
+
+Non-Deterministic Finite State Automaton (NFA):
+- more than one transition for each state input pair
+- 5 tuple:
+	Q : finite set of states
+	Σ : finite set of symbols
+	δ : transition function where δ: Q × ∑ → 2^Q
+	q0 ∈ Q : start state
+	F ⊆ Q : set of final states
+
+ε- NFA: transition is made without any input symbol
+
+Deterministic Finite State Automaton (NFA):
+- one transition for each state input pair
+- 5 tuple:
+	Q : finite set of states
+	Σ : finite set of symbols
+	δ : transition function where δ: Q × ∑ → Q
+	q0 ∈ Q : start state
+	F ⊆ Q : set of final states
+
+Short Notes:
+- Input Buffering
+- Flex
+
+Numericals:
+- RE to ε- NFA: Thompson's Construction
+- ε- NFA to DFA: Subset Construction
+- RE to DFA: Syntax Tree
+- A State Minimization
