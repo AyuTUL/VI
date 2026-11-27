@@ -1,49 +1,66 @@
-using System.ComponentModel.DataAnnotations;
-using Microsoft.AspNetCore.Authorization;
+using _1_authentication_and_authorization_using_ASP.NET_core_identity.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace _1_authentication_and_authorization_using_ASP.NET_core_identity.Controllers;
 
-public sealed class AccountController(SignInManager<IdentityUser> signInManager) : Controller
+public class AccountController(
+    UserManager<IdentityUser> users,
+    SignInManager<IdentityUser> signIn) : Controller
 {
-    [AllowAnonymous]
-    public IActionResult Login(string? returnUrl = null) => View(new LoginModel { ReturnUrl = returnUrl });
+    public IActionResult Register() => View();
 
     [HttpPost]
-    [AllowAnonymous]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Login(LoginModel model)
+    public async Task<IActionResult> Register(RegisterViewModel model)
     {
-        if (!ModelState.IsValid) return View(model);
+        if (!ModelState.IsValid)
+            return View(model);
 
-        var result = await signInManager.PasswordSignInAsync(model.Email, model.Password, false, false);
-        if (result.Succeeded) return LocalRedirect(model.ReturnUrl ?? "/");
+        var user = new IdentityUser { UserName = model.Email, Email = model.Email };
+        var result = await users.CreateAsync(user, model.Password);
+        if (result.Succeeded)
+            result = await users.AddToRoleAsync(user, "User");
 
-        ModelState.AddModelError(string.Empty, "Invalid login.");
+        if (!result.Succeeded)
+        {
+            foreach (var error in result.Errors)
+                ModelState.AddModelError(string.Empty, error.Description);
+            return View(model);
+        }
+
+        await signIn.SignInAsync(user, isPersistent: false);
+        return RedirectToAction(nameof(Register));
+    }
+
+    public IActionResult Login(string? returnUrl = null)
+    {
+        ViewData["ReturnUrl"] = returnUrl;
+        return View();
+    }
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> Login(LoginViewModel model, string? returnUrl = null)
+    {
+        ViewData["ReturnUrl"] = returnUrl;
+        if (!ModelState.IsValid)
+            return View(model);
+
+        if (await signIn.PasswordSignInAsync(model.Email, model.Password, false, false) is { Succeeded: true })
+            return Url.IsLocalUrl(returnUrl) ? LocalRedirect(returnUrl!) : RedirectToAction(nameof(Register));
+
+        ModelState.AddModelError(string.Empty, "Invalid email or password.");
         return View(model);
     }
 
     [HttpPost]
-    [Authorize]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Logout()
     {
-        await signInManager.SignOutAsync();
-        return RedirectToAction("Index", "Home");
+        await signIn.SignOutAsync();
+        return RedirectToAction(nameof(Register));
     }
 
-    [AllowAnonymous]
     public IActionResult AccessDenied() => View();
-
-    public sealed class LoginModel
-    {
-        [Required, EmailAddress]
-        public string Email { get; set; } = string.Empty;
-
-        [Required, DataType(DataType.Password)]
-        public string Password { get; set; } = string.Empty;
-
-        public string? ReturnUrl { get; set; }
-    }
 }
