@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\6-securing-in-ASP.NET-core-application\\2-preventing-SQL-injection-using-parameterized-query\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{205C3A37-7D00-4C73-8443-BF1C436E62AF}|2-preventing-SQL-injection-using-parameterized-query.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\6-securing-in-asp.net-core-application\\2-preventing-sql-injection-using-parameterized-query\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{205C3A37-7D00-4C73-8443-BF1C436E62AF}|2-preventing-SQL-injection-using-parameterized-query.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{205C3A37-7D00-4C73-8443-BF1C436E62AF}|2-preventing-SQL-injection-using-parameterized-query.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\6-securing-in-asp.net-core-application\\2-preventing-sql-injection-using-parameterized-query\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{205C3A37-7D00-4C73-8443-BF1C436E62AF}|2-preventing-SQL-injection-using-parameterized-query.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{205C3A37-7D00-4C73-8443-BF1C436E62AF}|2-preventing-SQL-injection-using-parameterized-query.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\6-securing-in-asp.net-core-application\\2-preventing-sql-injection-using-parameterized-query\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{205C3A37-7D00-4C73-8443-BF1C436E62AF}|2-preventing-SQL-injection-using-parameterized-query.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{205C3A37-7D00-4C73-8443-BF1C436E62AF}|2-preventing-SQL-injection-using-parameterized-query.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\6-securing-in-asp.net-core-application\\2-preventing-sql-injection-using-parameterized-query\\views\\home\\_loginresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{205C3A37-7D00-4C73-8443-BF1C436E62AF}|2-preventing-SQL-injection-using-parameterized-query.csproj|solutionrelative:views\\home\\_loginresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{205C3A37-7D00-4C73-8443-BF1C436E62AF}|2-preventing-SQL-injection-using-parameterized-query.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\6-securing-in-asp.net-core-application\\2-preventing-sql-injection-using-parameterized-query\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{205C3A37-7D00-4C73-8443-BF1C436E62AF}|2-preventing-SQL-injection-using-parameterized-query.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{205C3A37-7D00-4C73-8443-BF1C436E62AF}|2-preventing-SQL-injection-using-parameterized-query.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\6-securing-in-asp.net-core-application\\2-preventing-sql-injection-using-parameterized-query\\views\\home\\_records.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{205C3A37-7D00-4C73-8443-BF1C436E62AF}|2-preventing-SQL-injection-using-parameterized-query.csproj|solutionrelative:views\\home\\_records.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{205C3A37-7D00-4C73-8443-BF1C436E62AF}|2-preventing-SQL-injection-using-parameterized-query.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\6-securing-in-asp.net-core-application\\2-preventing-sql-injection-using-parameterized-query\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{205C3A37-7D00-4C73-8443-BF1C436E62AF}|2-preventing-SQL-injection-using-parameterized-query.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{205C3A37-7D00-4C73-8443-BF1C436E62AF}|2-preventing-SQL-injection-using-parameterized-query.csproj|d:\\ayu\\csit\\vi\\csc378-net-centric-computing\\lab\\6-securing-in-asp.net-core-application\\2-preventing-sql-injection-using-parameterized-query\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{205C3A37-7D00-4C73-8443-BF1C436E62AF}|2-preventing-SQL-injection-using-parameterized-query.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\6-securing-in-ASP.NET-core-application\\2-preventing-SQL-injection-using-parameterized-query\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -47,7 +47,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "_LoginResult.cshtml",
               "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\6-securing-in-ASP.NET-core-application\\2-preventing-SQL-injection-using-parameterized-query\\Views\\Home\\_LoginResult.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\_LoginResult.cshtml",
@@ -60,13 +60,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\6-securing-in-ASP.NET-core-application\\2-preventing-SQL-injection-using-parameterized-query\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\6-securing-in-ASP.NET-core-application\\2-preventing-SQL-injection-using-parameterized-query\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwDMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-13T07:45:50.734Z",
               "EditorCaption": ""
@@ -79,20 +79,20 @@
               "RelativeDocumentMoniker": "Views\\Home\\_Records.cshtml",
               "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\6-securing-in-ASP.NET-core-application\\2-preventing-SQL-injection-using-parameterized-query\\Views\\Home\\_Records.cshtml",
               "RelativeToolTip": "Views\\Home\\_Records.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-11-13T07:42:40.604Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\6-securing-in-ASP.NET-core-application\\2-preventing-SQL-injection-using-parameterized-query\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\Ayu\\CSIT\\VI\\CSC378-NET-Centric-Computing\\Lab\\6-securing-in-ASP.NET-core-application\\2-preventing-SQL-injection-using-parameterized-query\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-11-13T07:42:35.594Z",
               "EditorCaption": ""

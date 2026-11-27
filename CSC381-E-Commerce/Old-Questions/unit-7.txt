@@ -1,0 +1,52 @@
+page rank: FORMULA
+- algorithmic metric developed by google to evaluate relative importance, authority  and credibility of webpage within web graph
+- more important websites are likely to receive more links from other websites
+- inbound hyperlink acts aws vote of confidence/citation from one page to another
+
+significance in SEO:
+- higher organic SERP placement
+- increased crawl frequency
+- cost effective traffic generation
+
+how to increase PR of website:
+- earning high quality inbound backlinks
+- optimizing internal link architecture
+- publishing unique, shareable content
+- eliminating low quality and spammy backlinks
+- fixing broken links
+
+recommendation system:
+- aggregates recommendation inpuits from people and directs to appropriate results
+
+types:
+1. collaborative: FIG
+- recommends items based on patterns in collective user behaiour
+- given previous interactions between users and otems, algo learns to predict future interaction
+- idea is if some people have made similar decisions in past, there is high probability they will also agree on future selcetions
+- ignores metadata of product
+
+2. content based: FIG
+- recommends items based on user's view history
+- matches product's descriptive features against user's preference profile
+
+search engine:
+- software that allows users to locate information across www by entering keywords or queris, retrieving and hierarchically ranking relevant web pages
+
+stages:
+1. crawling:
+- automated software programs called spiders,crawlers systematically browse the web to discover publicly available web content
+- begin with list of popular web wserver URLs and follow outbound hyperlinks embedded within pages
+- as they visist pages, they fetch HTML source code, images, page titles, layout structure abd enmbedded links, continuously searching for new/upodated content
+
+2. indexing:
+- organizes, categorizes, stores gathered data in massive central database index
+- search engine extracts structured attributes from raw HTML text like page titels, meta descriptions, headingsm etc
+- page snot successfully indexed can appear in serach results
+
+3. ranking and retrieval:
+- evaluates indexed pages against user's serach query to outpout sorted list on SERP
+- when user submits query, ranking algo evaslutes hundreds of ranking signal to deliver relevant results:
+	- analze query using semantically informed algo like google hummingbird
+	- checks keyword occurences in title and body copy
+	- calculates domain duthority using algo like pagerank
+	- adjust ranking based on user's geo location, lang, device type, search history

@@ -61,7 +61,7 @@ public class HomeController : Controller
         var db = new SqliteConnection("Data Source=:memory:");
         db.Open();
         using var setup = db.CreateCommand();
-        setup.CommandText = "CREATE TABLE Users (Id INTEGER PRIMARY KEY, Username TEXT, Password TEXT); INSERT INTO Users (Username, Password) VALUES ('admin', 'secret123'), ('alice', 'pass123');";
+        setup.CommandText = "CREATE TABLE Users (Id INTEGER PRIMARY KEY, Username TEXT, Password TEXT); INSERT INTO Users (Username, Password) VALUES ('admin', 'secret123'), ('yurisha', 'pass123');";
         setup.ExecuteNonQuery();
         return db;
     }
